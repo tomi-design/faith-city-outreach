@@ -241,6 +241,13 @@ main {
   text-transform: uppercase;
 }
 
+.button-wrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #buttonone {
   width: 120px;
   height: 120px;
@@ -309,24 +316,21 @@ main {
 
 .about-radio {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #F1F9F7;
-  padding: 40px 0 200px 0;
+  /*background-color: #F1F9F7;*/
+  padding: 10px 0 100px 0;
   margin-top: 180px;
-  position: relative;
 }
 
-.biblepic {
-  width: 80%;
-  position: relative;
-}
-
-.white {
-  width: 65%;
+/*.white-square {
+  background: white;
+  width:60%;
+  height:30%;
   position: absolute;
-  top: 190px;
+  top:290%;
 }
 
 .text {
@@ -334,29 +338,44 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
   top: 45%;
+}*/
+
+.biblepic {
+  width: 100%;
 }
 
-.text h2 {
+.white-text-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width:100%;
+  padding-bottom: 50px;
+}
+
+.white-text-wrapper h2 {
   font-family: dharma-gothic-e, sans-serif;
   font-weight: 400;
   text-align: center;
   margin-bottom: 0;
   text-transform: uppercase;
+  font-size: 28px;
+  padding-bottom: 20px;
 }
 
-.text p {
-  width: 50%;
+.white-text-wrapper p {
+  width: 70%;
   text-align: center;
   margin-top: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-family: dharma-gothic-e, sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 
-.text button {
+.white-text-wrapper button {
   border: none;
   background-color: black;
   color: white;
@@ -366,7 +385,14 @@ main {
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+.divider {
+  border:#a86a00 solid 1.5px;
+  width:70%;
 }
 
 .donate-area {
@@ -374,13 +400,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .donate-area button {
   border: none;
   background-color: #DCC600;
   color: white;
-  padding: 15px 30px;
+  padding: 20px 40px;
   border-radius: 30px;
   margin: 90px 0;
   text-transform: uppercase;
@@ -533,6 +560,19 @@ footer p {
     font-size: 24px;
   }
 
+  .dropdown-content {
+    min-width: 10em;
+  }
+
+  .dropdown-content a {
+    font-size: 25px;
+  }
+  
+  .hero img {
+    width:90%;
+    padding-top:30px;
+  }
+
   #buttonone {
     width:150px;
     height:150px;
@@ -562,24 +602,30 @@ footer p {
   }
 
   .about-radio {
-    padding-bottom: 350px;
+    padding-bottom: 400px;
   }
 
-  .white {
-    top: 340px;
-    width: 60%;
-  }
-
-  .text {
-    top: 50%;
-  }
-
-  .text h2 {
+  .white-text-wrapper h2 {
     font-size: 40px;
+    margin-top: 50px;
   }
 
-  .text p {
-    font-size: 16px;
+  .white-text-wrapper p {
+    font-size: 20px;
+  }
+
+  .divider {
+    border: #a86a00 solid 2px;
+  }
+
+  .white-text-wrapper button {
+    font-size: 24px;
+    margin: 50px 0 60px 0;
+    letter-spacing: 1px;
+  }
+
+  .about-radio {
+    padding-bottom: 170px;
   }
 
   .donate-area button {
@@ -648,7 +694,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color:#DCC600;
+  color:yellow;
 }
 
 .hero img {
@@ -690,21 +736,42 @@ nav li a:hover {
 
 
 .about-radio {
-  padding: 150px 0 170px 0;
+  padding: 150px 0 380px 0;
+  position: static;
 }
 
 .biblepic {
   width:70%;
+  position: relative;
 }
-.white {
-  width:30%;
+
+/*.white {
+  width:27%;
   top:280px;
   left:65%;
 }
 
 .text {
-  top:30%;
-  left:60%;
+  top:33%;
+  left:61%;
+}*/
+
+.white-square {
+  background: white;
+  width:500px;
+  height:300px;
+  position: absolute;
+  top: 365%;
+}
+
+.text {
+  top:60%;
+  position: static;
+}
+
+.text p {
+  font-size: 20px;
+  width:60%;
 }
 
 .donate-area button {
