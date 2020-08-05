@@ -321,7 +321,7 @@ main {
   align-items: center;
   width: 100%;
   /*background-color: #F1F9F7;*/
-  padding: 10px 0 100px 0;
+  padding: 10px 0 10px 0;
   margin-top: 180px;
 }
 
@@ -352,7 +352,7 @@ main {
   align-items: center;
   background-color: white;
   width:100%;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .white-text-wrapper h2 {
@@ -385,14 +385,14 @@ main {
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 15px;
+  margin: 15px 0 70px 0;
   text-align: center;
 }
 
-
 .divider {
-  border:#a86a00 solid 1.5px;
+  border:#a86a00 solid 1.75px;
   width:70%;
+  margin-bottom: 20px;
 }
 
 .donate-area {
@@ -602,7 +602,7 @@ footer p {
   }
 
   .about-radio {
-    padding-bottom: 400px;
+    padding-bottom: 30px;
   }
 
   .white-text-wrapper h2 {
@@ -622,10 +622,7 @@ footer p {
     font-size: 24px;
     margin: 50px 0 60px 0;
     letter-spacing: 1px;
-  }
-
-  .about-radio {
-    padding-bottom: 170px;
+    margin-bottom: 100px;
   }
 
   .donate-area button {
@@ -727,7 +724,7 @@ nav li a:hover {
 }
 
 .scripture img {
-  width:50%;
+  width:40%;
 }
 
 .scripture p {
@@ -736,8 +733,27 @@ nav li a:hover {
 
 
 .about-radio {
-  padding: 150px 0 380px 0;
-  position: static;
+  padding: 150px 0 150px 0;
+  background-color: #E6F6FF;
+  position: relative;
+}
+
+.white-text-wrapper {
+  padding: 100px 0;
+  background-color: white;
+  width:450px;
+  height:200px;
+  position: absolute;
+  top:310%;
+  left:70%;
+}
+
+.white-text-wrapper h2 {
+  margin-top: 110px;
+}
+
+.divider {
+  display:none;
 }
 
 .biblepic {
@@ -745,34 +761,6 @@ nav li a:hover {
   position: relative;
 }
 
-/*.white {
-  width:27%;
-  top:280px;
-  left:65%;
-}
-
-.text {
-  top:33%;
-  left:61%;
-}*/
-
-.white-square {
-  background: white;
-  width:500px;
-  height:300px;
-  position: absolute;
-  top: 365%;
-}
-
-.text {
-  top:60%;
-  position: static;
-}
-
-.text p {
-  font-size: 20px;
-  width:60%;
-}
 
 .donate-area button {
   padding: 30px 60px;
