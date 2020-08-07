@@ -383,7 +383,7 @@ main {
 }
 
 .white-text-wrapper a {
-  color:#DCC600;
+  color:#56BFA7;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   padding: 20px 0 35px 0;
@@ -405,6 +405,7 @@ main {
   border:none;
   background-color: #DCC600;
   background-color: #B5E5D8;
+  background-color: #56BFA7;
 
   color: white;
   padding: 20px 40px;
@@ -740,8 +741,8 @@ footer p {
     font-size: 20px;
   }
 
-  .divider {
-    border: #a86a00 solid 2px;
+  .white-text-wrapper a {
+    font-size:25px;
   }
 
   .white-text-wrapper button {
@@ -755,6 +756,11 @@ footer p {
     padding: 20px 42px;
     font-size: 26px;
   }
+
+footer p {
+  font-size:18px;
+}
+
 
 }
 
