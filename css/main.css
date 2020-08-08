@@ -209,26 +209,64 @@ figure {
 
 
 main {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
+
+.main-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:90%;
+
+}
+
 
 .hero {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .hero img {
-  width: 90%;
+  width: 100%;
   padding-top:5%;
 }
+
+
+
+
+/*
+.slidewrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.slideshow {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: opacity .5s ease-in;
+}*/
 
 .hero-text {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .hero-text p {
@@ -247,7 +285,10 @@ main {
   /*word-spacing: 1px;*/
   padding: 20px 0 40px 0;
   text-transform: uppercase;
+
 }
+
+
 
 .button-wrap {
   display:flex;
@@ -465,6 +506,7 @@ footer p {
   border:solid #DCC600 2px;
 }*/
 
+
 .about-section {
   width:100%;
   display:flex;
@@ -474,24 +516,49 @@ footer p {
   background-color: #56BFA7;
 
   background-color: white;
-  padding: 30px 0 90px 0;
+  padding-bottom: 90px;
   margin-top: 30px;
 }
 
 .about-section img {
   width:100%;
-  padding: 30px 0;
+ 
 }
 
 .about-section h2 {
   font-family: 'Bebas Neue', cursive;
   font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
- color:black;
-  font-size: 50px;
+ color:rgb(48, 48, 48);
+  font-size: 45px;
   margin:10px;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+
+.about-title {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding: 40px 0 30px 0;
+}
+
+.about-title-desktop {
+  display:none;
+}
+
+.about-title img {
+  width:50%;
+  opacity: 20%;
+}
+
+.about-divider {
+  border: black solid 1px;
+  width: 80%;
+  margin-bottom: 40px;
 }
 
 .about-half {
@@ -503,7 +570,7 @@ footer p {
 }
 
 .about-section p {
-  color:black;
+  color:rgb(70, 70, 70);
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -513,21 +580,34 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width:100%;
   margin:0 auto;
   padding-top:50px;
+  background-color: #DCC600;
 }
 
 .partners h2 {
-  font-family: 'Bebas Neue', cursive;
+  font-size: 36px;
+  padding:10px;
+  text-align: center;
+  font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
   font-weight: normal;
-  font-size: 30px;
-  padding:10px;
+  text-transform: uppercase;
 }
+
 .partner-divider {
   width:100%;
   border:black solid 1.5px;
+}
+
+
+.partner-sections {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
 }
 
 .four-winds {
@@ -536,7 +616,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width:80%;
-  padding: 50px 0 60px 0;
+  padding: 50px 0 130px 0;
 }
 
 .global-women {
@@ -550,23 +630,25 @@ footer p {
 }
 
 .four-winds h3 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-weight: normal;
-  font-size: 25px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:18px;
+  margin:0 auto;
 }
 
 .global-women h3 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-weight: normal;
-  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:18px;
   text-align: center;
+  margin:0 auto;
 }
 
 .four-winds img {
-
+  padding-top: 20px;
   width:60%;
 }
 
@@ -579,6 +661,57 @@ footer p {
   text-align: center;
 }
 
+
+.about-donate-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.about-donate-area button {
+  /*border: #DCC600 solid 4px;*/
+  border:none;
+  background-color: #DCC600;
+  background-color: #B5E5D8;
+  background-color: #56BFA7;
+
+  color: white;
+  padding: 20px 40px;
+  border-radius: 30px;
+  margin: 150px 0;
+  text-transform: uppercase;
+  font-family: dharma-gothic-e, sans-serif;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.about-donate-area a {
+  color:white;
+  text-decoration: none;
+}
+
+.about-donate-area .podcastbutton {
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  background-color: #F1F9F7;
+  border: #96BCB3 solid 1px;
+  margin-bottom: 10px;
+
+}
+
+.about-donate-area img {
+  width: 70%;
+}
+
+.about-donate-area p {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -688,15 +821,15 @@ footer p {
   }
 
   .dropdown-content {
-    min-width: 10em;
+    min-width: 12em;
   }
 
   .dropdown-content a {
-    font-size: 25px;
+    font-size: 32px;
   }
   
   .hero img {
-    width:90%;
+    width:100%;
     padding-top:30px;
   }
 
@@ -762,6 +895,71 @@ footer p {
 }
 
 
+
+/*-------TABLET ABOUT PAGE ---------*/
+
+
+.about-title img {
+  padding-bottom: 100px;
+}
+
+
+.about-section h2 {
+  font-size: 50px;
+}
+
+.about-section p {
+  font-size: 22px;
+}
+
+.partners {
+  padding-bottom: 100px;
+}
+.partners h2 {
+  font-size: 50px ;
+}
+
+.four-winds h3 {
+  font-size:28px;
+  font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.partners p {
+  font-size: 22px;
+  width:80%;
+}
+
+.global-women h3 {
+  font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+  font-size:28px;
+  font-weight: normal;
+}
+
+.four-winds {
+  padding-bottom: 270px;
+}
+
+.global-women img {
+  width:40%;
+}
+
+.about-donate-area .podcastbutton {
+  width:200px;
+  height:200px;
+}
+
+.about-donate-area p {
+  font-size: 25px;
+}
+
+.about-donate-area button {
+  padding: 24px 55px;
+  border-radius: 40px;
+  font-size: 30px;
+}
 }
 
 
@@ -773,6 +971,7 @@ main {
   justify-content: center;
   align-items: center;
 }
+
 .twothird-width {
   width:70%;
 }
@@ -837,7 +1036,7 @@ nav li a:hover {
 }
 
 .hero img {
-  width:80%;
+  width:90%;
   margin-top: 100px;
 }
 
@@ -986,7 +1185,158 @@ footer {
 .copyright p {
   font-size: 20px;
 }
+
+
+/*-----------DESKTOP ABOUT PAGE --------------*/
+
+
+
+.about-section {
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 150px;
+  margin:0 auto;
 }
+
+#interviewphoto {
+  box-shadow: 20px 20px 60px rgb(158, 158, 158);
+  padding:0;
+}
+
+.about-half {
+  width: 40%;
+  position: relative;
+
+}
+
+.about-title {
+  display:none;
+}
+
+.about-title-desktop {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title-desktop h2 {
+  margin-bottom: 100px;
+  color:#80cab6;
+  font-size:90px;
+}
+
+.about-title-desktop img {
+  opacity: 15%;
+  width:80%;
+  padding: 0;
+  position: absolute;
+  top:40px;
+  left:1200px;
+}
+
+.about-divider {
+  display:none;
+}
+
+.partners {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:90%;
+  text-align: left;
+  margin-top:100px;
+}
+
+.partner-sections {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners p {
+  text-align: left;
+}
+.partners h2 {
+  padding-left: 10%;
+  color:white;
+  font-size:60px;
+  padding-bottom: 0;
+}
+
+.four-winds {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.four-winds-desc {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:50%;
+  text-align: left;
+  color:white;
+}
+
+.four-winds img {
+  width: 20%;
+}
+
+.four-winds h3 {
+  text-align: left;
+  margin:0;
+  font-size: 40px;
+}
+
+.global-women {
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.gw-desc {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:50%;
+  color:white;
+}
+
+.global-women img {
+  width: 20%;
+}
+
+.global-women h3 {
+  margin:0;
+  text-align: left;
+  font-size: 40px;
+}
+
+.partner-divider {
+  border: white solid 2px;
+  width:50%;
+  margin-left:10%;
+  margin-bottom: 100px;
+}
+
+.about-donate-area button:hover {
+  background-color: #56dbbc;
+  transition: all 250ms linear;
+}
+
+.about-donate-area .podcastbutton:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: rgb(206, 228, 224);
+}
+}
+
+
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
