@@ -1174,12 +1174,12 @@ nav li a:hover {
   justify-content: center;
   align-items: center;
   height:115vh;
-  padding-bottom: 400px;
+  padding-bottom: 300px;
 }
 
 .hero-text {
   top:165%;
-  height:0vh;
+  height:15vh;
 }
 
 .hero img {
@@ -1196,7 +1196,7 @@ nav li a:hover {
 .buttons {
   flex-direction: row;
   flex-flow: row wrap;
-  padding-top: 0;
+  padding-top: 40px;
 }
 
 .button-wrap {
