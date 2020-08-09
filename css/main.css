@@ -1179,7 +1179,7 @@ nav li a:hover {
 
 .hero-text {
   top:165%;
-  height:15vh;
+  height:20vh;
 }
 
 .hero img {
@@ -1196,7 +1196,7 @@ nav li a:hover {
 .buttons {
   flex-direction: row;
   flex-flow: row wrap;
-  padding-top: 40px;
+  padding-top: 140px;
 }
 
 .button-wrap {
@@ -1238,7 +1238,7 @@ nav li a:hover {
 
 .about-radio {
   width:80%;
-  margin-top: 150px;
+  margin-top: 200px;
   padding: 50px 0 50px 0;
   background-color: #E6F6FF;
   background-color: #F1F9F7;
