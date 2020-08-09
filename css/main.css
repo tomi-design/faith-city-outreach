@@ -1488,16 +1488,18 @@ footer {
 /*----------DESKTOP MISSIONS PAGE----------*/
 
 .missions-gallery {
-  width:80%;
+  width:90%;
+  padding-top: 250px;
 }
 .missions-desc h2 {
   font-size: 50px;
   word-spacing: 1px;
+  color:rgb(92, 26, 26);
 }
 
 #fourwindslogo {
   padding: 200px 0;
-  width:50%;
+  width:40%;
 }
 
 .missions-desc p {
@@ -1510,7 +1512,7 @@ footer {
 
 .missions-gallery img {
   padding-bottom: 80px;
-  margin: 100px 50px 200px 50px;
+  margin: 100px 70px 200px 70px;
 }
 
 .fourwindslink button {
