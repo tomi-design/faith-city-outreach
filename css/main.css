@@ -545,7 +545,6 @@ footer p {
 .about-section p {
   color:rgb(70, 70, 70);
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .partners {
@@ -613,6 +612,16 @@ footer p {
   color:white;
 }
 
+.four-winds-desc a {
+  text-decoration: none;
+}
+
+.four-winds a {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .global-women h3 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -623,6 +632,14 @@ footer p {
   color:white;
 }
 
+.global-women a {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.gw-desc a {
+  text-decoration: none;
+}
 .four-winds img {
   padding-top: 20px;
   width:60%;
@@ -769,6 +786,7 @@ footer p {
   justify-content: center;
   align-items: center;
 }
+
 .fourwindslink button {
   border: #318BCA solid 2px;
   border: rgb(104, 58, 58) solid 2px;
@@ -784,9 +802,7 @@ footer p {
   margin-bottom: 100px;
 }
 
-.fourwindslink button:hover {
-  background-color: #7bc8ff;
-}
+
 
 
 /* ==========================================================================
@@ -1494,13 +1510,15 @@ footer {
   padding-top: 250px;
 }
 .missions-desc h2 {
-  font-size: 45px;
-  word-spacing: 1px;
-  color: rgb(196, 125, 125);
+  font-size: 36px;
+  /* font-weight: bold; */
+  color: #318bca;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
 }
 
 #fourwindslogo {
-  padding: 200px 0;
+  padding: 180px 0;
   width:40%;
 }
 
@@ -1524,8 +1542,8 @@ footer {
 }
 
 .fourwindslink button:hover {
-  background-color: rgb(97, 65, 65);
-  border:rgb(255, 234, 234) solid 2px;
+  background-color: transparent;
+  border:rgb(255, 234, 234) solid 3px;
   color:white;
   color:rgb(196, 125, 125);
   transition: all 260ms linear;
