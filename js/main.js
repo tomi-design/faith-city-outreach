@@ -120,3 +120,4 @@ function nextImage(){
     slideshowImages[currentImageCounter].style.opacity = 1;
     slideshowImages[currentImageCounter].style.zIndex = -1;
 }
+

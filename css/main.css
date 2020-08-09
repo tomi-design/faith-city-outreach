@@ -257,45 +257,9 @@ main {
   justify-content: center;
   align-items: center;
   position: absolute;
-  height:10vh;
+  height:15vh;
   top:350px;
 }
-
-
-/*------SLIDESHOW ----------*/
-
-
-/*last version-------.mySlides {
-  transition: opacity .5s ease-in;
-}--------*/
-
-
-
-
-
-
-/*-----SLIDESHOW END------------*/
-
-
-
-/*
-.slidewrap {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-}
-
-.slideshow {
-  width:100%;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-
-  transition: opacity .5s ease-in;
-}*/
-
 
 .hero-text p {
   width: 75%;
@@ -308,7 +272,7 @@ main {
   font-weight: 100;
   font-style: normal;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
   /*word-spacing: 1px;*/
   padding: 20px 0 40px 0;
@@ -405,21 +369,6 @@ main {
   margin-top: 180px;
 }
 
-/*.white-square {
-  background: white;
-  width:60%;
-  height:30%;
-  position: absolute;
-  top:290%;
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 45%;
-}*/
 
 .biblepic {
   width: 100%;
@@ -531,13 +480,6 @@ footer p {
 /*---------------MOBILE ABOUT PAGE-----------*/
 
 
-
-/*.about-divider {
-  width:90%;
-  border:solid #DCC600 2px;
-}*/
-
-
 .about-section {
   width:100%;
   display:flex;
@@ -625,11 +567,12 @@ footer p {
   letter-spacing: 1px;
   font-weight: normal;
   text-transform: uppercase;
+  color:white;
 }
 
 .partner-divider {
   width:70%;
-  border:black solid 1.5px;
+  border:white solid 1.5px;
 }
 
 
@@ -667,6 +610,7 @@ footer p {
   font-weight: bold;
   font-size:18px;
   margin:0 auto;
+  color:white;
 }
 
 .global-women h3 {
@@ -676,6 +620,7 @@ footer p {
   font-size:18px;
   text-align: center;
   margin:0 auto;
+  color:white;
 }
 
 .four-winds img {
@@ -690,6 +635,7 @@ footer p {
 .partners p {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  color:white;
 }
 
 
@@ -743,6 +689,106 @@ footer p {
   letter-spacing: 1px;
   font-size: 18px;
 }
+
+
+/*------------MOBILE MISSIONS PAGE---------*/
+
+
+.missions-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.missions-hero {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missions-hero img {
+  width:90%;
+  padding-top: 5%;;
+}
+
+.missions-desc h2 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.missions-desc {
+  width:70%;
+  text-align: center;
+}
+
+#fourwindslogo {
+  width:70%;
+  padding: 40px 0;
+}
+
+.missions-desc p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.missions-gallery {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding: 50px 0 80px 0;
+}
+
+.missions-gallery img {
+  width:60%;
+  padding: 30px 15px 40px 15px;
+  box-shadow: 20px 20px 30px gray;
+  background-color: white;
+  margin: 40px 0;
+}
+
+.missions-gallery a {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.galleryfooter {
+  background-color:#A86A00;
+}
+
+.fourwindslink {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourwindslink button {
+  border: #318BCA solid 2px;
+  border: rgb(104, 58, 58) solid 2px;
+  background-color:transparent;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 22px;
+  padding:20px 30px;
+  color:#318BCA;
+  color:rgb(104, 58, 58) ;
+  margin-bottom: 100px;
+}
+
+.fourwindslink button:hover {
+  background-color: #7bc8ff;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1000,6 +1046,45 @@ footer p {
   border-radius: 40px;
   font-size: 30px;
 }
+
+
+/*---------TABLET MISSIONS PAGE---------*/
+
+
+.missions-desc h2 {
+  font-size: 28px;
+}
+
+.missions-desc {
+  width:60%;
+  padding-top: 35px;
+}
+
+#fourwindslogo {
+  padding: 100px 0;
+}
+
+.missions-desc p {
+  font-size: 20px;
+}
+
+.missions-gallery img {
+  width:100%;
+  margin:40px 40px 140px 40px;
+}
+
+.missions-gallery a {
+  width:45%;
+}
+
+
+.missions-gallery {
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
 }
 
 
@@ -1285,7 +1370,7 @@ footer {
 
 .about-title-desktop h2 {
   margin-bottom: 100px;
-  color:#80cab6;
+  color:#56BFA7;
   font-size:90px;
 }
 
@@ -1400,6 +1485,46 @@ footer {
 }
 
 
+/*----------DESKTOP MISSIONS PAGE----------*/
+
+.missions-gallery {
+  width:80%;
+}
+.missions-desc h2 {
+  font-size: 50px;
+  word-spacing: 1px;
+}
+
+#fourwindslogo {
+  padding: 200px 0;
+  width:50%;
+}
+
+.missions-desc p {
+  font-size: 25px;
+}
+
+.missions-gallery a {
+  width:30%;
+}
+
+.missions-gallery img {
+  padding-bottom: 80px;
+  margin: 100px 50px 200px 50px;
+}
+
+.fourwindslink button {
+  padding: 30px 40px;
+  font-size: 25px;
+}
+.fourwindslink button:hover {
+  background-color: rgb(255, 234, 234);
+  border:rgb(255, 234, 234) solid 2px;
+  color:white;
+  color:rgb(196, 125, 125);
+  transition: all 260ms linear;
+
+}
 
 }
 
