@@ -1070,11 +1070,12 @@ footer p {
 
 .missions-gallery img {
   width:100%;
-  margin:40px 40px 140px 40px;
+  padding:20px 20px 100px 20px;
 }
 
 .missions-gallery a {
-  width:45%;
+  width:35%;
+  margin: 0 42px 140px 42px;
 }
 
 
@@ -1082,6 +1083,7 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding-top: 100px;
 }
 
 
@@ -1507,7 +1509,7 @@ footer {
 }
 
 .missions-gallery a {
-  width:30%;
+  width:25%;
 }
 
 .missions-gallery img {
