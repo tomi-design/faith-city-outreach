@@ -1509,20 +1509,22 @@ footer {
 }
 
 .missions-gallery a {
-  width:25%;
+  width:30%;
+  margin: 0 20px 140px 20px;
 }
 
 .missions-gallery img {
   padding-bottom: 80px;
-  margin: 100px 70px 200px 70px;
+  margin: 100px 60px 200px 60px;
 }
 
 .fourwindslink button {
   padding: 30px 40px;
   font-size: 25px;
 }
+
 .fourwindslink button:hover {
-  background-color: rgb(255, 234, 234);
+  background-color: rgb(97, 65, 65);
   border:rgb(255, 234, 234) solid 2px;
   color:white;
   color:rgb(196, 125, 125);
