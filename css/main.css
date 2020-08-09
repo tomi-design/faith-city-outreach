@@ -1031,6 +1031,7 @@ footer p {
 .partners p {
   font-size: 22px;
   width:80%;
+  margin:0 auto;
 }
 
 .global-women h3 {
@@ -1044,8 +1045,14 @@ footer p {
   padding-bottom: 270px;
 }
 
+.four-winds img {
+  padding-top: 100px;
+  width:90%;
+}
+
 .global-women img {
-  width:40%;
+  padding-top: 100px;
+  width:90%;
 }
 
 .about-donate-area .podcastbutton {
@@ -1450,7 +1457,7 @@ footer {
 }
 
 .four-winds img {
-  width: 20%;
+  width: 100%;
 }
 
 .four-winds h3 {
@@ -1475,7 +1482,7 @@ footer {
 }
 
 .global-women img {
-  width: 20%;
+  width: 100%;
 }
 
 .global-women h3 {
