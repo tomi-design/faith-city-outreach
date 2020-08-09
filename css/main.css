@@ -160,7 +160,6 @@ figure {
 }
 
 .header-nav h1 {
-  font-size: 20px;
   font-family: 'Bebas Neue', cursive;
   font-weight: 100;
   padding-top: 5px;
@@ -1395,8 +1394,9 @@ footer {
 
 .about-title-desktop h2 {
   margin-bottom: 100px;
-  color:#56BFA7;
-  font-size:90px;
+  color:#a7d2d2;
+  font-size:70px;
+  letter-spacing: 3px;
 }
 
 .about-title-desktop img {
@@ -1431,6 +1431,7 @@ footer {
 
 .partners p {
   text-align: left;
+  margin:0;
 }
 .partners h2 {
   padding-left: 10%;
