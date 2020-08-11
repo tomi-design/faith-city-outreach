@@ -148,7 +148,7 @@ header {
 .logo img {
   width: 10%;
   margin: 0;
-  padding-right: 10px;
+  padding: 10px 10px 10px 0px;
 }
 
 figure {
@@ -161,6 +161,7 @@ figure {
 
 .header-nav h1 {
   font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
   font-weight: 100;
   padding-top: 5px;
 }
@@ -1206,7 +1207,7 @@ nav li a:hover {
 }
 
 .hero-text {
-  top:165%;
+  top:155%;
   height:20vh;
 }
 
