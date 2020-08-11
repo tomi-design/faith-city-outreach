@@ -722,6 +722,7 @@ footer p {
   display:flex;
   justify-content: center;
   align-items: center;
+  width:100%;
 }
 
 .missions-hero img {
@@ -729,6 +730,9 @@ footer p {
   padding-top: 5%;;
 }
 
+.missions-hero a {
+  width:90%;
+}
 .missions-desc h2 {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
@@ -1229,6 +1233,21 @@ nav li a:hover {
   justify-content: center;
   align-items: center;
   padding: 0 100px;
+}
+
+#buttonone {
+  width: 170px;
+  height: 170px;
+}
+
+#buttontwo {
+  width: 170px;
+  height: 170px;
+}
+
+#buttonthree {
+  width: 170px;
+  height: 170px;
 }
 
 #buttonone:hover {
