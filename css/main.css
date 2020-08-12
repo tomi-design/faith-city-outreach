@@ -1304,6 +1304,14 @@ footer p {
 
 /*---------TABLET PASTOR PAGE---------*/
 
+
+.pastor-scripture p {
+  font-size: 40px;
+}
+
+.pastor-scripture {
+  padding:90px 0;
+}
 .pastors-half h1 {
   font-size: 40px;
   padding: 60px 0;
@@ -1326,11 +1334,11 @@ footer p {
 }
 
 .usa-list h2 {
-  font-size: 34px;
+  font-size: 40px;
 }
 
 .wholelist p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .international-list {
@@ -1338,13 +1346,16 @@ footer p {
 }
 
 .international-list h2 {
-  font-size: 34px;
+  font-size: 40px;
 }
 
 .wholelist-int p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
+.thankyou-image img {
+  margin: 250px 0;
+}
 
 
 
@@ -1814,6 +1825,13 @@ footer {
 
 /*--------DESKTOP PASTOR PAGE--------*/
 
+.pastor-scripture {
+  padding:180px 0;
+}
+
+.pastor-scripture p {
+  font-size: 55px;
+}
 .pastors-para {
   display:flex;
   flex-direction: row;
@@ -1866,25 +1884,101 @@ footer {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.space {
+.us-half2 span {
   color:transparent;
 }
+
+
 .us-half p {
   font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
     font-size: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    color:#56BFA7;
 }
+
+.us-half p:hover, .us-half p:focus, .us-half p:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color:#56BFA7;
+}
+
+
+.us-half p::after {
+  content: '';
+  position: absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:2px;
+  background:currentColor;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.us-half p:hover::after {
+  transform:scaleX(1);
+}
+
+
 
 .us-half2 p {
   font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
     font-size: 26px;
+    margin:36px 0;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    color:#56BFA7;
 }
+
+.us-half2 p:hover, .us-half2 p:focus, .us-half2 p:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color:#56BFA7;
+  font-weight: bold;
+}
+
+
+.us-half2 p::after {
+  content: '';
+  position: absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:2px;
+  background:currentColor;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.us-half2 p:hover::after {
+  transform:scaleX(1);
+}
+
 
 .international-list h2 {
   display:none;
@@ -1914,17 +2008,65 @@ footer {
     text-transform: uppercase;
     text-align: left;
     font-size: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
+
+.international-half p:hover, .international-half p:focus, .international-half p:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  font-weight: bold;
+  color:yellow;
+}
+
+.international-half p::after {
+  content: '';
+  position: absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:2px;
+  background:currentColor;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.international-half p:hover::after {
+  transform:scaleX(1);
+}
+
+
+
+
+
+
+
+
 
 .international-half h2 {
   display:flex;
 }
 
+.international-half span {
+  color:transparent;
+}
 .thankyou-image img {
   width:60%;
   padding: 100px 0;
 }
 
+.thankyou-image img {
+  width: 50%;;
+}
 
 }
 
