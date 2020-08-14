@@ -1004,6 +1004,7 @@ footer p {
 .state-image img {
   width:80%;
   position:relative;
+  opacity: 50%;
 }
 
 .state-image h1 {
@@ -1131,6 +1132,7 @@ footer p {
 .texas-image img {
   width:60%;
   position:relative;
+  opacity: 50%;
 }
 
 .texas-image h1 {
@@ -1141,6 +1143,33 @@ footer p {
   font-weight: normal;
   font-size: 36px;
 }
+
+
+/*----------MOBILE OKLAHOMA PAGE-----*/
+
+.oklahoma-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:60px 0;
+}
+
+.oklahoma-image img {
+  width:60%;
+  position:relative;
+  opacity: 50%;
+}
+
+.oklahoma-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+}
+
 
 
 }
@@ -1510,6 +1539,10 @@ footer p {
 
 /*-------------TABLET CALIFORNIA PAGE-------*/
 
+.state-image img {
+  opacity: 50%;
+}
+
 .state-image h1 {
   font-size: 46px;
 }
@@ -1573,6 +1606,7 @@ footer p {
   width:50%;
   position:relative;
   padding: 70px 0;
+  opacity: 50%;
 }
 
 .texas-image h1 {
@@ -1584,6 +1618,24 @@ footer p {
   font-size: 40px;
 }
 
+
+/*---------TABLET OKLAHOMA PAGE-----*/
+
+.oklahoma-image img {
+  width:50%;
+  position:relative;
+  padding: 70px 0;
+  opacity: 50%;
+}
+
+.oklahoma-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+}
 
 
 }
@@ -2311,14 +2363,6 @@ footer {
   transform:scaleX(1);
 }
 
-
-
-
-
-
-
-
-
 .international-half h2 {
   display:flex;
 }
@@ -2348,7 +2392,7 @@ footer {
 
 /*------ black background----*/
 .ind-pastor-half img {
-  width:40%;
+  width:30%;
 }
 
 .ind-pastor-wrapbk {
@@ -2439,9 +2483,23 @@ footer {
 .texas-image img {
   width:30%;
   padding: 100px 0;
+  opacity: 50%;
 }
 
 .texas-image h1 {
+  font-size: 55px;
+}
+
+
+/*---------DESKTOP OKLAHOMA PAGE-----*/
+
+.oklahoma-image img {
+  width:30%;
+  padding: 180px 0;
+  opacity: 50%;
+}
+
+.oklahoma-image h1 {
   font-size: 55px;
 }
 
