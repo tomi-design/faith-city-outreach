@@ -1118,6 +1118,31 @@ footer p {
   margin:60px 0 30px 0;
 }
 
+/*--------MOBILE TEXAS PAGE----*/
+
+.texas-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:60px 0;
+}
+
+.texas-image img {
+  width:60%;
+  position:relative;
+}
+
+.texas-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+
 }
 
 
@@ -1540,6 +1565,24 @@ footer p {
   font-size: 20px;
 }
 
+
+/*--------TABLET TEXAS PAGE-------*/
+
+
+.texas-image img {
+  width:50%;
+  position:relative;
+  padding: 70px 0;
+}
+
+.texas-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+}
 
 
 
@@ -2391,6 +2434,16 @@ footer {
 }
 
 
+/*---------DESKTOP TEXAS PAGE-----*/
+
+.texas-image img {
+  width:30%;
+  padding: 100px 0;
+}
+
+.texas-image h1 {
+  font-size: 55px;
+}
 
 
 
