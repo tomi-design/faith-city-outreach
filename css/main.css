@@ -2292,6 +2292,111 @@ footer {
   width: 50%;;
 }
 
+
+/*----------DESKTOP CALIFORNIA PAGE--------*/
+
+.state-image img {
+  width:45%;
+  margin:80px 0;
+}
+.state-image h1 {
+  font-size: 60px;
+}
+
+/*------ black background----*/
+.ind-pastor-half img {
+  width:40%;
+}
+
+.ind-pastor-wrapbk {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pastor-text {
+  align-items: flex-start;
+}
+
+.pastor-text h2 {
+  font-size: 36px;
+}
+
+.pastor-text p {
+  text-align: left;
+  font-size:24px;
+}
+
+.ind-pastor-wrapbk button {
+  width:26%;
+  font-size: 22px;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+
+.ind-pastor-wrapbk button:hover, .ind-pastor-wrapbk button:focus, .ind-pastor-wrapbk button:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/*----------white background------*/
+
+.ind-pastor-wrap {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pastor-text-white {
+  align-items: flex-start;
+}
+
+.pastor-text-white h2 {
+  font-size: 36px;
+}
+
+.pastor-text-white p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.ind-pastor-wrap button {
+  width:26%;
+  font-size: 22px;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.ind-pastor-wrap button:hover, .ind-pastor-wrap button:focus, .ind-pastor-wrap button:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
 }
 
 
