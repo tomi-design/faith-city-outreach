@@ -1002,7 +1002,7 @@ footer p {
 }
 
 .state-image img {
-  width:75%;
+  width:80%;
   position:relative;
 }
 
@@ -1012,6 +1012,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
+  font-size: 36px;
 }
 
 .ind-pastor {
@@ -1086,7 +1087,6 @@ footer p {
 }
 
 .ind-pastor-wrapbk button {
-  width:40%;
   color:black;
   background-color: white;
   border:none;
@@ -1109,7 +1109,6 @@ footer p {
 }
 
 .ind-pastor-wrap button {
-  width:40%;
   color:white;
   background-color: black;
   border:none;
@@ -1482,6 +1481,65 @@ footer p {
 .thankyou-image img {
   margin: 250px 0;
 }
+
+
+/*-------------TABLET CALIFORNIA PAGE-------*/
+
+.state-image h1 {
+  font-size: 46px;
+}
+
+/*------ black background----*/
+.ind-pastor-wrapbk {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pastor-text {
+  align-items: flex-start;
+}
+
+.pastor-text h2 {
+  font-size: 30px;
+}
+
+.pastor-text p {
+  text-align: left;
+  font-size:20px;
+}
+
+.ind-pastor-wrapbk button {
+  width:50%;
+  font-size: 20px;
+}
+
+/*----------white background------*/
+
+.ind-pastor-wrap {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ind-pastor-wrap button {
+  width:50%;
+  font-size: 20px;
+}
+
+.pastor-text-white {
+  align-items: flex-start;
+}
+
+.pastor-text-white h2 {
+  font-size: 30px;
+}
+
+.pastor-text-white p {
+  text-align: left;
+  font-size: 20px;
+}
+
 
 
 
