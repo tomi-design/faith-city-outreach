@@ -1170,6 +1170,34 @@ footer p {
   font-size: 36px;
 }
 
+/*-----------MOBILE ARIZONA PAGE------*/
+
+.arizona-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:60px 0;
+}
+
+.arizona-image img {
+  width:55%;
+  position:relative;
+  opacity: 50%;
+}
+
+.arizona-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+
+
+
 
 
 }
@@ -1637,6 +1665,22 @@ footer p {
   font-size: 40px;
 }
 
+/*----------TABLET ARIZONA PAGE-----*/
+
+.arizona-image img {
+  width:40%;
+  padding: 80px 0;
+  opacity: 50%;
+}
+
+.arizona-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+}
 
 }
 
@@ -2392,7 +2436,7 @@ footer {
 
 /*------ black background----*/
 .ind-pastor-half img {
-  width:30%;
+  width:38%;
 }
 
 .ind-pastor-wrapbk {
@@ -2504,7 +2548,17 @@ footer {
 }
 
 
+/*---------DESKTOP ARIZONA PAGE-----*/
 
+.arizona-image img {
+  width:25%;
+  padding: 180px 0;
+  opacity: 50%;
+}
+
+.arizona-image h1 {
+  font-size: 55px;
+}
 
 
 
