@@ -868,7 +868,7 @@ footer p {
   font-weight: normal;
   font-size: 26px;
   padding: 40px 0;
-  color:#56BFA7;
+  color:black;
 }
 
 .pastors-half p {
@@ -1593,9 +1593,11 @@ footer p {
 .pastor-scripture {
   padding:90px 0;
 }
+
 .pastors-half h1 {
   font-size: 40px;
   padding: 60px 0;
+
 }
 
 .pastors-half img {
@@ -2332,10 +2334,14 @@ footer {
 .pastors-half p {
   width: 70%;
   line-height: 40px;
+  align-self:flex-start;
+  padding-left:80px;
 }
 
 .pastors-half h1 {
   font-size: 45px;
+  align-self:flex-start;
+  padding-left:80px;
 }
 
 .wholelist {
