@@ -1004,7 +1004,6 @@ footer p {
 .state-image img {
   width:80%;
   position:relative;
-  opacity: 50%;
 }
 
 .state-image h1 {
@@ -1014,6 +1013,7 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 36px;
+  background-color: white;
 }
 
 .ind-pastor {
@@ -1080,6 +1080,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
+  text-align: center;
 }
 
 .pastor-text p {
@@ -1132,7 +1133,6 @@ footer p {
 .texas-image img {
   width:60%;
   position:relative;
-  opacity: 50%;
 }
 
 .texas-image h1 {
@@ -1142,6 +1142,7 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 36px;
+  background-color: white;
 }
 
 
@@ -1158,7 +1159,6 @@ footer p {
 .oklahoma-image img {
   width:60%;
   position:relative;
-  opacity: 50%;
 }
 
 .oklahoma-image h1 {
@@ -1168,6 +1168,7 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 36px;
+  background-color: white;
 }
 
 /*-----------MOBILE ARIZONA PAGE------*/
@@ -1183,7 +1184,6 @@ footer p {
 .arizona-image img {
   width:55%;
   position:relative;
-  opacity: 50%;
 }
 
 .arizona-image h1 {
@@ -1193,11 +1193,85 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 36px;
+  background-color: white;
 }
 
 
+/*-----------MOBILE DC PAGE------*/
+.dc-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:60px 0;
+}
 
+.dc-image img {
+  width:55%;
+  position:relative;
+  /* opacity: 20%; */
+}
 
+.dc-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+  top:26%;
+  background-color: white;
+}
+
+/*-----------MOBILE SC PAGE------*/
+
+.sc-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:60px 0;
+}
+
+.sc-image img {
+  width:55%;
+  position:relative;
+}
+
+.sc-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+  background-color: white;
+}
+
+/*-----------MOBILE NEW YORK PAGE------*/
+
+.newyork-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:60px 0;
+}
+
+.newyork-image img {
+  width:55%;
+  position:relative;
+}
+
+.newyork-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+  background-color: white;
+}
 
 
 }
@@ -1567,9 +1641,6 @@ footer p {
 
 /*-------------TABLET CALIFORNIA PAGE-------*/
 
-.state-image img {
-  opacity: 50%;
-}
 
 .state-image h1 {
   font-size: 46px;
@@ -1634,7 +1705,6 @@ footer p {
   width:50%;
   position:relative;
   padding: 70px 0;
-  opacity: 50%;
 }
 
 .texas-image h1 {
@@ -1653,7 +1723,6 @@ footer p {
   width:50%;
   position:relative;
   padding: 70px 0;
-  opacity: 50%;
 }
 
 .oklahoma-image h1 {
@@ -1663,6 +1732,7 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 40px;
+  background-color: white;
 }
 
 /*----------TABLET ARIZONA PAGE-----*/
@@ -1670,7 +1740,6 @@ footer p {
 .arizona-image img {
   width:40%;
   padding: 80px 0;
-  opacity: 50%;
 }
 
 .arizona-image h1 {
@@ -1681,6 +1750,60 @@ footer p {
   font-weight: normal;
   font-size: 40px;
 }
+
+/*----------TABLET DC PAGE-----*/
+
+.dc-image img {
+  width:37%;
+  padding: 80px 0;
+}
+
+.dc-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 50px;
+  top:27%;
+}
+
+/*----------TABLET SC PAGE-----*/
+
+.sc-image img {
+  width:37%;
+  padding: 80px 0;
+}
+
+.sc-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+
+/*----------TABLET NEW YORK PAGE-----*/
+
+.newyork-image img {
+  width:40%;
+  padding: 80px 0;
+}
+
+.newyork-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+
+
+
 
 }
 
@@ -2525,9 +2648,8 @@ footer {
 /*---------DESKTOP TEXAS PAGE-----*/
 
 .texas-image img {
-  width:30%;
+  width:25%;
   padding: 100px 0;
-  opacity: 50%;
 }
 
 .texas-image h1 {
@@ -2540,7 +2662,6 @@ footer {
 .oklahoma-image img {
   width:30%;
   padding: 180px 0;
-  opacity: 50%;
 }
 
 .oklahoma-image h1 {
@@ -2553,13 +2674,47 @@ footer {
 .arizona-image img {
   width:25%;
   padding: 180px 0;
-  opacity: 50%;
 }
 
 .arizona-image h1 {
   font-size: 55px;
 }
 
+
+/*---------DESKTOP DC PAGE-----*/
+
+.dc-image img {
+  width:17%;
+  padding: 180px 0;
+}
+
+.dc-image h1 {
+  font-size: 55px;
+  top:38%;
+}
+
+/*---------DESKTOP SC PAGE-----*/
+
+.sc-image img {
+  width:20%;
+  padding: 180px 0;
+}
+
+.sc-image h1 {
+  font-size: 55px;
+}
+
+/*---------DESKTOP NEW YORK PAGE-----*/
+
+
+.newyork-image img {
+  width:22%;
+  padding: 180px 0;
+}
+
+.newyork-image h1 {
+  font-size: 55px;
+}
 
 
 }
