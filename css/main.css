@@ -848,7 +848,7 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  padding: 80px 0;
   background-color: #F1F9F7;
 
 }
@@ -869,6 +869,7 @@ footer p {
   font-size: 26px;
   padding: 40px 0;
   color:black;
+  width:90%;
 }
 
 .pastors-half p {
@@ -926,7 +927,14 @@ footer p {
 .wholelist p {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+}
 
+.wholelist a {
+  text-decoration: none;
+}
+
+.wholelist a:visited {
+  color:black;
 }
 
 .international-list {
@@ -1597,7 +1605,7 @@ footer p {
 .pastors-half h1 {
   font-size: 40px;
   padding: 60px 0;
-
+  text-align: center;
 }
 
 .pastors-half img {
@@ -1606,6 +1614,7 @@ footer p {
 
 .pastors-half p {
   font-size: 23px;
+  text-align: center;
 }
 
 .pastors-para {
@@ -2329,19 +2338,26 @@ footer {
 
 .pastors-half img {
   width: 80%;
+  margin:0;
 }
 
 .pastors-half p {
   width: 70%;
   line-height: 40px;
+  text-align: left;
   align-self:flex-start;
   padding-left:80px;
+  margin:0;
 }
 
 .pastors-half h1 {
   font-size: 45px;
   align-self:flex-start;
   padding-left:80px;
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 10px;
+  margin:0;
 }
 
 .wholelist {
