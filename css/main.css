@@ -1111,6 +1111,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
+  text-align: center;
 }
 
 .pastor-text-white p {
@@ -1670,6 +1671,7 @@ footer p {
 
 .pastor-text h2 {
   font-size: 30px;
+  text-align: left;
 }
 
 .pastor-text p {
@@ -1701,6 +1703,7 @@ footer p {
 
 .pastor-text-white h2 {
   font-size: 30px;
+  text-align: left;
 }
 
 .pastor-text-white p {
