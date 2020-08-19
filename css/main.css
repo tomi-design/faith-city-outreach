@@ -1085,8 +1085,13 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width:90%;
   color:white;
+}
+
+.pastor-text p a {
+  color:#b6f8e9;
+  text-decoration: none;
 }
 
 .pastor-text-white {
@@ -1094,8 +1099,13 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width:90%;
   color:black;
+}
+
+.pastor-text-white p a {
+  color:#55b49e;
+  text-decoration: none;
 }
 
 .pastor-text h2 {
@@ -1121,6 +1131,14 @@ footer p {
   margin:60px 0 30px 0;
 }
 
+.ind-pastor-wrapbk button a {
+  text-decoration: none;
+}
+
+.ind-pastor-wrapbk button a:visited {
+  color:black;
+}
+
 .pastor-text-white h2 {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
@@ -1134,6 +1152,11 @@ footer p {
   text-align: center;
 }
 
+.pastor-text-white a {
+  text-decoration: none;
+  color:#55b49e;
+}
+
 .ind-pastor-wrap button {
   color:white;
   background-color: black;
@@ -1142,6 +1165,14 @@ footer p {
   border-radius: 60px;
   font-family: 'Open Sans', sans-serif;
   margin:60px 0 30px 0;
+}
+
+.ind-pastor-wrap button a {
+  text-decoration: none;
+}
+
+.ind-pastor-wrap button a:visited {
+  color:white;
 }
 
 /*--------MOBILE TEXAS PAGE----*/
