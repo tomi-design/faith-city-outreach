@@ -933,6 +933,7 @@ footer p {
   text-decoration: none;
 }
 
+
 .wholelist a:visited {
   color:black;
 }
@@ -950,7 +951,9 @@ footer p {
 
 .international-half a {
   text-decoration: none;
+  color:black;
 }
+
 .international-half a:visited {
   color:black;
 }
@@ -977,6 +980,7 @@ footer p {
 
 .wholelist-int a {
   text-decoration: none;
+  color:black;
 }
 
 .wholelist-int a:visited {
