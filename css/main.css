@@ -1423,6 +1423,32 @@ footer p {
   text-align: center;
 }
 
+/*----------MOBILE PHILIPPINES PAGE ---------*/
+
+.philippines-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:90px 0;
+}
+
+.philippines-image img {
+  width:55%;
+  position:relative;
+}
+
+.philippines-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+  background-color: white;
+  text-align: center;
+}
+
 
 
 
@@ -2053,6 +2079,25 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 38px;
+}
+
+
+
+/*----------TABLET PHILIPPINES PAGE-----*/
+
+.philippines-image img {
+  width:30%;
+  padding: 80px 0px;
+  
+}
+
+.philippines-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 45px;
 }
 
 
@@ -3048,6 +3093,18 @@ footer {
 
 .ivorycoast-image h1 {
   font-size: 50px;
+}
+
+
+/*---------DESKTOP PHILIPPINES PAGE-----*/
+
+.philippines-image img {
+  width:25%;
+  padding: 50px 0 100px 0;
+}
+
+.philippines-image h1 {
+  font-size: 60px;
 }
 
 
