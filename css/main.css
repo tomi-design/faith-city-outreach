@@ -867,7 +867,7 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 26px;
-  padding: 40px 0;
+  padding: 40px 0 10px 0;
   color:black;
   width:90%;
 }
@@ -973,6 +973,14 @@ footer p {
   justify-content: center;
   align-items: center;
   width:100%;
+}
+
+.wholelist-int a {
+  text-decoration: none;
+}
+
+.wholelist-int a:visited {
+  color:black;
 }
 
 .wholelist-int p {
