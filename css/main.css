@@ -1371,6 +1371,58 @@ footer p {
   background-color: white;
 }
 
+/*----------MOBILE CANADA PAGE ---------*/
+
+.canada-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:90px 0;
+}
+
+.canada-image img {
+  width:80%;
+  padding-left:25px;
+  position:relative;
+}
+
+.canada-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+  background-color: white;
+}
+
+/*----------MOBILE IVORY COAST PAGE ---------*/
+
+.ivorycoast-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:90px 0;
+}
+
+.ivorycoast-image img {
+  width:60%;
+  position:relative;
+}
+
+.ivorycoast-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 25px;
+  background-color: white;
+  text-align: center;
+}
+
 
 
 
@@ -1965,6 +2017,42 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 50px;
+}
+
+
+/*----------TABLET CANADA PAGE-----*/
+
+.canada-image img {
+  width:60%;
+  padding: 80px 0px 80px 40px;
+  
+}
+
+.canada-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 55px;
+}
+
+
+/*----------TABLET IVORY COAST PAGE-----*/
+
+.ivorycoast-image img {
+  width:40%;
+  padding: 80px 0px;
+  
+}
+
+.ivorycoast-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 38px;
 }
 
 
@@ -2937,6 +3025,32 @@ footer {
 .mexico-image h1 {
   font-size: 55px;
 }
+
+
+/*---------DESKTOP CANADA PAGE-----*/
+
+.canada-image img {
+  width:40%;
+  padding: 100px 0 140px 60px;
+}
+
+.canada-image h1 {
+  font-size: 70px;
+}
+
+
+/*---------DESKTOP IVORY COAST PAGE-----*/
+
+.ivorycoast-image img {
+  width:20%;
+  padding: 100px 0 140px 0;
+}
+
+.ivorycoast-image h1 {
+  font-size: 50px;
+}
+
+
 
 
 
