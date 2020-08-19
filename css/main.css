@@ -1013,11 +1013,11 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:60px 0;
+  padding:80px 0;
 }
 
 .state-image img {
-  width:80%;
+  width:50%;
   position:relative;
 }
 
@@ -1827,9 +1827,13 @@ footer p {
 
 /*-------------TABLET CALIFORNIA PAGE-------*/
 
+.state-image img {
+  width: 40%;
+  padding:100px 0;
+}
 
 .state-image h1 {
-  font-size: 46px;
+  font-size: 55px;
 }
 
 /*------ black background----*/
@@ -2865,11 +2869,11 @@ footer {
 /*----------DESKTOP CALIFORNIA PAGE--------*/
 
 .state-image img {
-  width:45%;
+  width:20%;
   margin:80px 0;
 }
 .state-image h1 {
-  font-size: 60px;
+  font-size: 65px;
 }
 
 /*------ black background----*/
