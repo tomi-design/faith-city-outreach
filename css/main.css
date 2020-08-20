@@ -1617,12 +1617,18 @@ footer p {
     padding-left: 5%;
   }
 
+  .third-width {
+    background-color: #56BFA7;
+
+  }
   .header-nav h1 {
     font-size: 25px;
   }
 
   .third-width i {
     font-size: 25px;
+    color:black;
+    padding:25px 0;
   }
 
   .hero-text p {
