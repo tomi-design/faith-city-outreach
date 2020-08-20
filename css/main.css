@@ -118,8 +118,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #DCC600;
-  background-color: #64D0B7;
+  
 }
 
 .desktop-nav {
@@ -144,6 +143,7 @@ header {
 
 .third-width i {
   padding-left: 40px;
+  color:rgb(55, 192, 178);
 }
 
 .logo img {
