@@ -458,7 +458,15 @@ footer {
 
 .social-med i {
   font-size:30px;
-  padding: 0 5%;
+  margin: 0 50px;
+  color:black;
+}
+
+.social-med a:visited {
+  color:black;
+}
+.social-med a:active {
+  color:black;
 }
 
 footer p {
@@ -1102,6 +1110,7 @@ footer p {
 
 .pastor-text p a {
   color:#b6f8e9;
+  color:#DCC600;
   text-decoration: none;
 }
 
