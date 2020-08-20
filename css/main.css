@@ -748,10 +748,11 @@ footer p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 22px;
+  color:#DC5671;
 }
 
 .missions-desc {
-  width:70%;
+  width:80%;
   text-align: center;
 }
 
@@ -791,6 +792,7 @@ footer p {
 
 .galleryfooter {
   background-color:#A86A00;
+  background-color: #DCC600;
 }
 
 .fourwindslink {
@@ -1788,7 +1790,7 @@ footer p {
 }
 
 #fourwindslogo {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .missions-desc p {
@@ -2619,18 +2621,15 @@ footer {
 
 .missions-gallery {
   width:90%;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 .missions-desc h2 {
   font-size: 36px;
-  /* font-weight: bold; */
-  color: #318bca;
-  font-family: 'Open Sans', sans-serif;
   text-transform: none;
 }
 
 #fourwindslogo {
-  padding: 180px 0;
+  padding: 80px 0;
   width:40%;
 }
 
