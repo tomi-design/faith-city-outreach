@@ -548,6 +548,7 @@ footer p {
 .about-half a {
   text-decoration: none;
   color:#56BFA7;
+  font-weight: bold;
 }
 
 .about-section p {
@@ -2453,7 +2454,6 @@ footer {
 
 .about-half {
   width: 40%;
-  position: relative;
 
 }
 
@@ -2479,10 +2479,9 @@ footer {
   opacity: 15%;
   width:80%;
   padding: 0;
-  position: absolute;
-  top:40px;
+  top:100px;
   left:1200px;
-}
+} 
 
 .about-divider {
   display:none;
@@ -2495,7 +2494,9 @@ footer {
   align-items: flex-start;
   width:90%;
   text-align: left;
-  margin-top:100px;
+  margin:100px 0 400px 0;
+  border-radius: 30px;
+background-color: #DCC600;
 }
 
 .partner-sections {
@@ -2520,7 +2521,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 200px;
+  padding-bottom: 170px;
 }
 
 .four-winds-desc {
@@ -2549,7 +2550,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 200px;
+  padding-bottom: 10px;
 }
 
 .gw-desc {
@@ -2614,6 +2615,34 @@ footer {
   margin-bottom: 100px;
 }
 
+.psalm {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  margin-bottom: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.psalm img {
+  opacity: 15%;
+  width:25%;
+  padding: 0;
+  position: absolute;
+  top: -54px;
+  left: 38%;
+}
+
+.psalm h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 50px;
+    color:#43b398;
+
+}
 .about-donate-area button:hover {
   background-color: #56dbbc;
   transition: all 250ms linear;
@@ -2886,7 +2915,7 @@ footer {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   font-weight: bold;
-  color:yellow;
+  
 }
 
 /* .international-half p::after {
