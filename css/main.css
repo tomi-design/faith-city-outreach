@@ -140,8 +140,8 @@ header {
   justify-content: center;
   align-items: flex-end;
   background-color: #97E3D6;
-  /* -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);} */
+  -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
 } 
 
 .third-width i {
@@ -1118,6 +1118,7 @@ footer p {
 
 .pastor-text p a {
   color:#DCC600;
+  color:#D66D50;
   text-decoration: none;
 }
 
@@ -1132,6 +1133,7 @@ footer p {
 
 .pastor-text-white p a {
   color:#55b49e;
+  color:#D66D50;
   text-decoration: none;
 }
 
@@ -1182,6 +1184,8 @@ footer p {
 .pastor-text-white a {
   text-decoration: none;
   color:#55b49e;
+  color:#D66D50;
+
 }
 
 .ind-pastor-wrap button {
