@@ -2715,6 +2715,11 @@ background-color: #DCC600;
 
 /*--------DESKTOP PASTOR PAGE--------*/
 
+.third-width {
+  -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+padding-left:50px;
+}
 .pastor-scripture {
   padding:180px 0;
 }
