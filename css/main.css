@@ -2321,7 +2321,7 @@ nav li a:hover {
 }
 
 #buttonone:hover {
-  background-color: #beffee;
+  background-color: #FDBAAA;
   transition: all 250ms linear;
 }
 
@@ -2331,7 +2331,7 @@ nav li a:hover {
 }
 
 #buttonthree:hover {
-  background-color: #f0d804;
+  background-color: #fdeb46;
   transition: all 250ms linear;
 }
 
