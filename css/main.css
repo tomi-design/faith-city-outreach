@@ -118,7 +118,6 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
 }
 
 .desktop-nav {
@@ -131,7 +130,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #64D0B7;
+
 }
 
 .third-width {
@@ -140,11 +139,13 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-}
+  background-color: #97E3D6;
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);} */
+} 
 
 .third-width i {
-  padding-left: 40px;
-
+  padding: 25px 0 25px 40px;
 }
 
 .logo img {
@@ -294,7 +295,8 @@ main {
   border-radius: 50%;
   border: none;
   margin-top: 80px;
-  background-color: #B5E5D8;
+  background-color: #D66D50;
+
 }
 
 #buttontwo {
@@ -303,7 +305,7 @@ main {
   border-radius: 50%;
   border: none;
   margin-top: 80px;
-  background-color: #56BFA7;
+  background-color: #D1EEEA;
 }
 
 #buttonthree {
@@ -313,6 +315,7 @@ main {
   border: none;
   margin-top: 80px;
   background-color: #DCC600; 
+
 }
 
 .buttons {
@@ -400,6 +403,8 @@ main {
 
 .white-text-wrapper a {
   color:#56BFA7;
+  color:#025B6D;
+  color:#D66D50;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   padding: 20px 0 35px 0;
@@ -419,6 +424,7 @@ main {
   background-color: #DCC600;
   background-color: #B5E5D8;
   background-color: #56BFA7;
+  background-color: #97E3D6;
 
   color: white;
   padding: 20px 40px;
@@ -2197,7 +2203,8 @@ main {
 .third-width {
   background-color: black;
   background-color: #DCC600;
-  background-color: #64D0B7;
+  background-color: #97E3D6;
+
   padding:20px;
   width:30%;
 }
@@ -2367,6 +2374,8 @@ nav li a:hover {
 
 .white-text-wrapper a {
   color:#56BFA7;
+  color:#025B6D;
+  color:#D66D50;
   font-weight: bold;
   font-size:22px;
   padding-bottom: 20px;
@@ -2405,7 +2414,7 @@ nav li a:hover {
   padding: 30px 60px;
   border-radius: 50px;
   font-size: 40px;
-  background-color: #56BFA7;
+  background-color: #97E3D6;
   color:white;
 }
 
