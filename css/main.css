@@ -296,7 +296,7 @@ main {
   border: none;
   margin-top: 80px;
   background-color: #D66D50;
-
+  background-color: #E3886F;
 }
 
 #buttontwo {
@@ -752,19 +752,19 @@ footer p {
 
 .missions-hero img {
   width:90%;
-  padding-top: 5%;;
+  margin-top: 7%;
 }
 
 .missions-hero a {
   width:90%;
 }
+
 .missions-desc h2 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 22px;
-  color:rgb(153, 100, 100);
+  font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+  font-size: 14px;
+  color:#318bca;
+  margin-top:50px;
 }
 
 .missions-desc {
@@ -819,7 +819,6 @@ footer p {
 
 .fourwindslink button {
   border: #318BCA solid 2px;
-  border: rgb(104, 58, 58) solid 2px;
   background-color:transparent;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
@@ -828,7 +827,6 @@ footer p {
   font-size: 22px;
   padding:20px 30px;
   color:#318BCA;
-  color:rgb(104, 58, 58) ;
   margin-bottom: 100px;
 }
 
@@ -1805,7 +1803,7 @@ footer p {
 
 
 .missions-desc h2 {
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .missions-desc {
@@ -2379,7 +2377,7 @@ nav li a:hover {
 .white-text-wrapper a {
   color:#56BFA7;
   color:#025B6D;
-  color:#D66D50;
+  color:#ec8d73;
   font-weight: bold;
   font-size:22px;
   padding-bottom: 20px;
@@ -2675,13 +2673,17 @@ background-color: #DCC600;
 
 /*----------DESKTOP MISSIONS PAGE----------*/
 
+.missions-hero img {
+  border-radius: 20px;
+}
 .missions-gallery {
   width:90%;
   padding-top: 200px;
 }
 .missions-desc h2 {
-  font-size: 36px;
+  font-size: 30px;
   text-transform: none;
+  color:black;
 }
 
 #fourwindslogo {
@@ -2689,18 +2691,21 @@ background-color: #DCC600;
   width:40%;
 }
 
+.missions-desc {
+  padding-top: 100px;
+}
 .missions-desc p {
   font-size: 25px;
 }
 
 .missions-gallery a {
   width:30%;
-  margin: 0 20px 140px 20px;
+  margin: 0 20px 50px 20px;
 }
 
 .missions-gallery img {
   padding-bottom: 80px;
-  margin: 100px 60px 200px 60px;
+  margin: 50px 60px 200px 60px;
 }
 
 .fourwindslink button {
@@ -2710,9 +2715,8 @@ background-color: #DCC600;
 
 .fourwindslink button:hover {
   background-color: transparent;
-  border:rgb(255, 234, 234) solid 3px;
-  color:white;
-  color:rgb(196, 125, 125);
+  border:#9bd5ff solid 3px;
+  color:#73c5ff;
   transition: all 260ms linear;
 
 }
