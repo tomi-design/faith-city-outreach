@@ -535,7 +535,7 @@ footer p {
 
 .about-title img {
   width:50%;
-  opacity: 20%;
+  opacity: 50%;
 }
 
 .about-divider {
@@ -678,6 +678,11 @@ footer p {
   text-align: center;
   color:white;
 }
+
+.psalm {
+  display:none;
+}
+
 
 
 .about-donate-area {
@@ -2510,7 +2515,7 @@ footer {
   align-items: flex-start;
   width:90%;
   text-align: left;
-  margin:100px 0 400px 0;
+  margin:100px 0 200px 0;
   border-radius: 30px;
 background-color: #DCC600;
 }
@@ -2633,21 +2638,19 @@ background-color: #DCC600;
 
 .psalm {
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width:80%;
-  margin-bottom: 500px;
+  margin-bottom: 200px;
   text-align: center;
-  position: relative;
 }
 
 .psalm img {
-  opacity: 15%;
-  width:25%;
+  opacity: 45%;
+  width:35%;
   padding: 0;
-  position: absolute;
-  top: -54px;
-  left: 38%;
+ 
 }
 
 .psalm h1 {
@@ -2655,10 +2658,18 @@ background-color: #DCC600;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: lighter;
-    font-size: 50px;
-    color:#43b398;
+    font-size: 40px;
+    color:rgb(51, 51, 51);
 
+    font-family: caflisch-script-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: adobe-handwriting-ernie,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
+
 .about-donate-area button:hover {
   background-color: #56dbbc;
   transition: all 250ms linear;
