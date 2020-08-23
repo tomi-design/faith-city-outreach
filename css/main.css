@@ -1523,9 +1523,37 @@ text-transform: uppercase;
 
 
 
+/*---------MOBILE DONATE PAGE--------*/
 
+.donate-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
 
+.donate-wrapper h1 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 
+/*---------MOBILE CONTACT PAGE--------*/
+
+.contact-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.contact-wrapper h1 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 
 
 
