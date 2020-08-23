@@ -424,7 +424,8 @@ main {
   background-color: #B5E5D8;
   background-color: #56BFA7;
   background-color: #97E3D6;
-
+  background-color: #2bc3b7;
+  
   color: white;
   padding: 20px 40px;
   border-radius: 30px;
@@ -699,6 +700,7 @@ footer p {
   background-color: #DCC600;
   background-color: #B5E5D8;
   background-color: #56BFA7;
+  background-color: #2bc3b7;
 
   color: white;
   padding: 20px 40px;
@@ -2421,6 +2423,8 @@ nav li a:hover {
   border-radius: 50px;
   font-size: 40px;
   background-color: #97E3D6;
+  background-color: #2bc3b7;
+
   color:white;
 }
 
@@ -2517,6 +2521,7 @@ footer {
   margin:100px 0 200px 0;
   border-radius: 30px;
 background-color: #DCC600;
+box-shadow: gray 20px 20px 60px;
 }
 
 .partner-sections {
