@@ -402,9 +402,8 @@ main {
 }
 
 .white-text-wrapper a {
-  color:#56BFA7;
-  color:#025B6D;
-  color:#D66D50;
+  color:#57caaf;
+  color:#71bbaf;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   padding: 20px 0 35px 0;
@@ -2380,9 +2379,9 @@ nav li a:hover {
 }
 
 .white-text-wrapper a {
-  color:#56BFA7;
   color:#025B6D;
-  color:#ec8d73;
+  color:#55b19c;
+
   font-weight: bold;
   font-size:22px;
   padding-bottom: 20px;
