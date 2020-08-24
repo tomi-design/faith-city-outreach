@@ -495,6 +495,19 @@ footer p {
   color:black;
 }
 
+.attribution {
+  padding: 30px 0 20px 0;
+}
+
+.attribution a {
+  text-decoration: none;
+  color:black;
+}
+
+.attribution a:visited {
+  color:black;
+}
+
 /*---------------MOBILE ABOUT PAGE-----------*/
 
 
