@@ -482,6 +482,18 @@ footer p {
   margin-top: 20px;
 }
 
+.copyright a {
+  text-decoration: none;
+  color:black;
+}
+
+.copyright a:hover {
+  color:#D66D50;
+}
+
+.copyright a:visited {
+  color:black;
+}
 
 /*---------------MOBILE ABOUT PAGE-----------*/
 
@@ -736,6 +748,8 @@ footer p {
   letter-spacing: 1px;
   font-size: 18px;
 }
+
+
 
 
 /*------------MOBILE MISSIONS PAGE---------*/
