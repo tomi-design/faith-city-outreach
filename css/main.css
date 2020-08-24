@@ -478,6 +478,10 @@ footer {
   color:black;
 }
 
+.social-med i:hover {
+  color:white;
+}
+
 footer p {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
