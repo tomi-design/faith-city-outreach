@@ -493,8 +493,8 @@ footer p {
   color:black;
 }
 
-.copyright a:hover {
-  color:#D66D50;
+.copyright p a:hover {
+  color:white;
 }
 
 .copyright a:visited {
