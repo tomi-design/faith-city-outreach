@@ -1740,7 +1740,8 @@ font-style: normal;
   }
 
   .hero-text {
-    height:70vh;
+    height:20vh;
+    top:600px;
   }
   
   .dropdown-content {
