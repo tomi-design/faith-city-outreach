@@ -140,6 +140,7 @@ header {
   justify-content: center;
   align-items: flex-end;
   background-color: #97E3D6;
+  background-color: #2bc3b7;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
 } 
 
@@ -404,6 +405,7 @@ main {
 .white-text-wrapper a {
   color:#57caaf;
   color:#71bbaf;
+  color:#2bc3b7;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   padding: 20px 0 35px 0;
@@ -580,6 +582,8 @@ footer p {
 .about-half a {
   text-decoration: none;
   color:#56BFA7;
+  color:#2bc3b7;
+
   font-weight: bold;
 }
 
@@ -2310,10 +2314,9 @@ main {
 }
 
 .third-width {
-  background-color: black;
   background-color: #DCC600;
   background-color: #97E3D6;
-
+  background-color: #2bc3b7;
   padding:20px;
   width:30%;
 }
@@ -2484,6 +2487,7 @@ nav li a:hover {
 .white-text-wrapper a {
   color:#025B6D;
   color:#55b19c;
+  color:#2bc3b7;
 
   font-weight: bold;
   font-size:22px;
@@ -2844,6 +2848,7 @@ font-style: normal;
 clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
 padding-left:50px;
 }
+
 .pastor-scripture {
   padding:180px 0;
 }
