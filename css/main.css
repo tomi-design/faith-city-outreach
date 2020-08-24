@@ -1691,10 +1691,28 @@ font-style: normal;
 
 /*----------MOBILE THANK YOU PAGE----*/
 
+.thankyou-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.thankyou-message {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  margin:150px 0;
+}
 
 
-
-
+.thankyou-message h1 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
@@ -2390,6 +2408,34 @@ footer p {
 #contact-form input {
   font-size: 16px;
 }
+
+/*----------TABLET THANK YOU PAGE----*/
+
+.thankyou-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.thankyou-message {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+  margin:300px 0;
+}
+
+
+.thankyou-message h1 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+
 
 
 
