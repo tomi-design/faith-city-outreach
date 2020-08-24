@@ -1172,6 +1172,10 @@ text-transform: uppercase;
   text-decoration: none;
 }
 
+.pastor-text-white button a {
+  color:white;
+}
+
 .pastor-text h2 {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
@@ -1197,6 +1201,7 @@ text-transform: uppercase;
 
 .ind-pastor-wrapbk button a {
   text-decoration: none;
+  color:black;
 }
 
 .ind-pastor-wrapbk button a:visited {
