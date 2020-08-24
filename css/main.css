@@ -1525,7 +1525,38 @@ text-transform: uppercase;
 
 
 
+<<<<<<< HEAD
 /*---------MOBILE DONATE PAGE--------*/
+=======
+/*----------MOBILE INTERNATIONAL PAGE ---------*/
+
+.international-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:90px 0;
+}
+
+.international-image img {
+  width:55%;
+  position:relative;
+}
+
+.international-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+
+
+>>>>>>> gh-pages
 
 .donate-wrapper {
   display:flex;
@@ -2203,6 +2234,25 @@ footer p {
 }
 
 .philippines-image h1 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+
+
+/*----------TABLET INTERNATIONAL PAGE-----*/
+
+.international-image img {
+  width:30%;
+  padding: 80px 0px;
+  
+}
+
+.international-image h1 {
   position: absolute;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
@@ -3264,6 +3314,18 @@ padding-left:50px;
 
 .philippines-image h1 {
   font-size: 60px;
+}
+
+
+/*---------DESKTOP INTERNATIONAL PAGE-----*/
+
+.international-image img {
+  width:20%;
+  padding: 50px 0 100px 0;
+}
+
+.international-image h1 {
+  font-size: 70px;
 }
 
 
