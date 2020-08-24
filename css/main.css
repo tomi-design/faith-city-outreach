@@ -1624,6 +1624,82 @@ font-weight: 400;
 font-style: normal;
 }
 
+.contact-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding: 20px 0 120px 0;
+}
+
+#contact-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width:65%;
+}
+
+#contact-form input {
+  width:100%;
+  margin-bottom: 20px;
+  padding-bottom:15px;
+  border-radius: 10px;
+  border: #2bc3b7 solid 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color:#26a89d;
+}
+
+#contact-form textarea {
+  width:100%;
+  border-radius: 10px;
+  border: #2bc3b7 solid 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color:#26a89d;
+  padding-bottom: 25px;
+}
+
+#contact-form label {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contact-form button {
+  background-color:#2bc3b7;
+  border:none;
+  border-radius: 20px;
+  padding:15px;
+  align-self: center;
+  margin-top: 40px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color:white;
+}
+
+.contact-message {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  text-align: center;
+  padding: 60px 0;
+}
+
+
+/*----------MOBILE THANK YOU PAGE----*/
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -2299,7 +2375,21 @@ footer p {
 }
 
 
+/*-----------TABLET CONTACT FORM--------*/
 
+
+#contact-form {
+  width:50%;
+}
+
+#contact-form textarea {
+  padding-bottom: 70px;
+  font-size: 16px;
+}
+
+#contact-form input {
+  font-size: 16px;
+}
 
 
 
@@ -3365,6 +3455,27 @@ padding-left:50px;
 .international-image h1 {
   font-size: 70px;
 }
+
+/*------------DESKTOP CONTACT FORM---------*/
+
+#contact-form {
+  width:30%;
+}
+
+
+#contact-form textarea {
+  padding-bottom: 120px;
+  font-size: 16px;
+}
+
+#contact-form input {
+  font-size: 16px;
+}
+
+
+
+
+
 
 
 
