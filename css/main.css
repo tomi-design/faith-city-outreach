@@ -1615,6 +1615,7 @@ text-transform: uppercase;
   font-family: adobe-handwriting-ernie,sans-serif;
 font-weight: 400;
 font-style: normal;
+margin-bottom: 70px;
 }
 
 .donate-message p {
@@ -3725,11 +3726,15 @@ padding-left:50px;
 
 /*----------DESKTOP DONATE PAGE---------*/
 
+.donate-wrapper {
+  padding-top: 60px;
+}
 .donate-message p {
   font-size: 20px;
 }
+
 .donate-message h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .donate-options {
