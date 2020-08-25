@@ -3747,7 +3747,13 @@ padding-left:50px;
   margin-bottom: 100px;
 }
 
+.cashtag-info p {
+  font-size: 20px;
+}
 
+.cashtag-info a:hover {
+  font-weight: bold;
+}
 
 }
 
