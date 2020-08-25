@@ -1715,6 +1715,57 @@ font-style: normal;
 }
 
 
+/*----------MOBILE DONATION THANK YOU PAGE----*/
+
+.donate-thankyou-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.donate-thankyou-message {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  margin:150px 0;
+}
+
+
+.donate-thankyou-message h1 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#D66D50;
+  margin: 30px 0;
+}
+
+.donate-thankyou-message h3 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#D66D50;
+  margin: 30px 0;
+}
+
+.donate-thankyou-message a {
+  text-decoration: none;
+  color:turquoise;
+}
+.donate-thankyou-message p{
+  text-decoration: none;
+  margin-top: 80px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+
 
 
 
@@ -2436,6 +2487,58 @@ footer p {
   font-size: 45px;
 }
 
+
+/*----------TABLET DONATION THANK YOU PAGE----*/
+
+.donate-thankyou-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.donate-thankyou-message {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  margin:150px 0 300px 0;
+}
+
+
+.donate-thankyou-message h1 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#D66D50;
+  margin: 30px 0;
+  font-size: 40px;
+}
+
+.donate-thankyou-message h3 {
+  font-family: adobe-handwriting-ernie,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#D66D50;
+  margin: 30px 0;
+  font-size: 25px;
+}
+
+.donate-thankyou-message a {
+  text-decoration: none;
+  color:turquoise;
+}
+.donate-thankyou-message p{
+  text-decoration: none;
+  margin-top: 80px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 20px;
+}
 
 
 
