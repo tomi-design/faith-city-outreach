@@ -1602,10 +1602,91 @@ text-transform: uppercase;
   width:100%;
 }
 
-.donate-wrapper h1 {
+.donate-message {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:70%;
+  text-align: center;
+  margin: 50px 0;
+}
+.donate-message h1 {
   font-family: adobe-handwriting-ernie,sans-serif;
 font-weight: 400;
 font-style: normal;
+}
+
+.donate-message p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.donate-options {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  /* background-color: #D1EEEA; */
+  padding:50px 0;
+  border-radius: 30px;
+  margin: 30px 0 50px 0;
+  border: #56BFA7 solid 2px;
+
+}
+
+.paypal {
+  margin-bottom: 80px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:60%;
+}
+
+
+.cashtag {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:60%;
+
+}
+.cashtag-info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  text-align: center;
+
+}
+
+.cashtag h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.cashtag-info a {
+  text-decoration: none;
+  color:#56BFA7;
+}
+.cashtag-info a:visited {
+  color:#56BFA7;
+}
+
+
+
+.cashtag-info p {
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+  padding-top: 10px;
+}
+
+.cashtag-info img {
+  width:40%;
 }
 
 /*---------MOBILE CONTACT PAGE--------*/
@@ -1764,9 +1845,6 @@ font-style: normal;
   font-weight: normal;
   font-size: 20px;
 }
-
-
-
 
 
 
@@ -2485,6 +2563,24 @@ footer p {
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
+}
+
+
+
+/*----------TABLET DONATION PAGE----*/
+
+
+.donate-message h1 {
+  font-size: 50px;
+}
+
+.cashtag-info img {
+  width:20%;
+}
+
+.donate-options {
+  border: #56BFA7 solid 2px;
+
 }
 
 
@@ -3627,10 +3723,24 @@ padding-left:50px;
 }
 
 
+/*----------DESKTOP DONATE PAGE---------*/
 
+.donate-message p {
+  font-size: 20px;
+}
+.donate-message h1 {
+  font-size: 60px;
+}
 
+.donate-options {
+  width:50%;
+  padding: 100px 0;
+  margin-bottom: 120px;
+}
 
-
+.paypal {
+  margin-bottom: 100px;
+}
 
 
 
