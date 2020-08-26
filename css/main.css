@@ -1650,7 +1650,7 @@ footer p {
   /* background-color: #D1EEEA; */
   padding: 50px 0;
   border-radius: 30px;
-  margin: 30px 0 50px 0;
+  margin: 30px 0 170px 0;
   border: #56BFA7 solid 2px;
 
 }
@@ -1720,7 +1720,7 @@ footer p {
 }
 
 .cashtag-info img {
-  width: 40%;
+  width: 80%;
 }
 
 /*---------MOBILE CONTACT PAGE--------*/
@@ -2616,8 +2616,9 @@ footer p {
     font-size: 50px;
   }
 
-  .cashtag-info img {
-    width: 20%;
+  .cashtag-info p {
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .donate-options {
