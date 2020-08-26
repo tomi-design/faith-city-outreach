@@ -141,8 +141,9 @@ header {
   align-items: flex-end;
   background-color: #97E3D6;
   background-color: #2bc3b7;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-} 
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%); 
+}
 
 .third-width i {
   padding: 25px 0 25px 40px;
@@ -174,28 +175,39 @@ figure {
 }
 
 .logo a:visited {
-  color:black;
+  color: black;
 }
+
 
 .dropdown {
   position: relative;
   display: inline-block;
   
+
+}
+
+.dropdown-content li {
+  list-style: none;
+  border-radius: 10px;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: black;
-  min-width: 10em;
+  min-width: 8em;
   overflow: auto;
   z-index: 1;
   right: 0.313em;
+  top:60px;
+  border-radius: 20px;
+
 }
+
 
 .dropdown-content a {
   color: white;
-  padding: 0.75em 1em;
+  padding: 1em;
   text-decoration: none;
   display: block;
   text-transform: uppercase;
@@ -212,8 +224,11 @@ figure {
   display: block;
 }
 
+
+
+
 main {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -221,34 +236,34 @@ main {
 }
 
 .main-wrapper {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:90%;
+  width: 90%;
 }
 
 .hero {
   width: 100%;
-  height:100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  height:10vh;
+  height: 10vh;
 }
 
 .mySlides {
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  padding-top: 7%;;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 7%;
   object-fit: cover;
   z-index: -1;
-  opacity:0;
-  transition:opacity 1s ease-in-out;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .hero-text {
@@ -256,9 +271,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  height:15vh;
-  top:350px;
+  /* position: absolute; */
+  position: relative;
+  height: 15vh;
+  top: 200px;
 }
 
 .hero-text p {
@@ -267,24 +283,22 @@ main {
   justify-content: center;
   align-items: center;
   font-family: dharma-gothic-e, sans-serif;
-  /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Bebas Neue', cursive;
   font-weight: 100;
   font-style: normal;
   text-align: center;
   font-size: 18px;
   letter-spacing: 1px;
-  /*word-spacing: 1px;*/
   padding: 20px 0 40px 0;
   text-transform: uppercase;
 }
 
 .buttons {
-  padding-top: 300px;
+  padding-top: 200px;
 }
 
 .button-wrap {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -315,7 +329,7 @@ main {
   border-radius: 50%;
   border: none;
   margin-top: 80px;
-  background-color: #DCC600; 
+  background-color: #DCC600;
 
 }
 
@@ -374,12 +388,12 @@ main {
 }
 
 .white-text-wrapper {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
-  width:100%;
+  width: 100%;
 }
 
 .white-text-wrapper h2 {
@@ -403,9 +417,9 @@ main {
 }
 
 .white-text-wrapper a {
-  color:#57caaf;
-  color:#71bbaf;
-  color:#2bc3b7;
+  color: #57caaf;
+  color: #71bbaf;
+  color: #2bc3b7;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   padding: 20px 0 35px 0;
@@ -421,13 +435,13 @@ main {
 
 .donate-area button {
   /*border: #DCC600 solid 4px;*/
-  border:none;
+  border: none;
   background-color: #DCC600;
   background-color: #B5E5D8;
   background-color: #56BFA7;
   background-color: #97E3D6;
   background-color: #2bc3b7;
-  
+
   color: white;
   padding: 20px 40px;
   border-radius: 30px;
@@ -439,7 +453,7 @@ main {
 }
 
 .donate-area a {
-  color:white;
+  color: white;
   text-decoration: none;
 }
 
@@ -466,20 +480,21 @@ footer {
 }
 
 .social-med i {
-  font-size:30px;
+  font-size: 30px;
   margin: 0 50px;
-  color:black;
+  color: black;
 }
 
 .social-med a:visited {
-  color:black;
+  color: black;
 }
+
 .social-med a:active {
-  color:black;
+  color: black;
 }
 
 .social-med i:hover {
-  color:white;
+  color: white;
 }
 
 footer p {
@@ -490,15 +505,15 @@ footer p {
 
 .copyright a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .copyright p a:hover {
-  color:white;
+  color: white;
 }
 
 .copyright a:visited {
-  color:black;
+  color: black;
 }
 
 .attribution {
@@ -507,19 +522,19 @@ footer p {
 
 .attribution a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .attribution a:visited {
-  color:black;
+  color: black;
 }
 
 /*---------------MOBILE ABOUT PAGE-----------*/
 
 
 .about-section {
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -531,7 +546,7 @@ footer p {
 }
 
 .about-section img {
-  width:100%;
+  width: 100%;
 }
 
 #interviewphoto {
@@ -543,29 +558,29 @@ footer p {
   font-family: 'Bebas Neue', cursive;
   font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
- color:rgb(48, 48, 48);
+  color: rgb(48, 48, 48);
   font-size: 45px;
-  margin:10px;
+  margin: 10px;
   font-weight: normal;
   text-transform: uppercase;
 }
 
 
 .about-title {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   padding: 40px 0 30px 0;
 }
 
 .about-title-desktop {
-  display:none;
+  display: none;
 }
 
 .about-title img {
-  width:50%;
+  width: 50%;
   opacity: 50%;
 }
 
@@ -576,77 +591,77 @@ footer p {
 }
 
 .about-half {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width: 80%;
 }
 
 .about-half a {
   text-decoration: none;
-  color:#56BFA7;
-  color:#2bc3b7;
+  color: #56BFA7;
+  color: #2bc3b7;
 
   font-weight: bold;
 }
 
 .about-section p {
-  color:rgb(70, 70, 70);
+  color: rgb(70, 70, 70);
   font-family: 'Open Sans', sans-serif;
 }
 
 .partners {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
-  margin:0 auto;
-  padding-top:50px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
   background-color: #DCC600;
 }
 
 .partners h2 {
   font-size: 36px;
-  padding:10px;
+  padding: 10px;
   text-align: center;
   font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
   font-weight: normal;
   text-transform: uppercase;
-  color:white;
+  color: white;
 }
 
 .partner-divider {
-  width:70%;
-  border:white solid 1.5px;
+  width: 70%;
+  border: white solid 1.5px;
 }
 
 
 .partner-sections {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .four-winds {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width: 80%;
   padding: 50px 0 130px 0;
 }
 
 .global-women {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width: 80%;
   padding-bottom: 50px;
   margin-bottom: 30px;
 }
@@ -656,9 +671,9 @@ footer p {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size:18px;
-  margin:0 auto;
-  color:white;
+  font-size: 18px;
+  margin: 0 auto;
+  color: white;
 }
 
 .four-winds-desc a {
@@ -666,7 +681,7 @@ footer p {
 }
 
 .four-winds a {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -675,24 +690,25 @@ footer p {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size:18px;
+  font-size: 18px;
   text-align: center;
-  margin:0 auto;
-  color:white;
+  margin: 0 auto;
+  color: white;
 }
 
 .global-women a {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .gw-desc a {
   text-decoration: none;
 }
 
 .four-winds img {
   padding-top: 20px;
-  width:60%;
+  width: 60%;
 }
 
 /*.global-women img {
@@ -701,7 +717,7 @@ footer p {
 }*/
 
 .ccclogo {
-  width:50%;
+  width: 50%;
   padding: 20px 0 50px 0;
 
 }
@@ -709,11 +725,11 @@ footer p {
 .partners p {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  color:white;
+  color: white;
 }
 
 .psalm {
-  display:none;
+  display: none;
 }
 
 
@@ -724,12 +740,12 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .about-donate-area button {
   /*border: #DCC600 solid 4px;*/
-  border:none;
+  border: none;
   background-color: #DCC600;
   background-color: #B5E5D8;
   background-color: #56BFA7;
@@ -746,13 +762,13 @@ footer p {
 }
 
 .about-donate-area a {
-  color:white;
+  color: white;
   text-decoration: none;
 }
 
 .about-donate-area .podcastbutton {
-  width:150px;
-  height:150px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-color: #F1F9F7;
   border: #96BCB3 solid 1px;
@@ -777,44 +793,44 @@ footer p {
 
 
 .missions-wrapper {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .missions-hero {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .missions-hero img {
-  width:90%;
+  width: 90%;
   margin-top: 7%;
 }
 
 .missions-hero a {
-  width:90%;
+  width: 90%;
 }
 
 .missions-desc h2 {
   font-family: 'Open Sans', sans-serif;
-text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 14px;
-  color:#318bca;
-  margin-top:50px;
+  color: #318bca;
+  margin-top: 50px;
 }
 
 .missions-desc {
-  width:80%;
+  width: 80%;
   text-align: center;
 }
 
 #fourwindslogo {
-  width:70%;
+  width: 70%;
   padding: 40px 0;
 }
 
@@ -824,16 +840,16 @@ text-transform: uppercase;
 }
 
 .missions-gallery {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   padding: 50px 0 80px 0;
 }
 
 .missions-gallery img {
-  width:60%;
+  width: 60%;
   padding: 30px 15px 40px 15px;
   box-shadow: 20px 20px 30px gray;
   background-color: white;
@@ -841,33 +857,33 @@ text-transform: uppercase;
 }
 
 .missions-gallery a {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .galleryfooter {
-  background-color:#A86A00;
+  background-color: #A86A00;
   background-color: #DCC600;
 }
 
 .fourwindslink {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .fourwindslink button {
   border: #318BCA solid 2px;
-  background-color:transparent;
+  background-color: transparent;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 22px;
-  padding:20px 30px;
-  color:#318BCA;
+  padding: 20px 30px;
+  color: #318BCA;
   margin-bottom: 100px;
 }
 
@@ -875,19 +891,19 @@ text-transform: uppercase;
 /*----------MOBILE PASTOR PAGE-------*/
 
 .pastor-section {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .pastor-scripture {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width:80%;
+  width: 80%;
   padding: 60px 0;
 }
 
@@ -897,12 +913,12 @@ text-transform: uppercase;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 28px;
-  margin-top:10px;
-  
+  margin-top: 10px;
+
 }
 
 .pastors-para {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -913,11 +929,11 @@ text-transform: uppercase;
 }
 
 .pastors-half {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:90%;
+  width: 90%;
 }
 
 .pastors-half h1 {
@@ -927,28 +943,28 @@ text-transform: uppercase;
   font-weight: normal;
   font-size: 26px;
   padding: 10px 0;
-  margin:0;
-  color:black;
-  width:90%;
+  margin: 0;
+  color: black;
+  width: 90%;
   text-align: center;
 }
 
 
 .pastors-half p {
   font-family: 'Open Sans', sans-serif;
-  width:90%;
+  width: 90%;
 }
 
 .pastors-half img {
-  width:90%;
+  width: 90%;
   margin-bottom: 50px;
   /* box-shadow: 20px 20px 40px rgb(168, 168, 168); */
   border-radius: 10px;
 }
 
 .usa-list {
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
@@ -965,21 +981,21 @@ text-transform: uppercase;
 }
 
 .pastor-divider {
-  width:80%;
+  width: 80%;
   border: black solid 1px;
   margin-top: 30px;
 }
 
 .us-half {
-  display:none;
+  display: none;
 }
 
 .us-half-wrap {
-  display:none;
+  display: none;
 }
 
 .wholelist {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
@@ -996,15 +1012,15 @@ text-transform: uppercase;
 }
 
 .wholelist a:visited {
-  color:black;
+  color: black;
 }
 
 .international-list {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   padding: 40px 0 60px 0;
   background-color: #DCC600;
   background-color: #F1F9F7;
@@ -1013,16 +1029,16 @@ text-transform: uppercase;
 
 .international-half a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .international-half a:visited {
-  color:black;
+  color: black;
 }
 
 .international-list img {
   position: absolute;
-  width:60%;
+  width: 60%;
 }
 
 .international-list h2 {
@@ -1033,20 +1049,20 @@ text-transform: uppercase;
 }
 
 .wholelist-int {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .wholelist-int a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .wholelist-int a:visited {
-  color:black;
+  color: black;
 }
 
 .wholelist-int p {
@@ -1055,19 +1071,19 @@ text-transform: uppercase;
 }
 
 .international-half {
-  display:none;
+  display: none;
 }
 
 .thankyou-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .thankyou-image img {
   margin: 100px 0 100px 0;
-  width:90%;
+  width: 90%;
 }
 
 .attribution p {
@@ -1083,16 +1099,16 @@ text-transform: uppercase;
 /*------MOBILE CALIFORNIA PAGE----*/
 
 .state-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:80px 0;
+  padding: 80px 0;
 }
 
 .state-image img {
-  width:50%;
-  position:relative;
+  width: 50%;
+  position: relative;
 }
 
 .state-image h1 {
@@ -1106,34 +1122,34 @@ text-transform: uppercase;
 }
 
 .ind-pastor {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .ind-pastor-wrap {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
-  padding:70px 0;
+  width: 100%;
+  padding: 70px 0;
 
 }
 
 .ind-pastor-wrapbk {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   background-color: black;
-  padding:70px 0;
+  padding: 70px 0;
 }
 
 .ind-pastor-half {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1141,43 +1157,43 @@ text-transform: uppercase;
 }
 
 .ind-pastor-half img {
-  width:50%;
-  height:50%;
+  width: 50%;
+  height: 50%;
   border-radius: 50%;
 }
 
 .pastor-text {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:90%;
-  color:white;
+  width: 90%;
+  color: white;
 }
 
 .pastor-text p a {
-  color:#DCC600;
-  color:#D66D50;
+  color: #DCC600;
+  color: #D66D50;
   text-decoration: none;
 }
 
 .pastor-text-white {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:90%;
-  color:black;
+  width: 90%;
+  color: black;
 }
 
 .pastor-text-white p a {
-  color:#55b49e;
-  color:#D66D50;
+  color: #55b49e;
+  color: #D66D50;
   text-decoration: none;
 }
 
 .pastor-text-white button a {
-  color:white;
+  color: white;
 }
 
 .pastor-text h2 {
@@ -1194,22 +1210,22 @@ text-transform: uppercase;
 }
 
 .ind-pastor-wrapbk button {
-  color:black;
+  color: black;
   background-color: white;
-  border:none;
-  padding:20px 30px;
+  border: none;
+  padding: 20px 30px;
   border-radius: 60px;
   font-family: 'Open Sans', sans-serif;
-  margin:60px 0 30px 0;
+  margin: 60px 0 30px 0;
 }
 
 .ind-pastor-wrapbk button a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .ind-pastor-wrapbk button a:visited {
-  color:black;
+  color: black;
 }
 
 .pastor-text-white h2 {
@@ -1227,19 +1243,19 @@ text-transform: uppercase;
 
 .pastor-text-white a {
   text-decoration: none;
-  color:#55b49e;
-  color:#D66D50;
+  color: #55b49e;
+  color: #D66D50;
 
 }
 
 .ind-pastor-wrap button {
-  color:white;
+  color: white;
   background-color: black;
-  border:none;
-  padding:20px 30px;
+  border: none;
+  padding: 20px 30px;
   border-radius: 60px;
   font-family: 'Open Sans', sans-serif;
-  margin:60px 0 30px 0;
+  margin: 60px 0 30px 0;
 }
 
 .ind-pastor-wrap button a {
@@ -1247,22 +1263,22 @@ text-transform: uppercase;
 }
 
 .ind-pastor-wrap button a:visited {
-  color:white;
+  color: white;
 }
 
 /*--------MOBILE TEXAS PAGE----*/
 
 .texas-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:60px 0;
+  padding: 60px 0;
 }
 
 .texas-image img {
-  width:60%;
-  position:relative;
+  width: 60%;
+  position: relative;
 }
 
 .texas-image h1 {
@@ -1279,16 +1295,16 @@ text-transform: uppercase;
 /*----------MOBILE OKLAHOMA PAGE-----*/
 
 .oklahoma-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:60px 0;
+  padding: 60px 0;
 }
 
 .oklahoma-image img {
-  width:60%;
-  position:relative;
+  width: 60%;
+  position: relative;
 }
 
 .oklahoma-image h1 {
@@ -1304,16 +1320,16 @@ text-transform: uppercase;
 /*-----------MOBILE ARIZONA PAGE------*/
 
 .arizona-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:60px 0;
+  padding: 60px 0;
 }
 
 .arizona-image img {
-  width:55%;
-  position:relative;
+  width: 55%;
+  position: relative;
 }
 
 .arizona-image h1 {
@@ -1329,16 +1345,16 @@ text-transform: uppercase;
 
 /*-----------MOBILE DC PAGE------*/
 .dc-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:60px 0;
+  padding: 60px 0;
 }
 
 .dc-image img {
-  width:55%;
-  position:relative;
+  width: 55%;
+  position: relative;
   /* opacity: 20%; */
 }
 
@@ -1349,23 +1365,23 @@ text-transform: uppercase;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 36px;
-  top:26%;
+  top: 26%;
   background-color: white;
 }
 
 /*-----------MOBILE SC PAGE------*/
 
 .sc-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:60px 0;
+  padding: 60px 0;
 }
 
 .sc-image img {
-  width:55%;
-  position:relative;
+  width: 55%;
+  position: relative;
 }
 
 .sc-image h1 {
@@ -1381,16 +1397,16 @@ text-transform: uppercase;
 /*-----------MOBILE NEW YORK PAGE------*/
 
 .newyork-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:60px 0;
+  padding: 60px 0;
 }
 
 .newyork-image img {
-  width:55%;
-  position:relative;
+  width: 55%;
+  position: relative;
 }
 
 .newyork-image h1 {
@@ -1407,17 +1423,17 @@ text-transform: uppercase;
 /*----------MOBILE AUSTRALIA PAGE ---------*/
 
 .australia-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:90px 0;
+  padding: 90px 0;
 }
 
 .australia-image img {
-  width:80%;
-  padding-left:25px;
-  position:relative;
+  width: 80%;
+  padding-left: 25px;
+  position: relative;
 }
 
 .australia-image h1 {
@@ -1435,17 +1451,17 @@ text-transform: uppercase;
 /*----------MOBILE SOUTH AFRICA PAGE ---------*/
 
 .sa-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:90px 0;
+  padding: 90px 0;
 }
 
 .sa-image img {
-  width:65%;
-  padding-left:25px;
-  position:relative;
+  width: 65%;
+  padding-left: 25px;
+  position: relative;
 }
 
 .sa-image h1 {
@@ -1462,17 +1478,17 @@ text-transform: uppercase;
 /*----------MOBILE MEXICO PAGE ---------*/
 
 .mexico-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:90px 0;
+  padding: 90px 0;
 }
 
 .mexico-image img {
-  width:80%;
-  padding-left:25px;
-  position:relative;
+  width: 80%;
+  padding-left: 25px;
+  position: relative;
 }
 
 .mexico-image h1 {
@@ -1488,17 +1504,17 @@ text-transform: uppercase;
 /*----------MOBILE CANADA PAGE ---------*/
 
 .canada-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:90px 0;
+  padding: 90px 0;
 }
 
 .canada-image img {
-  width:80%;
-  padding-left:25px;
-  position:relative;
+  width: 80%;
+  padding-left: 25px;
+  position: relative;
 }
 
 .canada-image h1 {
@@ -1514,16 +1530,16 @@ text-transform: uppercase;
 /*----------MOBILE IVORY COAST PAGE ---------*/
 
 .ivorycoast-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:90px 0;
+  padding: 90px 0;
 }
 
 .ivorycoast-image img {
-  width:60%;
-  position:relative;
+  width: 60%;
+  position: relative;
 }
 
 .ivorycoast-image h1 {
@@ -1540,16 +1556,16 @@ text-transform: uppercase;
 /*----------MOBILE PHILIPPINES PAGE ---------*/
 
 .philippines-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:90px 0;
+  padding: 90px 0;
 }
 
 .philippines-image img {
-  width:55%;
-  position:relative;
+  width: 55%;
+  position: relative;
 }
 
 .philippines-image h1 {
@@ -1566,16 +1582,16 @@ text-transform: uppercase;
 /*----------MOBILE INTERNATIONAL PAGE ---------*/
 
 .international-image {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding:90px 0;
+  padding: 90px 0;
 }
 
 .international-image img {
-  width:55%;
-  position:relative;
+  width: 55%;
+  position: relative;
 }
 
 .international-image h1 {
@@ -1595,27 +1611,28 @@ text-transform: uppercase;
 /*---------MOBILE DONATE PAGE--------*/
 
 .donate-wrapper {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .donate-message {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:70%;
+  width: 70%;
   text-align: center;
   margin: 50px 0;
 }
+
 .donate-message h1 {
-  font-family: adobe-handwriting-ernie,sans-serif;
-font-weight: 400;
-font-style: normal;
-margin-bottom: 70px;
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 70px;
 }
 
 .donate-message p {
@@ -1623,13 +1640,13 @@ margin-bottom: 70px;
 }
 
 .donate-options {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width: 80%;
   /* background-color: #D1EEEA; */
-  padding:50px 0;
+  padding: 50px 0;
   border-radius: 30px;
   margin: 30px 0 50px 0;
   border: #56BFA7 solid 2px;
@@ -1637,29 +1654,42 @@ margin-bottom: 70px;
 }
 
 .paypal {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height:100%;
+}
+
+.paypal form {
+  width:100%;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:60%;
 }
 
+.paypal form input {
+  width:100%;
+}
 
 .cashtag {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:60%;
+  width: 60%;
 
 }
+
 .cashtag-info {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width: 80%;
   text-align: center;
 
 }
@@ -1672,75 +1702,76 @@ margin-bottom: 70px;
 
 .cashtag-info a {
   text-decoration: none;
-  color:#56BFA7;
+  color: #56BFA7;
 }
+
 .cashtag-info a:visited {
-  color:#56BFA7;
+  color: #56BFA7;
 }
 
 
 
 .cashtag-info p {
   font-family: 'Open Sans', sans-serif;
-  margin:0;
+  margin: 0;
   padding-top: 10px;
 }
 
 .cashtag-info img {
-  width:40%;
+  width: 40%;
 }
 
 /*---------MOBILE CONTACT PAGE--------*/
 
 .contact-wrapper {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .contact-wrapper h1 {
-  font-family: adobe-handwriting-ernie,sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .contact-form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   padding: 20px 0 120px 0;
 }
 
 #contact-form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width:65%;
+  width: 65%;
 }
 
 #contact-form input {
-  width:100%;
+  width: 100%;
   margin-bottom: 20px;
-  padding-bottom:15px;
+  padding-bottom: 15px;
   border-radius: 10px;
   border: #2bc3b7 solid 2px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color:#26a89d;
+  color: #26a89d;
 }
 
 #contact-form textarea {
-  width:100%;
+  width: 100%;
   border-radius: 10px;
   border: #2bc3b7 solid 2px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color:#26a89d;
+  color: #26a89d;
   padding-bottom: 25px;
 }
 
@@ -1749,23 +1780,23 @@ font-style: normal;
 }
 
 #contact-form button {
-  background-color:#2bc3b7;
-  border:none;
+  background-color: #2bc3b7;
+  border: none;
   border-radius: 20px;
-  padding:15px;
+  padding: 15px;
   align-self: center;
   margin-top: 40px;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
   font-weight: normal;
-  color:white;
+  color: white;
 }
 
 .contact-message {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:80%;
+  width: 80%;
   text-align: center;
   padding: 60px 0;
 }
@@ -1774,24 +1805,24 @@ font-style: normal;
 /*----------MOBILE THANK YOU PAGE----*/
 
 .thankyou-wrapper {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .thankyou-message {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
   text-align: center;
-  margin:150px 0;
+  margin: 150px 0;
 }
 
 
 .thankyou-message h1 {
-  font-family: adobe-handwriting-ernie,sans-serif;
+  font-family: adobe-handwriting-ernie, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -1800,45 +1831,46 @@ font-style: normal;
 /*----------MOBILE DONATION THANK YOU PAGE----*/
 
 .donate-thankyou-wrapper {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .donate-thankyou-message {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 80%;
   text-align: center;
-  margin:150px 0;
+  margin: 150px 0;
 }
 
 
 .donate-thankyou-message h1 {
-  font-family: adobe-handwriting-ernie,sans-serif;
+  font-family: adobe-handwriting-ernie, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color:#D66D50;
+  color: #D66D50;
   margin: 30px 0;
 }
 
 .donate-thankyou-message h3 {
-  font-family: adobe-handwriting-ernie,sans-serif;
+  font-family: adobe-handwriting-ernie, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color:#D66D50;
+  color: #D66D50;
   margin: 30px 0;
 }
 
 .donate-thankyou-message a {
   text-decoration: none;
-  color:turquoise;
+  color: turquoise;
 }
-.donate-thankyou-message p{
+
+.donate-thankyou-message p {
   text-decoration: none;
   margin-top: 80px;
   font-family: 'Bebas Neue', cursive;
@@ -1956,7 +1988,7 @@ font-style: normal;
 
   .third-width i {
     font-size: 25px;
-    color:black;
+    color: black;
   }
 
   .hero-text p {
@@ -1964,10 +1996,10 @@ font-style: normal;
   }
 
   .hero-text {
-    height:20vh;
-    top:600px;
+    height: 20vh;
+    top: 600px;
   }
-  
+
   .dropdown-content {
     min-width: 12em;
   }
@@ -1975,33 +2007,33 @@ font-style: normal;
   .dropdown-content a {
     font-size: 32px;
   }
-  
+
   .hero {
-    height:40vh;
+    height: 40vh;
   }
 
   .hero img {
-    width:100%;
-    padding-top:30px;
+    width: 100%;
+    padding-top: 30px;
   }
 
- .mySlides {
-   margin-top:4%;
- }
+  .mySlides {
+    margin-top: 4%;
+  }
 
   #buttonone {
-    width:150px;
-    height:150px;
+    width: 150px;
+    height: 150px;
   }
 
   #buttontwo {
-    width:150px;
-    height:150px;
+    width: 150px;
+    height: 150px;
   }
 
   #buttonthree {
-    width:150px;
-    height:150px;
+    width: 150px;
+    height: 150px;
   }
 
   .buttons p {
@@ -2031,7 +2063,7 @@ font-style: normal;
   }
 
   .white-text-wrapper a {
-    font-size:25px;
+    font-size: 25px;
   }
 
   .white-text-wrapper button {
@@ -2046,595 +2078,623 @@ font-style: normal;
     font-size: 26px;
   }
 
-footer p {
-  font-size:18px;
-}
+  footer p {
+    font-size: 18px;
+  }
 
 
 
-/*-------TABLET ABOUT PAGE ---------*/
+  /*-------TABLET ABOUT PAGE ---------*/
 
 
-.about-title img {
-  padding-bottom: 100px;
-}
+  .about-title img {
+    padding-bottom: 100px;
+  }
 
 
-.about-section h2 {
-  font-size: 50px;
-}
+  .about-section h2 {
+    font-size: 50px;
+  }
 
-.about-section p {
-  font-size: 22px;
-}
+  .about-section p {
+    font-size: 22px;
+  }
 
-.partners {
-  padding-bottom: 100px;
-}
-.partners h2 {
-  font-size: 50px ;
-}
+  .partners {
+    padding-bottom: 100px;
+  }
 
-.four-winds h3 {
-  font-size:28px;
-  font-family: 'Bebas Neue', cursive;
+  .partners h2 {
+    font-size: 50px;
+  }
+
+  .four-winds h3 {
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: normal;
-}
+  }
 
-.partners p {
-  font-size: 22px;
-  width:80%;
-  margin:0 auto;
-}
+  .partners p {
+    font-size: 22px;
+    width: 80%;
+    margin: 0 auto;
+  }
 
-.global-women h3 {
-  font-family: 'Bebas Neue', cursive;
+  .global-women h3 {
+    font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
-  font-size:28px;
-  font-weight: normal;
-}
+    font-size: 28px;
+    font-weight: normal;
+  }
 
-.four-winds {
-  padding-bottom: 270px;
-}
+  .four-winds {
+    padding-bottom: 270px;
+  }
 
-.four-winds img {
-  padding-top: 100px;
-  width:90%;
-}
+  .four-winds img {
+    padding-top: 100px;
+    width: 90%;
+  }
 
-.ccclogo {
-  width:40%;
-  padding: 80px 0 50px 0;
-}
+  .ccclogo {
+    width: 40%;
+    padding: 80px 0 50px 0;
+  }
 
-.about-donate-area .podcastbutton {
-  width:200px;
-  height:200px;
-}
+  .about-donate-area .podcastbutton {
+    width: 200px;
+    height: 200px;
+  }
 
-.about-donate-area p {
-  font-size: 25px;
-}
+  .about-donate-area p {
+    font-size: 25px;
+  }
 
-.about-donate-area button {
-  padding: 24px 55px;
-  border-radius: 40px;
-  font-size: 30px;
-}
+  .about-donate-area button {
+    padding: 24px 55px;
+    border-radius: 40px;
+    font-size: 30px;
+  }
 
 
-/*---------TABLET MISSIONS PAGE---------*/
+  /*---------TABLET MISSIONS PAGE---------*/
 
 
-.missions-desc h2 {
-  font-size: 21px;
-}
+  .missions-desc h2 {
+    font-size: 21px;
+  }
 
-.missions-desc {
-  width:60%;
-  padding-top: 35px;
-}
+  .missions-desc {
+    width: 60%;
+    padding-top: 35px;
+  }
 
-#fourwindslogo {
-  padding: 70px 0;
-}
+  #fourwindslogo {
+    padding: 70px 0;
+  }
 
-.missions-desc p {
-  font-size: 20px;
-}
+  .missions-desc p {
+    font-size: 20px;
+  }
 
-.missions-gallery img {
-  width:100%;
-  padding:20px 20px 100px 20px;
-}
+  .missions-gallery img {
+    width: 100%;
+    padding: 20px 20px 100px 20px;
+  }
 
-.missions-gallery a {
-  width:35%;
-  margin: 0 42px 140px 42px;
-}
+  .missions-gallery a {
+    width: 35%;
+    margin: 0 42px 140px 42px;
+  }
 
 
-.missions-gallery {
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  padding-top: 100px;
-}
+  .missions-gallery {
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 100px;
+  }
 
 
-/*---------TABLET PASTOR PAGE---------*/
+  /*---------TABLET PASTOR PAGE---------*/
 
 
-.pastor-scripture p {
-  font-size: 40px;
-}
+  .pastor-scripture p {
+    font-size: 40px;
+  }
 
-.pastor-scripture {
-  padding:90px 0;
-}
+  .pastor-scripture {
+    padding: 90px 0;
+  }
 
-.pastors-half h1 {
-  font-size: 40px;
-  padding: 10px 0;
-  text-align: center;
-  margin:0;
-}
-
-.pastors-half img {
-  margin-bottom: 100px;
-}
-
-.pastors-half p {
-  font-size: 23px;
-  text-align: center;
-}
+  .pastors-half h1 {
+    font-size: 40px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+  }
+
+  .pastors-half img {
+    margin-bottom: 100px;
+  }
+
+  .pastors-half p {
+    font-size: 23px;
+    text-align: center;
+  }
 
-.pastors-para {
-  padding-bottom: 120px;
-}
+  .pastors-para {
+    padding-bottom: 120px;
+  }
 
-.usa-list {
-  padding:80px 0 100px 0;
-}
+  .usa-list {
+    padding: 80px 0 100px 0;
+  }
 
-.usa-list h2 {
-  font-size: 40px;
-}
-
-.wholelist p {
-  font-size: 22px;
-}
-
-.international-list {
-  padding: 80px 0 100px 0;
-}
+  .usa-list h2 {
+    font-size: 40px;
+  }
+
+  .wholelist p {
+    font-size: 22px;
+  }
+
+  .international-list {
+    padding: 80px 0 100px 0;
+  }
 
-.international-list h2 {
-  font-size: 40px;
-}
-
-.wholelist-int p {
-  font-size: 22px;
-}
-
-.thankyou-image img {
-  margin: 250px 0;
-}
-
-
-/*-------------TABLET CALIFORNIA PAGE-------*/
-
-.state-image img {
-  width: 40%;
-  padding:100px 0;
-}
-
-.state-image h1 {
-  font-size: 55px;
-}
-
-/*------ black background----*/
-.ind-pastor-wrapbk {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.pastor-text {
-  align-items: flex-start;
-}
-
-.pastor-text h2 {
-  font-size: 30px;
-  text-align: left;
-}
-
-.pastor-text p {
-  text-align: left;
-  font-size:20px;
-}
-
-.ind-pastor-wrapbk button {
-  width:50%;
-  font-size: 20px;
-}
-
-/*----------white background------*/
-
-.ind-pastor-wrap {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.ind-pastor-wrap button {
-  width:50%;
-  font-size: 20px;
-}
-
-.pastor-text-white {
-  align-items: flex-start;
-}
-
-.pastor-text-white h2 {
-  font-size: 30px;
-  text-align: left;
-}
-
-.pastor-text-white p {
-  text-align: left;
-  font-size: 20px;
-}
-
-
-/*--------TABLET TEXAS PAGE-------*/
-
-
-.texas-image img {
-  width:50%;
-  position:relative;
-  padding: 70px 0;
-}
-
-.texas-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 40px;
-}
-
-
-/*---------TABLET OKLAHOMA PAGE-----*/
-
-.oklahoma-image img {
-  width:50%;
-  position:relative;
-  padding: 70px 0;
-}
-
-.oklahoma-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 40px;
-  background-color: white;
-}
-
-/*----------TABLET ARIZONA PAGE-----*/
-
-.arizona-image img {
-  width:40%;
-  padding: 80px 0;
-}
-
-.arizona-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 40px;
-}
-
-/*----------TABLET DC PAGE-----*/
-
-.dc-image img {
-  width:37%;
-  padding: 80px 0;
-}
-
-.dc-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 50px;
-  top:27%;
-}
-
-/*----------TABLET SC PAGE-----*/
-
-.sc-image img {
-  width:37%;
-  padding: 80px 0;
-}
-
-.sc-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 50px;
-}
-
-
-/*----------TABLET NEW YORK PAGE-----*/
-
-.newyork-image img {
-  width:60%;
-  padding: 80px 0;
-}
-
-.newyork-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 50px;
-}
-
-
-/*----------TABLET AUSTRALIA PAGE-----*/
-
-.australia-image img {
-  width:60%;
-  padding: 80px 0px 80px 40px;
+  .international-list h2 {
+    font-size: 40px;
+  }
+
+  .wholelist-int p {
+    font-size: 22px;
+  }
+
+  .thankyou-image img {
+    margin: 250px 0;
+  }
+
+
+  /*-------------TABLET CALIFORNIA PAGE-------*/
+
+  .state-image img {
+    width: 40%;
+    padding: 100px 0;
+  }
+
+  .state-image h1 {
+    font-size: 55px;
+  }
+
+  /*------ black background----*/
+  .ind-pastor-wrapbk {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pastor-text {
+    align-items: flex-start;
+  }
+
+  .pastor-text h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .pastor-text p {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .ind-pastor-wrapbk button {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  /*----------white background------*/
+
+  .ind-pastor-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ind-pastor-wrap button {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .pastor-text-white {
+    align-items: flex-start;
+  }
+
+  .pastor-text-white h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .pastor-text-white p {
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+  /*--------TABLET TEXAS PAGE-------*/
+
+
+  .texas-image img {
+    width: 50%;
+    position: relative;
+    padding: 70px 0;
+  }
+
+  .texas-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+  }
+
+
+  /*---------TABLET OKLAHOMA PAGE-----*/
+
+  .oklahoma-image img {
+    width: 50%;
+    position: relative;
+    padding: 70px 0;
+  }
+
+  .oklahoma-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+    background-color: white;
+  }
+
+  /*----------TABLET ARIZONA PAGE-----*/
+
+  .arizona-image img {
+    width: 40%;
+    padding: 80px 0;
+  }
+
+  .arizona-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+  }
+
+  /*----------TABLET DC PAGE-----*/
+
+  .dc-image img {
+    width: 37%;
+    padding: 80px 0;
+  }
+
+  .dc-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+    top: 27%;
+  }
+
+  /*----------TABLET SC PAGE-----*/
+
+  .sc-image img {
+    width: 37%;
+    padding: 80px 0;
+  }
+
+  .sc-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+  }
+
+
+  /*----------TABLET NEW YORK PAGE-----*/
+
+  .newyork-image img {
+    width: 60%;
+    padding: 80px 0;
+  }
+
+  .newyork-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+  }
+
+
+  /*----------TABLET AUSTRALIA PAGE-----*/
+
+  .australia-image img {
+    width: 60%;
+    padding: 80px 0px 80px 40px;
+
+  }
+
+  .australia-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+  }
+
+
+
+  /*----------TABLET SOUTH AFRICA PAGE-----*/
+
+  .sa-image img {
+    width: 60%;
+    padding: 80px 0px 80px 40px;
+
+  }
+
+  .sa-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+  }
+
+
+
+  /*----------TABLET MEXICO PAGE-----*/
+
+  .mexico-image img {
+    width: 70%;
+    padding: 80px 0px 80px 40px;
+
+  }
+
+  .mexico-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+  }
+
+
+  /*----------TABLET CANADA PAGE-----*/
+
+  .canada-image img {
+    width: 60%;
+    padding: 80px 0px 80px 40px;
+
+  }
+
+  .canada-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 55px;
+  }
+
+
+  /*----------TABLET IVORY COAST PAGE-----*/
+
+  .ivorycoast-image img {
+    width: 40%;
+    padding: 80px 0px;
+
+  }
+
+  .ivorycoast-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 38px;
+  }
+
+
+
+  /*----------TABLET PHILIPPINES PAGE-----*/
+
+  .philippines-image img {
+    width: 30%;
+    padding: 80px 0px;
+
+  }
+
+  .philippines-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 45px;
+  }
+
+
+
+  /*----------TABLET INTERNATIONAL PAGE-----*/
+
+  .international-image img {
+    width: 30%;
+    padding: 80px 0px;
+
+  }
+
+  .international-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+  }
+
+
+  /*-----------TABLET CONTACT FORM--------*/
+
+
+  #contact-form {
+    width: 50%;
+  }
+
+  #contact-form textarea {
+    padding-bottom: 70px;
+    font-size: 16px;
+  }
+
+  #contact-form input {
+    font-size: 16px;
+  }
+
+
+  /*----------TABLET THANK YOU PAGE----*/
+
+  .thankyou-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .thankyou-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    margin: 300px 0;
+  }
+
+
+  .thankyou-message h1 {
+    font-family: adobe-handwriting-ernie, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+  }
+
+
+
+  /*----------TABLET DONATION PAGE----*/
+
+
+  .donate-message h1 {
+    font-size: 50px;
+  }
+
+  .cashtag-info img {
+    width: 20%;
+  }
+
+  .donate-options {
+    border: #56BFA7 solid 2px;
+
+  }
+
+
+  /*----------TABLET DONATION THANK YOU PAGE----*/
+
+  .donate-thankyou-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .donate-thankyou-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin: 150px 0 300px 0;
+  }
+
+
+  .donate-thankyou-message h1 {
+    font-family: adobe-handwriting-ernie, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D66D50;
+    margin: 30px 0;
+    font-size: 40px;
+  }
+
+  .donate-thankyou-message h3 {
+    font-family: adobe-handwriting-ernie, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D66D50;
+    margin: 30px 0;
+    font-size: 25px;
+  }
+
+  .donate-thankyou-message a {
+    text-decoration: none;
+    color: turquoise;
+  }
+
+  .donate-thankyou-message p {
+    text-decoration: none;
+    margin-top: 80px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .paypal {
+    margin-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height:100%;
+  }
   
-}
-
-.australia-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 50px;
-}
-
-
-
-/*----------TABLET SOUTH AFRICA PAGE-----*/
-
-.sa-image img {
-  width:60%;
-  padding: 80px 0px 80px 40px;
+  .paypal form {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
-}
-
-.sa-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 50px;
-}
-
-
-
-/*----------TABLET MEXICO PAGE-----*/
-
-.mexico-image img {
-  width:70%;
-  padding: 80px 0px 80px 40px;
-  
-}
-
-.mexico-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 50px;
-}
-
-
-/*----------TABLET CANADA PAGE-----*/
-
-.canada-image img {
-  width:60%;
-  padding: 80px 0px 80px 40px;
-  
-}
-
-.canada-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 55px;
-}
-
-
-/*----------TABLET IVORY COAST PAGE-----*/
-
-.ivorycoast-image img {
-  width:40%;
-  padding: 80px 0px;
-  
-}
-
-.ivorycoast-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 38px;
-}
-
-
-
-/*----------TABLET PHILIPPINES PAGE-----*/
-
-.philippines-image img {
-  width:30%;
-  padding: 80px 0px;
-  
-}
-
-.philippines-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 45px;
-}
-
-
-
-/*----------TABLET INTERNATIONAL PAGE-----*/
-
-.international-image img {
-  width:30%;
-  padding: 80px 0px;
-  
-}
-
-.international-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 50px;
-}
-
-
-/*-----------TABLET CONTACT FORM--------*/
-
-
-#contact-form {
-  width:50%;
-}
-
-#contact-form textarea {
-  padding-bottom: 70px;
-  font-size: 16px;
-}
-
-#contact-form input {
-  font-size: 16px;
-}
-
-
-/*----------TABLET THANK YOU PAGE----*/
-
-.thankyou-wrapper {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-}
-
-.thankyou-message {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  text-align: center;
-  margin:300px 0;
-}
-
-
-.thankyou-message h1 {
-  font-family: adobe-handwriting-ernie,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 45px;
-}
-
-
-
-/*----------TABLET DONATION PAGE----*/
-
-
-.donate-message h1 {
-  font-size: 50px;
-}
-
-.cashtag-info img {
-  width:20%;
-}
+  .paypal form input {
+    width:60%;
+  }
 
 .donate-options {
-  border: #56BFA7 solid 2px;
-
-}
-
-
-/*----------TABLET DONATION THANK YOU PAGE----*/
-
-.donate-thankyou-wrapper {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-}
-
-.donate-thankyou-message {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  text-align: center;
-  margin:150px 0 300px 0;
-}
-
-
-.donate-thankyou-message h1 {
-  font-family: adobe-handwriting-ernie,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color:#D66D50;
-  margin: 30px 0;
-  font-size: 40px;
-}
-
-.donate-thankyou-message h3 {
-  font-family: adobe-handwriting-ernie,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color:#D66D50;
-  margin: 30px 0;
-  font-size: 25px;
-}
-
-.donate-thankyou-message a {
-  text-decoration: none;
-  color:turquoise;
-}
-.donate-thankyou-message p{
-  text-decoration: none;
-  margin-top: 80px;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-weight: normal;
-  font-size: 20px;
+  padding:80px 0;
 }
 
 
@@ -2645,421 +2705,432 @@ footer p {
 
 @media only screen and (min-width: 1200px) {
 
-main {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-wrapper {
-  padding-bottom: 100px;
-}
-.twothird-width {
-  width:70%;
-  background-color: white;
-}
-
-.third-width {
-  background-color: #DCC600;
-  background-color: #97E3D6;
-  background-color: #2bc3b7;
-  padding:20px;
-  width:30%;
-}
-
-.third-width i {
-  display:none;
-}
-
-figure {
-  padding-left: 30px;
-}
-
-.logo img {
-  width: 13%;
-}
-
-.header-nav {
-  background-color: white;
-}
-.header-nav h1 {
-  font-size: 35px;
-  padding-left: 15px;
-  padding-top: 0;
-  margin:0;
-}
-
-.desktop-nav {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.desktop-nav ul {
-  list-style-type: none;
-  padding-left:0;
-}
-
-nav li {
-  display:inline-block;
-}
-
-nav li a {
-  color:white;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-size: 22px;
-  padding: 0 16px;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  color:black;
-  transition: all 260ms linear;
-}
-
-.hero-slideshow {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height:115vh;
-  padding-bottom: 300px;
-}
-
-.hero-text {
-  top:160%;
-  height:20vh;
-}
-
-.hero img {
-  width:100%;
-  margin-top: 100px;
-}
-
-.hero-text p {
-  font-size: 40px;
-  width:60%;
-}
-
-
-.buttons {
-  flex-direction: row;
-  flex-flow: row wrap;
-  padding-top: 140px;
-}
-
-.button-wrap {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 100px;
-}
-
-#buttonone {
-  width: 170px;
-  height: 170px;
-}
-
-#buttontwo {
-  width: 170px;
-  height: 170px;
-}
-
-#buttonthree {
-  width: 170px;
-  height: 170px;
-}
-
-#buttonone:hover {
-  background-color: #FDBAAA;
-  transition: all 250ms linear;
-}
-
-#buttontwo:hover {
-  background-color: #97e5d3;
-  transition: all 250ms linear;
-}
-
-#buttonthree:hover {
-  background-color: #fdeb46;
-  transition: all 250ms linear;
-}
-
-.scripture {
-  display:none;
-  padding: 320px 0 300px 0;
-}
-
-.scripture img {
-  width:30%;
-}
-
-.scripture p {
-  font-size: 30px;
-}
-
-
-.about-radio {
-  width:80%;
-  margin-top: 200px;
-  padding: 50px 0 50px 0;
-  background-color: #E6F6FF;
-  background-color: #F1F9F7;
-  flex-direction: row;
-}
-
-
-.white-text-wrapper {
-  padding: 100px 0;
-  background-color: #F1F9F7;
-
-  width:450px;
-  height:200px;
-
-}
-
-.white-text-wrapper h2 {
-  margin-top: 20px;
-}
-
-.white-text-wrapper a {
-  color:#025B6D;
-  color:#55b19c;
-  color:#2bc3b7;
-
-  font-weight: bold;
-  font-size:22px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.white-text-wrapper a::after {
-  content: '';
-  position: absolute;
-  left:0;
-  bottom:0;
-  width:100%;
-  height:2px;
-  background:currentColor;
-
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 250ms ease-in;
-}
-
-.white-text-wrapper a:hover::after {
-  transform:scaleX(1);
-}
-
-.divider {
-  display:none;
-}
-
-.biblepic {
-  width:60%;
-  position: relative;
-}
-
-
-.donate-area button {
-  padding: 30px 60px;
-  border-radius: 50px;
-  font-size: 40px;
-  background-color: #97E3D6;
-  background-color: #2bc3b7;
-
-  color:white;
-}
-
-.donate-area button:hover {
-  background-color: #56dbbc;
-  transition: all 250ms linear;
-
-}
-
-.donate-area {
-  padding: 100px 0;
-}
-
-.social-med {
-  padding:60px 0;
-}
-
-.social-med i {
-  font-size: 60px;
-}
-
-footer p {
-  font-size: 25px;
-  margin:0;
-}
-
-footer {
-  padding-top: 80px;
-}
-
-.copyright p {
-  font-size: 20px;
-}
-
-
-/*-----------DESKTOP ABOUT PAGE --------------*/
-
-
-
-.about-section {
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 150px;
-  margin:0 auto;
-}
-
-#interviewphoto {
-  box-shadow: 20px 20px 60px rgb(158, 158, 158);
-  padding:0;
-}
-
-.about-half {
-  width: 40%;
-
-}
-
-.about-title {
-  display:none;
-}
-
-.about-title-desktop {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-title-desktop h2 {
-  margin-bottom: 100px;
-  color:#a7d2d2;
-  font-size:70px;
-  letter-spacing: 3px;
-}
-
-.about-title-desktop img {
-  opacity: 15%;
-  width:80%;
-  padding: 0;
-  top:100px;
-  left:1200px;
-} 
-
-.about-divider {
-  display:none;
-}
-
-.partners {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width:90%;
-  text-align: left;
-  margin:100px 0 200px 0;
-  border-radius: 30px;
-background-color: #DCC600;
-box-shadow: gray 20px 20px 60px;
-}
-
-.partner-sections {
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.partners p {
-  text-align: left;
-  margin:0;
-}
-.partners h2 {
-  padding-left: 10%;
-  color:white;
-  font-size:60px;
-  padding-bottom: 0;
-}
-
-.four-winds {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-bottom: 170px;
-}
-
-.four-winds-desc {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width:50%;
-  text-align: left;
-  color:white;
-}
-
-.four-winds img {
-  width: 100%;
-  padding-top: 0;
-}
-
-.four-winds h3 {
-  text-align: left;
-  margin:0;
-  font-size: 40px;
-}
-
-
-.global-women {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-bottom: 10px;
-}
-
-.gw-desc {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width:50%;
-  text-align: left;
-  color:white;
-}
-
-.global-women img {
-  width:100%;
-  padding-top: 0;
-}
-
-.global-women a {
-  width:20%;
-}
-
-.gw-desc a {
-  width:80%;
-}
-
-.global-women h3 {
-  text-align: left;
-  margin:0;
-  font-size: 40px;
-}
-
-/*.global-women {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-wrapper {
+    padding-bottom: 100px;
+  }
+
+  .twothird-width {
+    width: 70%;
+    background-color: white;
+  }
+
+  .third-width {
+    background-color: #DCC600;
+    background-color: #97E3D6;
+    background-color: #2bc3b7;
+    padding: 30px;
+    width: 30%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+  }
+
+  .third-width i {
+    display: none;
+  }
+
+  /*---- to hide the drop down menu---*/
+  .wrapper {
+    display:none;
+  }
+
+  /*----------------------------------*/
+
+  figure {
+    padding-left: 30px;
+  }
+
+  .logo img {
+    width: 13%;
+  }
+
+  .header-nav {
+    background-color: white;
+  }
+
+  .header-nav h1 {
+    font-size: 35px;
+    padding-left: 15px;
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav li a {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding: 0 16px;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    color: black;
+    transition: all 260ms linear;
+  }
+
+  .hero-slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115vh;
+    padding-bottom: 300px;
+  }
+
+  .hero-text {
+    top: 160%;
+    height: 20vh;
+  }
+
+  .hero img {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .hero-text p {
+    font-size: 40px;
+    width: 60%;
+  }
+
+
+  .buttons {
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding-top: 140px;
+  }
+
+  .button-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+  }
+
+  #buttonone {
+    width: 170px;
+    height: 170px;
+  }
+
+  #buttontwo {
+    width: 170px;
+    height: 170px;
+  }
+
+  #buttonthree {
+    width: 170px;
+    height: 170px;
+  }
+
+  #buttonone:hover {
+    background-color: #FDBAAA;
+    transition: all 250ms linear;
+  }
+
+  #buttontwo:hover {
+    background-color: #97e5d3;
+    transition: all 250ms linear;
+  }
+
+  #buttonthree:hover {
+    background-color: #fdeb46;
+    transition: all 250ms linear;
+  }
+
+  .scripture {
+    display: none;
+    padding: 320px 0 300px 0;
+  }
+
+  .scripture img {
+    width: 30%;
+  }
+
+  .scripture p {
+    font-size: 30px;
+  }
+
+
+  .about-radio {
+    width: 80%;
+    margin-top: 200px;
+    padding: 50px 0 50px 0;
+    background-color: #E6F6FF;
+    background-color: #F1F9F7;
+    flex-direction: row;
+  }
+
+
+  .white-text-wrapper {
+    padding: 100px 0;
+    background-color: #F1F9F7;
+
+    width: 450px;
+    height: 200px;
+
+  }
+
+  .white-text-wrapper h2 {
+    margin-top: 20px;
+  }
+
+  .white-text-wrapper a {
+    color: #025B6D;
+    color: #55b19c;
+    color: #2bc3b7;
+
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .white-text-wrapper a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in;
+  }
+
+  .white-text-wrapper a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .biblepic {
+    width: 60%;
+    position: relative;
+  }
+
+
+  .donate-area button {
+    padding: 30px 60px;
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: #97E3D6;
+    background-color: #2bc3b7;
+
+    color: white;
+  }
+
+  .donate-area button:hover {
+    background-color: #56dbbc;
+    transition: all 250ms linear;
+
+  }
+
+  .donate-area {
+    padding: 100px 0;
+  }
+
+  .social-med {
+    padding: 60px 0;
+  }
+
+  .social-med i {
+    font-size: 60px;
+  }
+
+  footer p {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  footer {
+    padding-top: 80px;
+  }
+
+  .copyright p {
+    font-size: 20px;
+  }
+
+
+  /*-----------DESKTOP ABOUT PAGE --------------*/
+
+
+
+  .about-section {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 150px;
+    margin: 0 auto;
+  }
+
+  #interviewphoto {
+    box-shadow: 20px 20px 60px rgb(158, 158, 158);
+    padding: 0;
+  }
+
+  .about-half {
+    width: 40%;
+
+  }
+
+  .about-title {
+    display: none;
+  }
+
+  .about-title-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-title-desktop h2 {
+    margin-bottom: 100px;
+    color: #a7d2d2;
+    font-size: 70px;
+    letter-spacing: 3px;
+  }
+
+  .about-title-desktop img {
+    opacity: 15%;
+    width: 80%;
+    padding: 0;
+    top: 100px;
+    left: 1200px;
+  }
+
+  .about-divider {
+    display: none;
+  }
+
+  .partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    text-align: left;
+    margin: 100px 0 200px 0;
+    border-radius: 30px;
+    background-color: #DCC600;
+    box-shadow: gray 20px 20px 60px;
+  }
+
+  .partner-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .partners p {
+    text-align: left;
+    margin: 0;
+  }
+
+  .partners h2 {
+    padding-left: 10%;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 0;
+  }
+
+  .four-winds {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 170px;
+  }
+
+  .four-winds-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    text-align: left;
+    color: white;
+  }
+
+  .four-winds img {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .four-winds h3 {
+    text-align: left;
+    margin: 0;
+    font-size: 40px;
+  }
+
+
+  .global-women {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10px;
+  }
+
+  .gw-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    text-align: left;
+    color: white;
+  }
+
+  .global-women img {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .global-women a {
+    width: 20%;
+  }
+
+  .gw-desc a {
+    width: 80%;
+  }
+
+  .global-women h3 {
+    text-align: left;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  /*.global-women {
   flex-direction: row;
   justify-content: space-between;
 
@@ -3085,198 +3156,202 @@ box-shadow: gray 20px 20px 60px;
   padding: 80px 0 50px 0;
 }*/
 
-.partner-divider {
-  border: white solid 2px;
-  width:50%;
-  margin-left:10%;
-  margin-bottom: 100px;
-}
+  .partner-divider {
+    border: white solid 2px;
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+  }
 
-.psalm {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:80%;
-  margin-bottom: 200px;
-  text-align: center;
-}
+  .psalm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 200px;
+    text-align: center;
+  }
 
-.psalm img {
-  opacity: 45%;
-  width:35%;
-  padding: 0;
- 
-}
+  .psalm img {
+    opacity: 45%;
+    width: 35%;
+    padding: 0;
 
-.psalm h1 {
+  }
+
+  .psalm h1 {
     font-family: 'Dancing Script', cursive;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: lighter;
     font-size: 40px;
-    color:rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
 
     font-family: caflisch-script-pro, sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 
-font-family: adobe-handwriting-ernie,sans-serif;
-font-weight: 400;
-font-style: normal;
-}
+    font-family: adobe-handwriting-ernie, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-.about-donate-area button:hover {
-  background-color: #56dbbc;
-  transition: all 250ms linear;
-}
+  .about-donate-area button:hover {
+    background-color: #56dbbc;
+    transition: all 250ms linear;
+  }
 
-.about-donate-area .podcastbutton:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  background-color: rgb(206, 228, 224);
-}
-
-
-/*----------DESKTOP MISSIONS PAGE----------*/
-
-.missions-hero img {
-  border-radius: 20px;
-}
-.missions-gallery {
-  width:90%;
-  padding-top: 200px;
-}
-.missions-desc h2 {
-  font-size: 30px;
-  text-transform: none;
-  color:black;
-}
-
-#fourwindslogo {
-  padding: 80px 0;
-  width:40%;
-}
-
-.missions-desc {
-  padding-top: 100px;
-}
-.missions-desc p {
-  font-size: 25px;
-}
-
-.missions-gallery a {
-  width:30%;
-  margin: 0 20px 50px 20px;
-}
-
-.missions-gallery img {
-  padding-bottom: 80px;
-  margin: 50px 60px 200px 60px;
-}
-
-.fourwindslink button {
-  padding: 30px 40px;
-  font-size: 25px;
-}
-
-.fourwindslink button:hover {
-  background-color: transparent;
-  border:#9bd5ff solid 3px;
-  color:#73c5ff;
-  transition: all 260ms linear;
-
-}
-
-/*--------DESKTOP PASTOR PAGE--------*/
-
-.third-width {
-  -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
-clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-padding-left:50px;
-}
-
-.pastor-scripture {
-  padding:180px 0;
-}
-
-.pastor-scripture p {
-  font-size: 55px;
-}
-.pastors-para {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 80px;
-}
-
-.pastors-half img {
-  width: 80%;
-  margin:0;
-}
-
-.pastors-half p {
-  width: 70%;
-  line-height: 40px;
-  text-align: left;
-  align-self:flex-start;
-  padding-left:80px;
-  margin:0;
-}
-
-.pastors-half h1 {
-  font-size: 45px;
-  align-self:flex-start;
-  padding-left:80px;
-  text-align: left;
-  padding-top: 0;
-  padding-bottom: 10px;
-  margin:0;
-}
-
-.wholelist {
-  display: none;
-}
-
-.usa-list {
-  align-items: flex-start;
-  width:100%;
-}
-
-.usa-title {
-  display:none;
-}
-
-.us-half-wrap {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width:100%;
-}
-
-.us-half {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.usa-half2 {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.us-half2 span {
-  color:transparent;
-}
+  .about-donate-area .podcastbutton:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: rgb(206, 228, 224);
+  }
 
 
-.us-half p {
-  font-family: 'Open Sans', sans-serif;
+  /*----------DESKTOP MISSIONS PAGE----------*/
+
+  .missions-hero img {
+    border-radius: 20px;
+  }
+
+  .missions-gallery {
+    width: 90%;
+    padding-top: 200px;
+  }
+
+  .missions-desc h2 {
+    font-size: 30px;
+    text-transform: none;
+    color: black;
+  }
+
+  #fourwindslogo {
+    padding: 80px 0;
+    width: 40%;
+  }
+
+  .missions-desc {
+    padding-top: 100px;
+  }
+
+  .missions-desc p {
+    font-size: 25px;
+  }
+
+  .missions-gallery a {
+    width: 30%;
+    margin: 0 20px 50px 20px;
+  }
+
+  .missions-gallery img {
+    padding-bottom: 80px;
+    margin: 50px 60px 200px 60px;
+  }
+
+  .fourwindslink button {
+    padding: 30px 40px;
+    font-size: 25px;
+  }
+
+  .fourwindslink button:hover {
+    background-color: transparent;
+    border: #9bd5ff solid 3px;
+    color: #73c5ff;
+    transition: all 260ms linear;
+
+  }
+
+  /*--------DESKTOP PASTOR PAGE--------*/
+
+  .third-width {
+    -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    padding-left: 50px;
+  }
+
+  .pastor-scripture {
+    padding: 180px 0;
+  }
+
+  .pastor-scripture p {
+    font-size: 55px;
+  }
+
+  .pastors-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+  }
+
+  .pastors-half img {
+    width: 80%;
+    margin: 0;
+  }
+
+  .pastors-half p {
+    width: 70%;
+    line-height: 40px;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 80px;
+    margin: 0;
+  }
+
+  .pastors-half h1 {
+    font-size: 45px;
+    align-self: flex-start;
+    padding-left: 80px;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  .wholelist {
+    display: none;
+  }
+
+  .usa-list {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .usa-title {
+    display: none;
+  }
+
+  .us-half-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .us-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .usa-half2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .us-half2 span {
+    color: transparent;
+  }
+
+
+  .us-half p {
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
     font-size: 26px;
@@ -3289,17 +3364,19 @@ padding-left:50px;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-    color:#56BFA7;
-}
+    color: #56BFA7;
+  }
 
-.us-half p:hover, .us-half p:focus, .us-half p:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  color:#56BFA7;
-}
+  .us-half p:hover,
+  .us-half p:focus,
+  .us-half p:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #56BFA7;
+  }
 
 
-/* .us-half p::after {
+  /* .us-half p::after {
   content: '';
   position: absolute;
   left:0;
@@ -3319,12 +3396,12 @@ padding-left:50px;
  */
 
 
-.us-half2 p {
-  font-family: 'Open Sans', sans-serif;
+  .us-half2 p {
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
     font-size: 26px;
-    margin:36px 0;
+    margin: 36px 0;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -3333,19 +3410,21 @@ padding-left:50px;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-    color:#56BFA7;
-}
+    color: #56BFA7;
+  }
 
-.us-half2 p:hover, .us-half2 p:focus, .us-half2 p:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  color:#56BFA7;
-  font-weight: normal;
+  .us-half2 p:hover,
+  .us-half2 p:focus,
+  .us-half2 p:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #56BFA7;
+    font-weight: normal;
 
-}
+  }
 
 
-/* .us-half2 p::after {
+  /* .us-half2 p::after {
   content: '';
   position: absolute;
   left:0;
@@ -3362,36 +3441,36 @@ padding-left:50px;
   transform:scaleX(1);
 } */
 
-.us-half2 a {
-  text-decoration: none;
-}
+  .us-half2 a {
+    text-decoration: none;
+  }
 
 
-.international-list h2 {
-  display:none;
-}
+  .international-list h2 {
+    display: none;
+  }
 
-.wholelist-int {
-  display:none;
-}
+  .wholelist-int {
+    display: none;
+  }
 
-.international-half-wrap {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width:100%;
-}
+  .international-half-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
 
-.international-half {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
+  .international-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 
-.international-half p {
-  font-family: 'Open Sans', sans-serif;
+  .international-half p {
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
     font-size: 26px;
@@ -3404,16 +3483,18 @@ padding-left:50px;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-}
+  }
 
-.international-half p:hover, .international-half p:focus, .international-half p:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  font-weight: bold;
-  
-}
+  .international-half p:hover,
+  .international-half p:focus,
+  .international-half p:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    font-weight: bold;
 
-/* .international-half p::after {
+  }
+
+  /* .international-half p::after {
   content: '';
   position: absolute;
   left:0;
@@ -3431,329 +3512,359 @@ padding-left:50px;
   transform:scaleX(1);
 } */
 
-.international-half h2 {
-  display:flex;
-}
-
-.international-half span {
-  color:transparent;
-}
-.thankyou-image img {
-  width:60%;
-  padding: 50px 0;
-}
-
-
-
-
-/*----------DESKTOP CALIFORNIA PAGE--------*/
-
-.state-image img {
-  width:20%;
-  margin:80px 0;
-}
-.state-image h1 {
-  font-size: 65px;
-}
-
-/*------ black background----*/
-.ind-pastor-half img {
-  width:38%;
-}
-
-.ind-pastor-wrapbk {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.pastor-text {
-  align-items: flex-start;
-}
+  .international-half h2 {
+    display: flex;
+  }
+
+  .international-half span {
+    color: transparent;
+  }
+
+  .thankyou-image img {
+    width: 60%;
+    padding: 50px 0;
+  }
+
+
+
+
+  /*----------DESKTOP CALIFORNIA PAGE--------*/
+
+  .state-image img {
+    width: 20%;
+    margin: 80px 0;
+  }
+
+  .state-image h1 {
+    font-size: 65px;
+  }
+
+  /*------ black background----*/
+  .ind-pastor-half img {
+    width: 38%;
+  }
+
+  .ind-pastor-wrapbk {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pastor-text {
+    align-items: flex-start;
+  }
+
+  .pastor-text h2 {
+    font-size: 36px;
+  }
 
-.pastor-text h2 {
-  font-size: 36px;
-}
-
-.pastor-text p {
-  text-align: left;
-  font-size:24px;
-}
+  .pastor-text p {
+    text-align: left;
+    font-size: 24px;
+  }
 
-.ind-pastor-wrapbk button {
-  width:26%;
-  font-size: 22px;
+  .ind-pastor-wrapbk button {
+    width: 26%;
+    font-size: 22px;
 
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
 
 
-.ind-pastor-wrapbk button:hover, .ind-pastor-wrapbk button:focus, .ind-pastor-wrapbk button:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .ind-pastor-wrapbk button:hover,
+  .ind-pastor-wrapbk button:focus,
+  .ind-pastor-wrapbk button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
 
-/*----------white background------*/
+  /*----------white background------*/
 
-.ind-pastor-wrap {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+  .ind-pastor-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.pastor-text-white {
-  align-items: flex-start;
-}
+  .pastor-text-white {
+    align-items: flex-start;
+  }
 
-.pastor-text-white h2 {
-  font-size: 36px;
-}
+  .pastor-text-white h2 {
+    font-size: 36px;
+  }
 
-.pastor-text-white p {
-  text-align: left;
-  font-size: 24px;
-}
+  .pastor-text-white p {
+    text-align: left;
+    font-size: 24px;
+  }
 
-.ind-pastor-wrap button {
-  width:26%;
-  font-size: 22px;
+  .ind-pastor-wrap button {
+    width: 26%;
+    font-size: 22px;
 
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
 
-.ind-pastor-wrap button:hover, .ind-pastor-wrap button:focus, .ind-pastor-wrap button:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .ind-pastor-wrap button:hover,
+  .ind-pastor-wrap button:focus,
+  .ind-pastor-wrap button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
 
-/*---------DESKTOP TEXAS PAGE-----*/
+  /*---------DESKTOP TEXAS PAGE-----*/
 
-.texas-image img {
-  width:25%;
-  padding: 100px 0;
-}
+  .texas-image img {
+    width: 25%;
+    padding: 100px 0;
+  }
 
-.texas-image h1 {
-  font-size: 55px;
-}
+  .texas-image h1 {
+    font-size: 55px;
+  }
 
 
-/*---------DESKTOP OKLAHOMA PAGE-----*/
+  /*---------DESKTOP OKLAHOMA PAGE-----*/
 
-.oklahoma-image img {
-  width:30%;
-  padding: 180px 0;
-}
+  .oklahoma-image img {
+    width: 30%;
+    padding: 180px 0;
+  }
 
-.oklahoma-image h1 {
-  font-size: 55px;
-}
+  .oklahoma-image h1 {
+    font-size: 55px;
+  }
 
 
-/*---------DESKTOP ARIZONA PAGE-----*/
+  /*---------DESKTOP ARIZONA PAGE-----*/
 
-.arizona-image img {
-  width:25%;
-  padding: 180px 0;
-}
+  .arizona-image img {
+    width: 25%;
+    padding: 180px 0;
+  }
 
-.arizona-image h1 {
-  font-size: 55px;
-}
+  .arizona-image h1 {
+    font-size: 55px;
+  }
 
 
-/*---------DESKTOP DC PAGE-----*/
+  /*---------DESKTOP DC PAGE-----*/
 
-.dc-image img {
-  width:17%;
-  padding: 180px 0;
-}
+  .dc-image img {
+    width: 17%;
+    padding: 180px 0;
+  }
 
-.dc-image h1 {
-  font-size: 55px;
-  top:40%;
-}
+  .dc-image h1 {
+    font-size: 55px;
+    top: 40%;
+  }
 
-/*---------DESKTOP SC PAGE-----*/
+  /*---------DESKTOP SC PAGE-----*/
 
-.sc-image img {
-  width:30%;
-  padding: 180px 0;
-}
+  .sc-image img {
+    width: 30%;
+    padding: 180px 0;
+  }
 
-.sc-image h1 {
-  font-size: 55px;
-}
+  .sc-image h1 {
+    font-size: 55px;
+  }
 
-/*---------DESKTOP NEW YORK PAGE-----*/
+  /*---------DESKTOP NEW YORK PAGE-----*/
 
 
-.newyork-image img {
-  width:30%;
-  padding: 180px 0;
-}
+  .newyork-image img {
+    width: 30%;
+    padding: 180px 0;
+  }
 
-.newyork-image h1 {
-  font-size: 55px;
-}
+  .newyork-image h1 {
+    font-size: 55px;
+  }
 
 
 
-/*---------DESKTOP AUSTRALIA PAGE-----*/
+  /*---------DESKTOP AUSTRALIA PAGE-----*/
 
 
-.australia-image img {
-  width:40%;
-  padding: 100px 0 100px 60px;
-}
+  .australia-image img {
+    width: 40%;
+    padding: 100px 0 100px 60px;
+  }
 
-.australia-image h1 {
-  font-size: 55px;
-}
+  .australia-image h1 {
+    font-size: 55px;
+  }
 
 
-/*---------DESKTOP SOUTH AFRICA PAGE-----*/
+  /*---------DESKTOP SOUTH AFRICA PAGE-----*/
 
 
-.sa-image img {
-  width:30%;
-  padding: 100px 0 100px 60px;
-}
+  .sa-image img {
+    width: 30%;
+    padding: 100px 0 100px 60px;
+  }
 
-.sa-image h1 {
-  font-size: 55px;
-}
+  .sa-image h1 {
+    font-size: 55px;
+  }
 
 
-/*---------DESKTOP MEXICO PAGE-----*/
+  /*---------DESKTOP MEXICO PAGE-----*/
 
 
-.mexico-image img {
-  width:40%;
-  padding: 100px 0 100px 60px;
-}
+  .mexico-image img {
+    width: 40%;
+    padding: 100px 0 100px 60px;
+  }
 
-.mexico-image h1 {
-  font-size: 55px;
-}
+  .mexico-image h1 {
+    font-size: 55px;
+  }
 
 
-/*---------DESKTOP CANADA PAGE-----*/
+  /*---------DESKTOP CANADA PAGE-----*/
 
-.canada-image img {
-  width:40%;
-  padding: 100px 0 140px 60px;
-}
+  .canada-image img {
+    width: 40%;
+    padding: 100px 0 140px 60px;
+  }
 
-.canada-image h1 {
-  font-size: 70px;
-}
+  .canada-image h1 {
+    font-size: 70px;
+  }
 
 
-/*---------DESKTOP IVORY COAST PAGE-----*/
+  /*---------DESKTOP IVORY COAST PAGE-----*/
 
-.ivorycoast-image img {
-  width:20%;
-  padding: 100px 0 140px 0;
-}
+  .ivorycoast-image img {
+    width: 20%;
+    padding: 100px 0 140px 0;
+  }
 
-.ivorycoast-image h1 {
-  font-size: 50px;
-}
+  .ivorycoast-image h1 {
+    font-size: 50px;
+  }
 
 
-/*---------DESKTOP PHILIPPINES PAGE-----*/
+  /*---------DESKTOP PHILIPPINES PAGE-----*/
 
-.philippines-image img {
-  width:25%;
-  padding: 50px 0 100px 0;
-}
+  .philippines-image img {
+    width: 25%;
+    padding: 50px 0 100px 0;
+  }
 
-.philippines-image h1 {
-  font-size: 60px;
-}
+  .philippines-image h1 {
+    font-size: 60px;
+  }
 
 
-/*---------DESKTOP INTERNATIONAL PAGE-----*/
+  /*---------DESKTOP INTERNATIONAL PAGE-----*/
 
-.international-image img {
-  width:18%;
-  padding: 50px 0 100px 0;
-}
+  .international-image img {
+    width: 18%;
+    padding: 50px 0 100px 0;
+  }
 
-.international-image h1 {
-  font-size: 80px;
-}
+  .international-image h1 {
+    font-size: 80px;
+  }
 
-/*------------DESKTOP CONTACT FORM---------*/
+  /*------------DESKTOP CONTACT FORM---------*/
 
-#contact-form {
-  width:30%;
-}
+  #contact-form {
+    width: 30%;
+  }
 
 
-#contact-form textarea {
-  padding-bottom: 120px;
-  font-size: 16px;
-}
+  #contact-form textarea {
+    padding-bottom: 120px;
+    font-size: 16px;
+  }
 
-#contact-form input {
-  font-size: 16px;
-}
+  #contact-form input {
+    font-size: 16px;
+  }
 
-#contact-form button {
-  font-size: 20px;
-}
+  #contact-form button {
+    font-size: 20px;
+  }
 
 
-/*----------DESKTOP DONATE PAGE---------*/
+  /*----------DESKTOP DONATE PAGE---------*/
 
-.donate-wrapper {
-  padding-top: 60px;
-}
-.donate-message p {
-  font-size: 20px;
-}
+  .donate-wrapper {
+    padding-top: 60px;
+  }
 
-.donate-message h1 {
-  font-size: 50px;
-}
+  .donate-message p {
+    font-size: 20px;
+  }
+
+  .donate-message h1 {
+    font-size: 50px;
+  }
+
+  .donate-options {
+    width: 50%;
+    padding: 100px 0;
+    margin-bottom: 120px;
+  }
+
+  .paypal {
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height:100%;
+  }
+  
+  .paypal form {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paypal form input {
+    width:50%;
+  }
 
 .donate-options {
-  width:50%;
-  padding: 100px 0;
-  margin-bottom: 120px;
+  padding:110px 0;
 }
 
-.paypal {
-  margin-bottom: 100px;
-}
 
-.cashtag-info p {
-  font-size: 20px;
-}
+  .cashtag-info p {
+    font-size: 20px;
+  }
 
-.cashtag-info a:hover {
-  font-weight: bold;
-}
+  .cashtag-info a:hover {
+    font-weight: bold;
+  }
 
 }
 
