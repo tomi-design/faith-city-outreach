@@ -1007,6 +1007,7 @@ footer p {
 .wholelist p {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+  color:black;
 }
 
 .wholelist a {
