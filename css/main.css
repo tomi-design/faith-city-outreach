@@ -496,6 +496,7 @@ footer p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   margin-top: 1.25em;
+  text-align: center;
 }
 
 .copyright a {
@@ -3810,6 +3811,23 @@ footer p {
 
   .cashtag-info a:hover {
     font-weight: bold;
+  }
+
+
+  /*----THANK YOU DONATE PAGE----*/
+
+  
+  .donate-thankyou-message h1 {
+ 
+    font-size: 3.5em;
+  }
+  .donate-thankyou-message h3 {
+ 
+    font-size: 2.5em;
+  }
+  .donate-thankyou-message a {
+ 
+    font-size: 2em;
   }
 
 }
