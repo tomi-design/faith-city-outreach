@@ -184,6 +184,7 @@ figure {
 .dropdown {
   position: relative;
   display: inline-block;
+
   
 
 }
@@ -2735,6 +2736,9 @@ footer p {
     padding: 30px;
     width: 30%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+
+    border-top: 60px solid #2bc3b7;
+  
   }
 
   .third-width i {
