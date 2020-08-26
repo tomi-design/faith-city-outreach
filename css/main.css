@@ -141,19 +141,19 @@ header {
   align-items: flex-end;
   /* background-color: #97E3D6;
   background-color: #2bc3b7; */
-  border-top: 60px solid #2bc3b7;
-  border-left: 20px solid transparent;
+  border-top: 3.75em solid #2bc3b7;
+  border-left: 1.25em solid transparent;
   height:0;
 }
 
 .third-width i {
-  padding: 25px 0 25px 40px;
+  padding: 1.563em 0 1.563em 2.5em;
 }
 
 .logo img {
   width: 10%;
   margin: 0;
-  padding: 10px 10px 10px 0px;
+  padding: 0.625em 0.625em 0.625em 0px;
 }
 
 figure {
@@ -166,9 +166,9 @@ figure {
 
 .header-nav h1 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 18px;
+  font-size: 1.225em;
   font-weight: 100;
-  padding-top: 5px;
+  padding-top: 0.313em;
 }
 
 .logo a {
@@ -184,14 +184,11 @@ figure {
 .dropdown {
   position: relative;
   display: inline-block;
-
-  
-
 }
 
 .dropdown-content li {
   list-style: none;
-  border-radius: 10px;
+  border-radius: 0.625em;
 }
 
 .dropdown-content {
@@ -202,7 +199,7 @@ figure {
   overflow: auto;
   z-index: 1;
   right: 0.313em;
-  top:60px;
+  top:3.75em;
 
 }
 
@@ -215,7 +212,7 @@ figure {
   text-transform: uppercase;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
-  font-size: 19px;
+  font-size: 1.188em;
 }
 
 .dropdown-content a:hover {
@@ -225,9 +222,6 @@ figure {
 .show {
   display: block;
 }
-
-
-
 
 main {
   display: flex;
@@ -276,7 +270,7 @@ main {
   /* position: absolute; */
   position: relative;
   height: 15vh;
-  top: 200px;
+  top: 12.5em;
 }
 
 .hero-text p {
@@ -289,14 +283,14 @@ main {
   font-weight: 100;
   font-style: normal;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125em;
   letter-spacing: 1px;
-  padding: 20px 0 40px 0;
+  padding: 1.25em 0 2.5em 0;
   text-transform: uppercase;
 }
 
 .buttons {
-  padding-top: 200px;
+  padding-top: 12.5em;
 }
 
 .button-wrap {
@@ -307,32 +301,31 @@ main {
 }
 
 #buttonone {
-  width: 120px;
-  height: 120px;
+  width: 7.5em;
+  height: 7.5em;
   border-radius: 50%;
   border: none;
-  margin-top: 80px;
+  margin-top: 5em;
   background-color: #D66D50;
   background-color: #E3886F;
 }
 
 #buttontwo {
-  width: 120px;
-  height: 120px;
+  width: 7.5em;
+  height: 7.5em;
   border-radius: 50%;
   border: none;
-  margin-top: 80px;
+  margin-top: 5em;
   background-color: #D1EEEA;
 }
 
 #buttonthree {
-  width: 120px;
-  height: 120px;
+  width: 7.5em;
+  height: 7.5em;
   border-radius: 50%;
   border: none;
-  margin-top: 80px;
+  margin-top: 5em;
   background-color: #DCC600;
-
 }
 
 .buttons {
@@ -350,7 +343,7 @@ main {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .scripture {
@@ -359,7 +352,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 12.5em;
 }
 
 .scripture img {
@@ -370,7 +363,7 @@ main {
   width: 70%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 .about-radio {
@@ -380,8 +373,8 @@ main {
   align-items: center;
   width: 100%;
   /*background-color: #F1F9F7;*/
-  padding: 10px 0 10px 0;
-  margin-top: 180px;
+  padding: 0.625em 0 0.625em 0;
+  margin-top: 11.25em;
 }
 
 
@@ -404,15 +397,15 @@ main {
   text-align: center;
   margin-bottom: 0;
   text-transform: uppercase;
-  font-size: 28px;
-  padding-bottom: 20px;
+  font-size: 1.75em;
+  padding-bottom: 1.25em;
 }
 
 .white-text-wrapper p {
   width: 70%;
   text-align: center;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 0.875em;
   font-family: dharma-gothic-e, sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -424,8 +417,8 @@ main {
   color: #2bc3b7;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  padding: 20px 0 35px 0;
-  font-size: 18px;
+  padding: 1.25em 0 2.188em 0;
+  font-size: 1.125em;
 }
 
 .donate-area {
@@ -445,13 +438,13 @@ main {
   background-color: #2bc3b7;
 
   color: white;
-  padding: 20px 40px;
-  border-radius: 30px;
-  margin: 90px 0;
+  padding: 1em 2em;
+  border-radius: 1.875em;
+  margin: 5.625em 0;
   text-transform: uppercase;
   font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 1.375em;
 }
 
 .donate-area a {
@@ -469,7 +462,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #DCC600;
-  padding-top: 20px;
+  padding-top: 1.25em;
 }
 
 .social-med {
@@ -478,12 +471,12 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px 0 20px 0;
+  padding: 1.25em 0 1.25em 0;
 }
 
 .social-med i {
-  font-size: 30px;
-  margin: 0 50px;
+  font-size: 2.5em;
+  margin: 0 1em;
   color: black;
 }
 
@@ -501,8 +494,8 @@ footer {
 
 footer p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  margin-top: 20px;
+  font-size: 1em;
+  margin-top: 1.25em;
 }
 
 .copyright a {
@@ -519,7 +512,7 @@ footer p {
 }
 
 .attribution {
-  padding: 30px 0 20px 0;
+  padding: 1.875em 0 1.25em 0;
 }
 
 .attribution a {
@@ -543,8 +536,8 @@ footer p {
   background-color: #56BFA7;
 
   background-color: white;
-  padding-bottom: 90px;
-  margin-top: 30px;
+  padding-bottom: 5.625em;
+  margin-top: 3.5em;
 }
 
 .about-section img {
@@ -552,8 +545,8 @@ footer p {
 }
 
 #interviewphoto {
-  box-shadow: 20px 20px 20px gray;
-  border-radius: 10px;
+  box-shadow: 1.25em 1.25em 1.25em gray;
+  border-radius: 0.625em;
 }
 
 .about-section h2 {
@@ -561,8 +554,8 @@ footer p {
   font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
   color: rgb(48, 48, 48);
-  font-size: 45px;
-  margin: 10px;
+  font-size: 2.813em;
+  margin: 0.625em;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -574,7 +567,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 40px 0 30px 0;
+  padding: 4.5em 0 1em 0;
 }
 
 .about-title-desktop {
@@ -589,7 +582,7 @@ footer p {
 .about-divider {
   border: black solid 1px;
   width: 80%;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
 }
 
 .about-half {
@@ -620,13 +613,13 @@ footer p {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 3.125em;
   background-color: #DCC600;
 }
 
 .partners h2 {
-  font-size: 36px;
-  padding: 10px;
+  font-size: 2.25em;
+  padding: 0.625em;
   text-align: center;
   font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
@@ -637,7 +630,7 @@ footer p {
 
 .partner-divider {
   width: 70%;
-  border: white solid 1.5px;
+  border: white solid 0.094em;
 }
 
 
@@ -655,7 +648,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 80%;
-  padding: 50px 0 130px 0;
+  padding: 3.125em 0 8.125em 0;
 }
 
 .global-women {
@@ -664,8 +657,8 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 80%;
-  padding-bottom: 50px;
-  margin-bottom: 30px;
+  padding-bottom: 3.125em;
+  margin-bottom: 1.875em;
 }
 
 .four-winds h3 {
@@ -673,7 +666,7 @@ footer p {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
   margin: 0 auto;
   color: white;
 }
@@ -692,7 +685,7 @@ footer p {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
   text-align: center;
   margin: 0 auto;
   color: white;
@@ -709,7 +702,7 @@ footer p {
 }
 
 .four-winds img {
-  padding-top: 20px;
+  padding-top: 1.25em;
   width: 60%;
 }
 
@@ -720,7 +713,7 @@ footer p {
 
 .ccclogo {
   width: 50%;
-  padding: 20px 0 50px 0;
+  padding: 1.25em 0 3.125em 0;
 
 }
 
@@ -733,7 +726,6 @@ footer p {
 .psalm {
   display: none;
 }
-
 
 
 .about-donate-area {
@@ -754,13 +746,13 @@ footer p {
   background-color: #2bc3b7;
 
   color: white;
-  padding: 20px 40px;
-  border-radius: 30px;
-  margin: 150px 0;
+  padding: 1em 2em;
+  border-radius: 1.875em;
+  margin: 7.5em 0;
   text-transform: uppercase;
   font-family: dharma-gothic-e, sans-serif;
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 1.375em;
 }
 
 .about-donate-area a {
@@ -769,12 +761,12 @@ footer p {
 }
 
 .about-donate-area .podcastbutton {
-  width: 150px;
-  height: 150px;
+  width: 7em;
+  height: 7em;
   border-radius: 50%;
   background-color: #F1F9F7;
   border: #96BCB3 solid 1px;
-  margin-bottom: 10px;
+  margin: 5em 0 0.625em 0;
 
 }
 
@@ -785,10 +777,12 @@ footer p {
 .about-donate-area p {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 1.3em;
 }
 
-
+.attribution span {
+  font-size: 0.75em;
+}
 
 
 /*------------MOBILE MISSIONS PAGE---------*/
@@ -821,9 +815,9 @@ footer p {
 .missions-desc h2 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.875em;
   color: #318bca;
-  margin-top: 50px;
+  margin-top: 3.125em;
 }
 
 .missions-desc {
@@ -833,7 +827,7 @@ footer p {
 
 #fourwindslogo {
   width: 70%;
-  padding: 40px 0;
+  padding: 2.5em 0;
 }
 
 .missions-desc p {
@@ -847,15 +841,15 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 50px 0 80px 0;
+  padding: 3.125em 0 5em 0;
 }
 
 .missions-gallery img {
   width: 60%;
-  padding: 30px 15px 40px 15px;
-  box-shadow: 20px 20px 30px gray;
+  padding: 1.875em 0.938em 2.5em 0.938em;
+  box-shadow: 1.25em 1.25em 1.875em gray;
   background-color: white;
-  margin: 40px 0;
+  margin: 2.5em 0;
 }
 
 .missions-gallery a {
@@ -877,16 +871,16 @@ footer p {
 }
 
 .fourwindslink button {
-  border: #318BCA solid 2px;
+  border: #318BCA solid 0.125em;
   background-color: transparent;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 22px;
-  padding: 20px 30px;
+  font-size: 1.375em;
+  padding: 1.25em 1.875em;
   color: #318BCA;
-  margin-bottom: 100px;
+  margin-bottom: 6.25em;
 }
 
 
@@ -906,7 +900,7 @@ footer p {
   justify-content: center;
   align-items: flex-start;
   width: 80%;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .pastor-scripture p {
@@ -914,8 +908,8 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 28px;
-  margin-top: 10px;
+  font-size: 1.75em;
+  margin-top: 0.625em;
 
 }
 
@@ -924,7 +918,7 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 0;
+  padding: 5em 0;
   background-color: #F1F9F7;
   background-color: #DCC600;
 
@@ -943,8 +937,8 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 26px;
-  padding: 10px 0;
+  font-size: 1.625em;
+  padding: 0.625em 0;
   margin: 0;
   color: black;
   width: 90%;
@@ -959,9 +953,9 @@ footer p {
 
 .pastors-half img {
   width: 90%;
-  margin-bottom: 50px;
+  margin-bottom: 3.125em;
   /* box-shadow: 20px 20px 40px rgb(168, 168, 168); */
-  border-radius: 10px;
+  border-radius: 0.625em;
 }
 
 .usa-list {
@@ -971,7 +965,7 @@ footer p {
   justify-content: center;
   align-content: center;
   /*background-color: #F1F9F7;*/
-  padding: 40px 0 50px 0;
+  padding: 2.5em 0 3.125em 0;
 }
 
 .usa-list h2 {
@@ -985,7 +979,7 @@ footer p {
 .pastor-divider {
   width: 80%;
   border: black solid 1px;
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
 .us-half {
@@ -1024,7 +1018,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 40px 0 60px 0;
+  padding: 2.5em 0 3.75em 0;
   background-color: #DCC600;
   background-color: #F1F9F7;
   position: relative;
@@ -1085,13 +1079,13 @@ footer p {
 }
 
 .thankyou-image img {
-  margin: 100px 0 100px 0;
+  margin: 6.25em 0 6.25em 0;
   width: 90%;
 }
 
 .attribution p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 0.75;
 }
 
 .about-donate-area {
@@ -1106,7 +1100,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 80px 0;
+  padding: 5em 0;
 }
 
 .state-image img {
@@ -1120,7 +1114,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1137,7 +1131,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 70px 0;
+  padding: 4.375em 0;
 
 }
 
@@ -1148,7 +1142,7 @@ footer p {
   align-items: center;
   width: 100%;
   background-color: black;
-  padding: 70px 0;
+  padding: 4.375em 0;
 }
 
 .ind-pastor-half {
@@ -1216,10 +1210,10 @@ footer p {
   color: black;
   background-color: white;
   border: none;
-  padding: 20px 30px;
-  border-radius: 60px;
+  padding: 1.25em 1.875em;
+  border-radius: 3.75em;
   font-family: 'Open Sans', sans-serif;
-  margin: 60px 0 30px 0;
+  margin: 3.75em 0 1.875em 0;
 }
 
 .ind-pastor-wrapbk button a {
@@ -1255,10 +1249,10 @@ footer p {
   color: white;
   background-color: black;
   border: none;
-  padding: 20px 30px;
-  border-radius: 60px;
+  padding: 1.25em 1.875em;
+  border-radius: 3.75em;
   font-family: 'Open Sans', sans-serif;
-  margin: 60px 0 30px 0;
+  margin: 3.75em 0 1.875em 0;
 }
 
 .ind-pastor-wrap button a {
@@ -1276,7 +1270,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .texas-image img {
@@ -1290,7 +1284,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1302,7 +1296,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .oklahoma-image img {
@@ -1316,7 +1310,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1327,7 +1321,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .arizona-image img {
@@ -1341,7 +1335,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1352,7 +1346,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .dc-image img {
@@ -1367,7 +1361,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   top: 26%;
   background-color: white;
 }
@@ -1379,7 +1373,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .sc-image img {
@@ -1393,7 +1387,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1404,7 +1398,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .newyork-image img {
@@ -1418,7 +1412,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1430,12 +1424,12 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 90px 0;
+  padding: 5.625em 0;
 }
 
 .australia-image img {
   width: 80%;
-  padding-left: 25px;
+  padding-left: 1.563em;
   position: relative;
 }
 
@@ -1445,7 +1439,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1458,12 +1452,12 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 90px 0;
+  padding: 5.625em 0;
 }
 
 .sa-image img {
   width: 65%;
-  padding-left: 25px;
+  padding-left: 1.563em;
   position: relative;
 }
 
@@ -1473,7 +1467,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1485,12 +1479,12 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 90px 0;
+  padding: 5.625em 0;
 }
 
 .mexico-image img {
   width: 80%;
-  padding-left: 25px;
+  padding-left: 1.563em;
   position: relative;
 }
 
@@ -1500,7 +1494,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25em;
   background-color: white;
 }
 
@@ -1511,12 +1505,12 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 90px 0;
+  padding: 5.625em 0;
 }
 
 .canada-image img {
   width: 80%;
-  padding-left: 25px;
+  padding-left: 1.563em;
   position: relative;
 }
 
@@ -1526,7 +1520,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 2.5em;
   background-color: white;
 }
 
@@ -1537,7 +1531,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 90px 0;
+  padding: 5.625em 0;
 }
 
 .ivorycoast-image img {
@@ -1551,7 +1545,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 1.563em;
   background-color: white;
   text-align: center;
 }
@@ -1563,7 +1557,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 90px 0;
+  padding: 5.625em 0;
 }
 
 .philippines-image img {
@@ -1577,7 +1571,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 2.5em;
   background-color: white;
   text-align: center;
 }
@@ -1589,7 +1583,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 90px 0;
+  padding: 5.625em 0;
 }
 
 .international-image img {
@@ -1603,7 +1597,7 @@ footer p {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 3.125em;
   background-color: white;
   text-align: center;
 }
@@ -1628,14 +1622,14 @@ footer p {
   align-items: center;
   width: 70%;
   text-align: center;
-  margin: 50px 0;
+  margin: 4em 0;
 }
 
 .donate-message h1 {
   font-family: adobe-handwriting-ernie, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 70px;
+  margin-bottom: 2em;
 }
 
 .donate-message p {
@@ -1649,15 +1643,15 @@ footer p {
   align-items: center;
   width: 80%;
   /* background-color: #D1EEEA; */
-  padding: 50px 0;
-  border-radius: 30px;
-  margin: 30px 0 170px 0;
-  border: #56BFA7 solid 2px;
+  padding: 3.125em 0;
+  border-radius: 1.875em;
+  margin: 1.875em 0 10.625em 0;
+  border: #56BFA7 solid 0.125em;
 
 }
 
 .paypal {
-  margin-bottom: 100px;
+  margin-bottom: 6.25em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1700,7 +1694,7 @@ footer p {
 .cashtag h1 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .cashtag-info a {
@@ -1717,7 +1711,7 @@ footer p {
 .cashtag-info p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 0.625em;
 }
 
 .cashtag-info img {
@@ -1746,7 +1740,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 20px 0 120px 0;
+  padding: 1.25em 0 7.5em 0;
 }
 
 #contact-form {
@@ -1759,23 +1753,23 @@ footer p {
 
 #contact-form input {
   width: 100%;
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  border-radius: 10px;
-  border: #2bc3b7 solid 2px;
+  margin-bottom: 1.25em;
+  padding-bottom: 0.938em;
+  border-radius: 0.625em;
+  border: #2bc3b7 solid 0.125em;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875em;
   color: #26a89d;
 }
 
 #contact-form textarea {
   width: 100%;
-  border-radius: 10px;
-  border: #2bc3b7 solid 2px;
+  border-radius: 0.625em;
+  border: #2bc3b7 solid 0.125em;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875em;
   color: #26a89d;
-  padding-bottom: 25px;
+  padding-bottom: 1.563em;
 }
 
 #contact-form label {
@@ -1785,10 +1779,10 @@ footer p {
 #contact-form button {
   background-color: #2bc3b7;
   border: none;
-  border-radius: 20px;
-  padding: 15px;
+  border-radius: 1.25em;
+  padding: 0.938em;
   align-self: center;
-  margin-top: 40px;
+  margin-top: 2.5em;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
   font-weight: normal;
@@ -1801,7 +1795,7 @@ footer p {
   align-items: center;
   width: 80%;
   text-align: center;
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 
@@ -1820,7 +1814,7 @@ footer p {
   align-items: center;
   width: 80%;
   text-align: center;
-  margin: 150px 0;
+  margin: 9.375em 0;
 }
 
 
@@ -1848,7 +1842,7 @@ footer p {
   align-items: center;
   width: 80%;
   text-align: center;
-  margin: 150px 0;
+  margin: 9.375em 0;
 }
 
 
@@ -1857,7 +1851,7 @@ footer p {
   font-weight: 400;
   font-style: normal;
   color: #D66D50;
-  margin: 30px 0;
+  margin: 1.875em 0;
 }
 
 .donate-thankyou-message h3 {
@@ -1865,7 +1859,7 @@ footer p {
   font-weight: 400;
   font-style: normal;
   color: #D66D50;
-  margin: 30px 0;
+  margin: 1.875em 0;
 }
 
 .donate-thankyou-message a {
@@ -1875,11 +1869,11 @@ footer p {
 
 .donate-thankyou-message p {
   text-decoration: none;
-  margin-top: 80px;
+  margin-top: 5em;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 
@@ -1986,27 +1980,27 @@ footer p {
   }
 
   .third-width {
-    border-top: 80px solid #2bc3b7;
-    border-left: 20px solid transparent;
+    border-top: 5.8em solid #2bc3b7;
+    border-left: 1.25em solid transparent;
     height:0;
   }
 
   .header-nav h1 {
-    font-size: 25px;
+    font-size: 1.563em;
   }
 
   .third-width i {
-    font-size: 25px;
+    font-size: 1.563em;
     color: black;
   }
 
   .hero-text p {
-    font-size: 26px;
+    font-size: 1.625em;
   }
 
   .hero-text {
     height: 10vh;
-    top: 200px;
+    top: 12.5em;
   }
 
   .dropdown-content {
@@ -2014,7 +2008,7 @@ footer p {
   }
 
   .dropdown-content a {
-    font-size: 32px;
+    font-size: 2em;
   }
 
   .hero {
@@ -2023,7 +2017,7 @@ footer p {
 
   .hero img {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 1.875em;
   }
 
   .mySlides {
@@ -2031,40 +2025,40 @@ footer p {
   }
 
   #buttonone {
-    width: 150px;
-    height: 150px;
+    width: 9.375em;
+    height: 9.375em;
   }
 
   #buttontwo {
-    width: 150px;
-    height: 150px;
+    width: 9.375em;
+    height: 9.375em;
   }
 
   #buttonthree {
-    width: 150px;
-    height: 150px;
+    width: 9.375em;
+    height: 9.375em;
   }
 
   .buttons p {
-    font-size: 20px;
-    padding-bottom: 70px;
+    font-size: 1.25em;
+    padding-bottom: 4.375em;
   }
 
   .scripture {
-    padding: 200px 0 100px 0;
+    padding: 12.5em 0 6.25em 0;
   }
 
   .scripture p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .about-radio {
-    padding-bottom: 30px;
+    padding-bottom: 1.875em;
   }
 
   .white-text-wrapper h2 {
-    font-size: 40px;
-    margin-top: 50px;
+    font-size: 2.5em;
+    margin-top: 3.125em;
   }
 
   .white-text-wrapper p {
@@ -2072,60 +2066,65 @@ footer p {
   }
 
   .white-text-wrapper a {
-    font-size: 25px;
+    font-size: 1.25em;
   }
 
   .white-text-wrapper button {
-    font-size: 24px;
-    margin: 50px 0 60px 0;
+    font-size: 1.5em;
+    margin: 3.125em 0 3.75em 0;
     letter-spacing: 1px;
-    margin-bottom: 100px;
+    margin-bottom: 6.25em;
   }
 
   .donate-area button {
-    padding: 20px 42px;
-    font-size: 26px;
+    padding: 1em 2.2em;
+    font-size: 1.625em;
   }
 
   footer p {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 
+  .social-med i {
+    font-size: 2.5em;
+    margin: 0 1.5em;
+  }
 
 
   /*-------TABLET ABOUT PAGE ---------*/
 
 
   .about-title img {
-    padding-bottom: 100px;
+    padding-bottom: 6.25em;
+    opacity:20%;
   }
 
 
   .about-section h2 {
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
   .about-section p {
-    font-size: 22px;
+    font-size: 1.3em;
   }
 
   .partners {
-    padding-bottom: 100px;
+    padding-bottom: 5em;
   }
 
   .partners h2 {
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
   .four-winds h3 {
-    font-size: 28px;
+    font-size: 1.75em;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: normal;
   }
 
   .partners p {
-    font-size: 22px;
+    font-size: 1.375em;
     width: 80%;
     margin: 0 auto;
   }
@@ -2133,37 +2132,42 @@ footer p {
   .global-women h3 {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: normal;
   }
 
   .four-winds {
-    padding-bottom: 270px;
+    padding-bottom: 14.5em;
   }
 
   .four-winds img {
-    padding-top: 100px;
+    padding-top: 6em;
     width: 90%;
   }
 
   .ccclogo {
-    width: 40%;
-    padding: 80px 0 50px 0;
+    width: 30%;
+    padding: 5em 0 3.125em 0;
   }
 
   .about-donate-area .podcastbutton {
-    width: 200px;
-    height: 200px;
+    width: 6.5em;
+    height: 6.5em;
+  }
+
+  .about-donate-area img {
+    width:90%;
   }
 
   .about-donate-area p {
-    font-size: 25px;
+    font-size: 1.563em;
   }
 
   .about-donate-area button {
-    padding: 24px 55px;
-    border-radius: 40px;
-    font-size: 30px;
+    padding: 1em 2em;
+    border-radius: 2.5em;
+    font-size: 1.7em;
+    margin:5.5em 0;
   }
 
 
@@ -2171,30 +2175,30 @@ footer p {
 
 
   .missions-desc h2 {
-    font-size: 21px;
+    font-size: 1.313em;
   }
 
   .missions-desc {
     width: 60%;
-    padding-top: 35px;
+    padding-top: 2.188em;
   }
 
   #fourwindslogo {
-    padding: 70px 0;
+    padding: 4.375em 0;
   }
 
   .missions-desc p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .missions-gallery img {
     width: 100%;
-    padding: 20px 20px 100px 20px;
+    padding: 1.25em 1.25em 6.25em 1.25em;
   }
 
   .missions-gallery a {
     width: 35%;
-    margin: 0 42px 140px 42px;
+    margin: 0 2.625em 8.75em 2.625em;
   }
 
 
@@ -2202,7 +2206,7 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    padding-top: 100px;
+    padding-top: 6.25em;
   }
 
 
@@ -2210,39 +2214,39 @@ footer p {
 
 
   .pastor-scripture p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 
   .pastor-scripture {
-    padding: 90px 0;
+    padding: 5.625em 0;
   }
 
   .pastors-half h1 {
-    font-size: 40px;
-    padding: 10px 0;
+    font-size: 2.5em;
+    padding: 0.625em 0;
     text-align: center;
     margin: 0;
   }
 
   .pastors-half img {
-    margin-bottom: 100px;
+    margin-bottom: 6.25em;
   }
 
   .pastors-half p {
-    font-size: 23px;
+    font-size: 1.438em;
     text-align: center;
   }
 
   .pastors-para {
-    padding-bottom: 120px;
+    padding-bottom: 7.5em;
   }
 
   .usa-list {
-    padding: 80px 0 100px 0;
+    padding: 5em 0 6.25em 0;
   }
 
   .usa-list h2 {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 
   .wholelist p {
@@ -2254,15 +2258,15 @@ footer p {
   }
 
   .international-list h2 {
-    font-size: 40px;
+    font-size: 1.375em;
   }
 
   .wholelist-int p {
-    font-size: 22px;
+    font-size: 1.375em;
   }
 
   .thankyou-image img {
-    margin: 250px 0;
+    margin: 15.625em 0;
   }
 
 
@@ -2270,11 +2274,11 @@ footer p {
 
   .state-image img {
     width: 40%;
-    padding: 100px 0;
+    padding: 6.25em 0;
   }
 
   .state-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
   /*------ black background----*/
@@ -2289,18 +2293,19 @@ footer p {
   }
 
   .pastor-text h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     text-align: left;
   }
 
   .pastor-text p {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .ind-pastor-wrapbk button {
     width: 50%;
-    font-size: 20px;
+    font-size: 1.25em;
+    padding: 1em 0.75em;
   }
 
   /*----------white background------*/
@@ -2313,7 +2318,8 @@ footer p {
 
   .ind-pastor-wrap button {
     width: 50%;
-    font-size: 20px;
+    font-size: 1.25em;
+    padding: 1em 0.75em;
   }
 
   .pastor-text-white {
@@ -2321,13 +2327,13 @@ footer p {
   }
 
   .pastor-text-white h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     text-align: left;
   }
 
   .pastor-text-white p {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
 
@@ -2337,7 +2343,7 @@ footer p {
   .texas-image img {
     width: 50%;
     position: relative;
-    padding: 70px 0;
+    padding: 4.375em 0;
   }
 
   .texas-image h1 {
@@ -2346,7 +2352,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 2.5em;
   }
 
 
@@ -2355,7 +2361,7 @@ footer p {
   .oklahoma-image img {
     width: 50%;
     position: relative;
-    padding: 70px 0;
+    padding: 4.375em 0;
   }
 
   .oklahoma-image h1 {
@@ -2364,7 +2370,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 2.5em;
     background-color: white;
   }
 
@@ -2372,7 +2378,7 @@ footer p {
 
   .arizona-image img {
     width: 40%;
-    padding: 80px 0;
+    padding: 5em 0;
   }
 
   .arizona-image h1 {
@@ -2381,14 +2387,14 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 2.5em;
   }
 
   /*----------TABLET DC PAGE-----*/
 
   .dc-image img {
     width: 37%;
-    padding: 80px 0;
+    padding: 5em 0;
   }
 
   .dc-image h1 {
@@ -2397,7 +2403,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
     top: 27%;
   }
 
@@ -2405,7 +2411,7 @@ footer p {
 
   .sc-image img {
     width: 37%;
-    padding: 80px 0;
+    padding: 5em 0;
   }
 
   .sc-image h1 {
@@ -2414,7 +2420,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
 
@@ -2422,7 +2428,7 @@ footer p {
 
   .newyork-image img {
     width: 60%;
-    padding: 80px 0;
+    padding: 5em 0;
   }
 
   .newyork-image h1 {
@@ -2431,7 +2437,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
 
@@ -2439,7 +2445,7 @@ footer p {
 
   .australia-image img {
     width: 60%;
-    padding: 80px 0px 80px 40px;
+    padding: 5em 0px 5em 2.5em;
 
   }
 
@@ -2449,7 +2455,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
 
@@ -2458,7 +2464,7 @@ footer p {
 
   .sa-image img {
     width: 60%;
-    padding: 80px 0px 80px 40px;
+    padding: 5em 0em 5em 2.5em;
 
   }
 
@@ -2468,7 +2474,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
 
@@ -2477,7 +2483,7 @@ footer p {
 
   .mexico-image img {
     width: 70%;
-    padding: 80px 0px 80px 40px;
+    padding: 5em 0px 5em 2.5em;
 
   }
 
@@ -2487,7 +2493,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
 
@@ -2495,7 +2501,7 @@ footer p {
 
   .canada-image img {
     width: 60%;
-    padding: 80px 0px 80px 40px;
+    padding: 5em 0em 5em 2.5em;
 
   }
 
@@ -2505,7 +2511,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -2513,7 +2519,7 @@ footer p {
 
   .ivorycoast-image img {
     width: 40%;
-    padding: 80px 0px;
+    padding: 5em 0px;
 
   }
 
@@ -2523,7 +2529,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 38px;
+    font-size: 2.375em;
   }
 
 
@@ -2532,7 +2538,7 @@ footer p {
 
   .philippines-image img {
     width: 30%;
-    padding: 80px 0px;
+    padding: 5em 0px;
 
   }
 
@@ -2542,7 +2548,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 45px;
+    font-size: 2.813em;
   }
 
 
@@ -2551,7 +2557,7 @@ footer p {
 
   .international-image img {
     width: 30%;
-    padding: 80px 0px;
+    padding: 5em 0em;
 
   }
 
@@ -2561,7 +2567,7 @@ footer p {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
 
@@ -2573,12 +2579,12 @@ footer p {
   }
 
   #contact-form textarea {
-    padding-bottom: 70px;
-    font-size: 16px;
+    padding-bottom: 4.375em;
+    font-size: 1em;
   }
 
   #contact-form input {
-    font-size: 16px;
+    font-size: 1em;
   }
 
 
@@ -2597,7 +2603,7 @@ footer p {
     align-items: center;
     width: 70%;
     text-align: center;
-    margin: 300px 0;
+    margin: 18.75em 0;
   }
 
 
@@ -2605,7 +2611,7 @@ footer p {
     font-family: adobe-handwriting-ernie, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 45px;
+    font-size: 2.813em;
   }
 
 
@@ -2614,16 +2620,21 @@ footer p {
 
 
   .donate-message h1 {
-    font-size: 50px;
+    font-size: 3.125em;
+    margin-bottom: 1em;
+  }
+
+  .donate-message p {
+    font-size: 20px;
   }
 
   .cashtag-info p {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
   }
 
   .donate-options {
-    border: #56BFA7 solid 2px;
+    border: #56BFA7 solid 0.125em;
 
   }
 
@@ -2645,7 +2656,7 @@ footer p {
     align-items: center;
     width: 80%;
     text-align: center;
-    margin: 150px 0 300px 0;
+    margin: 9.375em 0 18.75em 0;
   }
 
 
@@ -2654,8 +2665,8 @@ footer p {
     font-weight: 400;
     font-style: normal;
     color: #D66D50;
-    margin: 30px 0;
-    font-size: 40px;
+    margin: 1.875em 0;
+    font-size: 2.5em;
   }
 
   .donate-thankyou-message h3 {
@@ -2663,8 +2674,8 @@ footer p {
     font-weight: 400;
     font-style: normal;
     color: #D66D50;
-    margin: 30px 0;
-    font-size: 25px;
+    margin: 1.875em 0;
+    font-size: 1.563em;
   }
 
   .donate-thankyou-message a {
@@ -2674,15 +2685,15 @@ footer p {
 
   .donate-thankyou-message p {
     text-decoration: none;
-    margin-top: 80px;
+    margin-top: 5em;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .paypal {
-    margin-bottom: 140px;
+    margin-bottom: 8.75em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2704,7 +2715,7 @@ footer p {
   }
 
 .donate-options {
-  padding:80px 0;
+  padding:5em 0;
 }
 
 
@@ -2723,7 +2734,7 @@ footer p {
   }
 
   .main-wrapper {
-    padding-bottom: 100px;
+    padding-bottom: 6.25em;
   }
 
   .twothird-width {
@@ -2735,11 +2746,11 @@ footer p {
     background-color: #DCC600;
     background-color: #97E3D6;
     background-color: #2bc3b7;
-    padding: 30px;
+    padding: 1.875em;
     width: 30%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
 
-    border-top: 60px solid #2bc3b7;
+    border-top: 3.75em solid #2bc3b7;
   
   }
 
@@ -2755,7 +2766,7 @@ footer p {
   /*----------------------------------*/
 
   figure {
-    padding-left: 30px;
+    padding-left: 3.75em;
   }
 
   .logo img {
@@ -2767,8 +2778,8 @@ footer p {
   }
 
   .header-nav h1 {
-    font-size: 35px;
-    padding-left: 15px;
+    font-size: 2.188em;
+    padding-left: 0.938em;
     padding-top: 0;
     margin: 0;
   }
@@ -2793,8 +2804,8 @@ footer p {
     color: white;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
-    font-size: 22px;
-    padding: 0 16px;
+    font-size: 1.375em;
+    padding: 0 1em;
     text-decoration: none;
   }
 
@@ -2814,7 +2825,7 @@ footer p {
     justify-content: center;
     align-items: center;
     height: 115vh;
-    padding-bottom: 300px;
+    padding-bottom: 18.75em;
   }
 
   .hero-text {
@@ -2824,11 +2835,11 @@ footer p {
 
   .hero img {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 6.25em;
   }
 
   .hero-text p {
-    font-size: 40px;
+    font-size: 2.5em;
     width: 60%;
   }
 
@@ -2836,7 +2847,7 @@ footer p {
   .buttons {
     flex-direction: row;
     flex-flow: row wrap;
-    padding-top: 140px;
+    padding-top: 8.75em;
   }
 
   .button-wrap {
@@ -2844,22 +2855,22 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 6.25em;
   }
 
   #buttonone {
-    width: 170px;
-    height: 170px;
+    width: 10.625em;
+    height: 10.625em;
   }
 
   #buttontwo {
-    width: 170px;
-    height: 170px;
+    width: 10.625em;
+    height: 10.625em;
   }
 
   #buttonthree {
-    width: 170px;
-    height: 170px;
+    width: 10.625em;
+    height: 10.625em;
   }
 
   #buttonone:hover {
@@ -2879,7 +2890,7 @@ footer p {
 
   .scripture {
     display: none;
-    padding: 320px 0 300px 0;
+    padding: 20em 0 18.75em 0;
   }
 
   .scripture img {
@@ -2887,14 +2898,14 @@ footer p {
   }
 
   .scripture p {
-    font-size: 30px;
+    font-size: 1.875em;
   }
 
 
   .about-radio {
     width: 80%;
-    margin-top: 200px;
-    padding: 50px 0 50px 0;
+    margin-top: 12.5em;
+    padding: 3.125em 0 3.125em 0;
     background-color: #E6F6FF;
     background-color: #F1F9F7;
     flex-direction: row;
@@ -2902,16 +2913,16 @@ footer p {
 
 
   .white-text-wrapper {
-    padding: 100px 0;
+    padding: 6.25em 0;
     background-color: #F1F9F7;
 
-    width: 450px;
-    height: 200px;
+    width: 28.125em;
+    height: 12.5em;
 
   }
 
   .white-text-wrapper h2 {
-    margin-top: 20px;
+    margin-top: 1.25em;
   }
 
   .white-text-wrapper a {
@@ -2920,8 +2931,8 @@ footer p {
     color: #2bc3b7;
 
     font-weight: bold;
-    font-size: 22px;
-    padding-bottom: 20px;
+    font-size: 1.375em;
+    padding-bottom: 1.25em;
     position: relative;
   }
 
@@ -2931,7 +2942,7 @@ footer p {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 2px;
+    height: 0.125em;
     background: currentColor;
 
     transform: scaleX(0);
@@ -2954,9 +2965,9 @@ footer p {
 
 
   .donate-area button {
-    padding: 30px 60px;
-    border-radius: 50px;
-    font-size: 40px;
+    padding: 0.8em 1.8em;
+    border-radius: 3.125em;
+    font-size: 2.5em;
     background-color: #97E3D6;
     background-color: #2bc3b7;
 
@@ -2970,28 +2981,28 @@ footer p {
   }
 
   .donate-area {
-    padding: 100px 0;
+    padding: 1em 0;
   }
 
   .social-med {
-    padding: 60px 0;
+    padding: 3.75em 0;
   }
 
   .social-med i {
-    font-size: 60px;
+    font-size: 3.75em;
   }
 
   footer p {
-    font-size: 25px;
+    font-size: 1.563em;
     margin: 0;
   }
 
   footer {
-    padding-top: 80px;
+    padding-top: 5em;
   }
 
   .copyright p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
 
@@ -3002,12 +3013,12 @@ footer p {
   .about-section {
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 150px;
+    padding-top: 9.375em;
     margin: 0 auto;
   }
 
   #interviewphoto {
-    box-shadow: 20px 20px 60px rgb(158, 158, 158);
+    box-shadow: 1.25em 1.25em 3.75em rgb(158, 158, 158);
     padding: 0;
   }
 
@@ -3028,18 +3039,18 @@ footer p {
   }
 
   .about-title-desktop h2 {
-    margin-bottom: 100px;
+    margin-bottom: 6.25em;
     color: #a7d2d2;
-    font-size: 70px;
-    letter-spacing: 3px;
+    font-size: 4.375em;
+    letter-spacing: 0.188em;
   }
 
   .about-title-desktop img {
     opacity: 15%;
     width: 80%;
     padding: 0;
-    top: 100px;
-    left: 1200px;
+    top: 6.25em;
+    left: 75em;
   }
 
   .about-divider {
@@ -3051,12 +3062,12 @@ footer p {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 90%;
+    width: 80%;
     text-align: left;
-    margin: 100px 0 200px 0;
-    border-radius: 30px;
+    margin: 6.25em 0 12.5em 0;
+    border-radius: 1.875em;
     background-color: #DCC600;
-    box-shadow: gray 20px 20px 60px;
+    box-shadow: gray 1.25em 1.25em 3.75em;
   }
 
   .partner-sections {
@@ -3074,7 +3085,7 @@ footer p {
   .partners h2 {
     padding-left: 10%;
     color: white;
-    font-size: 60px;
+    font-size: 3.75em;
     padding-bottom: 0;
   }
 
@@ -3082,7 +3093,7 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding-bottom: 170px;
+    padding-bottom: 10.625em;
   }
 
   .four-winds-desc {
@@ -3103,7 +3114,7 @@ footer p {
   .four-winds h3 {
     text-align: left;
     margin: 0;
-    font-size: 40px;
+    font-size: 2.5em;
   }
 
 
@@ -3111,7 +3122,7 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding-bottom: 10px;
+    padding-bottom: 0.625em;
   }
 
   .gw-desc {
@@ -3140,40 +3151,14 @@ footer p {
   .global-women h3 {
     text-align: left;
     margin: 0;
-    font-size: 40px;
+    font-size: 2.5em;
   }
 
-  /*.global-women {
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
-.gw-desc {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: left;
-  color:white;
-}
-
-.global-women h3 {
-  margin:0;
-  text-align: left;
-  font-size: 40px;
-}
-
-.ccclogo {
-  width:40%;
-  padding: 80px 0 50px 0;
-}*/
-
   .partner-divider {
-    border: white solid 2px;
+    border: white solid 0.125em;
     width: 50%;
     margin-left: 10%;
-    margin-bottom: 100px;
+    margin-bottom: 6.25em;
   }
 
   .psalm {
@@ -3182,7 +3167,7 @@ footer p {
     justify-content: center;
     align-items: center;
     width: 80%;
-    margin-bottom: 200px;
+    margin-bottom: 12.5em;
     text-align: center;
   }
 
@@ -3198,7 +3183,7 @@ footer p {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 2.5em;
     color: rgb(51, 51, 51);
 
     font-family: caflisch-script-pro, sans-serif;
@@ -3221,51 +3206,54 @@ footer p {
     background-color: rgb(206, 228, 224);
   }
 
+  .attribution span {
+    font-size: 0.5em;
+  }
 
   /*----------DESKTOP MISSIONS PAGE----------*/
 
   .missions-hero img {
-    border-radius: 20px;
+    border-radius: 1.25em;
     width:80%;
   }
 
   .missions-gallery {
     width: 90%;
-    padding-top: 200px;
+    padding-top: 12.5em;
   }
 
   .missions-desc h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     text-transform: none;
     color: black;
   }
 
   #fourwindslogo {
-    padding: 80px 0;
+    padding: 5em 0;
     width: 40%;
   }
 
   .missions-desc {
-    padding-top: 100px;
+    padding-top: 6.25em;
   }
 
   .missions-desc p {
-    font-size: 25px;
+    font-size: 1.563em;
   }
 
   .missions-gallery a {
     width: 30%;
-    margin: 0 20px 50px 20px;
+    margin: 0 1.25em 3.125em 1.25em;
   }
 
   .missions-gallery img {
-    padding-bottom: 80px;
-    margin: 50px 60px 200px 60px;
+    padding-bottom: 5em;
+    margin: 3.125em 3.75em 12.5em 3.75em;
   }
 
   .fourwindslink button {
-    padding: 30px 40px;
-    font-size: 25px;
+    padding: 1.875em 2.5em;
+    font-size: 1.563em;
   }
 
   .fourwindslink button:hover {
@@ -3281,15 +3269,15 @@ footer p {
   .third-width {
     -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-    padding-left: 50px;
+    padding-left: 3.125em;
   }
 
   .pastor-scripture {
-    padding: 180px 0;
+    padding: 11.25em 0;
   }
 
   .pastor-scripture p {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
   .pastors-para {
@@ -3297,7 +3285,7 @@ footer p {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 5em;
   }
 
   .pastors-half img {
@@ -3307,21 +3295,22 @@ footer p {
 
   .pastors-half p {
     width: 70%;
-    line-height: 40px;
+    line-height: 2em;
     text-align: left;
     align-self: flex-start;
-    padding-left: 80px;
+    padding-left: 5em;
     margin: 0;
   }
 
   .pastors-half h1 {
-    font-size: 45px;
-    align-self: flex-start;
-    padding-left: 80px;
+    font-size: 2.813em;
+    /* align-self: flex-start;
+    padding-left: 5em; */
     text-align: left;
     padding-top: 0;
-    padding-bottom: 10px;
+    padding-bottom: 0.625em;
     margin: 0;
+    width:70%;
   }
 
   .wholelist {
@@ -3368,7 +3357,7 @@ footer p {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
-    font-size: 26px;
+    font-size: 1.625em;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -3389,33 +3378,12 @@ footer p {
     color: #56BFA7;
   }
 
-
-  /* .us-half p::after {
-  content: '';
-  position: absolute;
-  left:0;
-  bottom:0;
-  width:100%;
-  height:2px;
-  background:currentColor;
-
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 250ms ease-in;
-}
-
-.us-half p:hover::after {
-  transform:scaleX(1);
-}
- */
-
-
   .us-half2 p {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
-    font-size: 26px;
-    margin: 36px 0;
+    font-size: 1.625em;
+    margin: 2em 0;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -3437,23 +3405,6 @@ footer p {
 
   }
 
-
-  /* .us-half2 p::after {
-  content: '';
-  position: absolute;
-  left:0;
-  bottom:0;
-  width:100%;
-  height:2px;
-  background:currentColor;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 250ms ease-in;
-}
-
-.us-half2 p:hover::after {
-  transform:scaleX(1);
-} */
 
   .us-half2 a {
     text-decoration: none;
@@ -3487,7 +3438,7 @@ footer p {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: left;
-    font-size: 26px;
+    font-size: 1.625em;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -3508,26 +3459,9 @@ footer p {
 
   }
 
-  /* .international-half p::after {
-  content: '';
-  position: absolute;
-  left:0;
-  bottom:0;
-  width:100%;
-  height:2px;
-  background:currentColor;
-
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 250ms ease-in;
-}
-
-.international-half p:hover::after {
-  transform:scaleX(1);
-} */
-
   .international-half h2 {
     display: flex;
+    font-size: 2.5em;
   }
 
   .international-half span {
@@ -3536,21 +3470,19 @@ footer p {
 
   .thankyou-image img {
     width: 60%;
-    padding: 50px 0;
+    padding: 3.125em 0;
   }
-
-
 
 
   /*----------DESKTOP CALIFORNIA PAGE--------*/
 
   .state-image img {
     width: 20%;
-    margin: 80px 0;
+    margin: 5em 0;
   }
 
   .state-image h1 {
-    font-size: 65px;
+    font-size: 4.063em;
   }
 
   /*------ black background----*/
@@ -3569,17 +3501,17 @@ footer p {
   }
 
   .pastor-text h2 {
-    font-size: 36px;
+    font-size: 2.25em;
   }
 
   .pastor-text p {
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5em;
   }
 
   .ind-pastor-wrapbk button {
     width: 26%;
-    font-size: 22px;
+    font-size: 1.375em;
 
     display: inline-block;
     vertical-align: middle;
@@ -3614,17 +3546,17 @@ footer p {
   }
 
   .pastor-text-white h2 {
-    font-size: 36px;
+    font-size: 2.25em;
   }
 
   .pastor-text-white p {
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5em;
   }
 
   .ind-pastor-wrap button {
     width: 26%;
-    font-size: 22px;
+    font-size: 1.375em;
 
     display: inline-block;
     vertical-align: middle;
@@ -3649,11 +3581,11 @@ footer p {
 
   .texas-image img {
     width: 25%;
-    padding: 100px 0;
+    padding: 6.25em 0;
   }
 
   .texas-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -3661,11 +3593,11 @@ footer p {
 
   .oklahoma-image img {
     width: 30%;
-    padding: 180px 0;
+    padding: 11.25em 0;
   }
 
   .oklahoma-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -3673,11 +3605,11 @@ footer p {
 
   .arizona-image img {
     width: 25%;
-    padding: 180px 0;
+    padding: 11.25em 0;
   }
 
   .arizona-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -3685,11 +3617,11 @@ footer p {
 
   .dc-image img {
     width: 17%;
-    padding: 180px 0;
+    padding: 11.25em 0;
   }
 
   .dc-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
     top: 40%;
   }
 
@@ -3697,11 +3629,11 @@ footer p {
 
   .sc-image img {
     width: 30%;
-    padding: 180px 0;
+    padding: 11.25em 0;
   }
 
   .sc-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
   /*---------DESKTOP NEW YORK PAGE-----*/
@@ -3709,11 +3641,11 @@ footer p {
 
   .newyork-image img {
     width: 30%;
-    padding: 180px 0;
+    padding: 11.25em 0;
   }
 
   .newyork-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -3723,11 +3655,11 @@ footer p {
 
   .australia-image img {
     width: 40%;
-    padding: 100px 0 100px 60px;
+    padding: 6.25em 0 6.25em 3.75em;
   }
 
   .australia-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -3736,11 +3668,11 @@ footer p {
 
   .sa-image img {
     width: 30%;
-    padding: 100px 0 100px 60px;
+    padding: 6.25em 0 6.25em 3.75em;
   }
 
   .sa-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -3749,11 +3681,11 @@ footer p {
 
   .mexico-image img {
     width: 40%;
-    padding: 100px 0 100px 60px;
+    padding: 6.25em 0 6.25em 3.75em;
   }
 
   .mexico-image h1 {
-    font-size: 55px;
+    font-size: 3.438em;
   }
 
 
@@ -3761,11 +3693,11 @@ footer p {
 
   .canada-image img {
     width: 40%;
-    padding: 100px 0 140px 60px;
+    padding: 6.25em 0 8.75em 3.75em;
   }
 
   .canada-image h1 {
-    font-size: 70px;
+    font-size: 4.375em;
   }
 
 
@@ -3773,11 +3705,11 @@ footer p {
 
   .ivorycoast-image img {
     width: 20%;
-    padding: 100px 0 140px 0;
+    padding: 6.25em 0 8.75em 0;
   }
 
   .ivorycoast-image h1 {
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
 
@@ -3785,11 +3717,11 @@ footer p {
 
   .philippines-image img {
     width: 25%;
-    padding: 50px 0 100px 0;
+    padding: 3.125em 0 6.25em 0;
   }
 
   .philippines-image h1 {
-    font-size: 60px;
+    font-size: 3.75em;
   }
 
 
@@ -3797,11 +3729,11 @@ footer p {
 
   .international-image img {
     width: 18%;
-    padding: 50px 0 100px 0;
+    padding: 3.125em 0 6.25em 0;
   }
 
   .international-image h1 {
-    font-size: 80px;
+    font-size: 5em;
   }
 
   /*------------DESKTOP CONTACT FORM---------*/
@@ -3812,41 +3744,41 @@ footer p {
 
 
   #contact-form textarea {
-    padding-bottom: 120px;
-    font-size: 16px;
+    padding-bottom: 7.5em;
+    font-size: 1em;
   }
 
   #contact-form input {
-    font-size: 16px;
+    font-size: 1em;
   }
 
   #contact-form button {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
 
   /*----------DESKTOP DONATE PAGE---------*/
 
   .donate-wrapper {
-    padding-top: 60px;
+    padding-top: 3.75em;
   }
 
   .donate-message p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .donate-message h1 {
-    font-size: 50px;
+    font-size: 3.125em;
   }
 
   .donate-options {
     width: 50%;
-    padding: 100px 0;
-    margin-bottom: 120px;
+    padding: 6.25em 0;
+    margin-bottom: 7.5em;
   }
 
   .paypal {
-    margin-bottom: 160px;
+    margin-bottom: 10em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3868,12 +3800,12 @@ footer p {
   }
 
 .donate-options {
-  padding:110px 0;
+  padding:6.875em 0;
 }
 
 
   .cashtag-info p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .cashtag-info a:hover {
