@@ -2811,7 +2811,7 @@ footer p {
   }
 
   nav li a:hover {
-    color: black;
+    color: #00626b;
     transition: all 260ms linear;
   }
 
@@ -2848,7 +2848,7 @@ footer p {
   .buttons {
     flex-direction: row;
     flex-flow: row wrap;
-    padding-top: 8.75em;
+    padding: 7em 0 2em 0;
   }
 
   .button-wrap {
@@ -2860,18 +2860,18 @@ footer p {
   }
 
   #buttonone {
-    width: 10.625em;
-    height: 10.625em;
+    width: 11.625em;
+    height: 11.625em;
   }
 
   #buttontwo {
-    width: 10.625em;
-    height: 10.625em;
+    width: 11.625em;
+    height: 11.625em;
   }
 
   #buttonthree {
-    width: 10.625em;
-    height: 10.625em;
+    width: 11.625em;
+    height: 11.625em;
   }
 
   #buttonone:hover {
@@ -2902,35 +2902,42 @@ footer p {
     font-size: 1.875em;
   }
 
-
+.about-radio-divider {
+  border:#c1eae7  solid 2px;
+  width:80%;
+}
   .about-radio {
-    width: 80%;
-    margin-top: 12.5em;
+    width: 100%;
+    margin-top: 10.5em;
     padding: 3.125em 0 3.125em 0;
-    background-color: #E6F6FF;
-    background-color: #F1F9F7;
+    /* background-color: #E6F6FF; */
+    /* background-color: #F1F9F7; */
     flex-direction: row;
+    position: relative;
   }
 
 
   .white-text-wrapper {
-    padding: 6.25em 0;
+    padding: 6.5em 0 9em 0;
     background-color: #F1F9F7;
-
+    /* background-color: white; */
     width: 28.125em;
-    height: 12.5em;
-
+    height: 10.5em;
+    position: absolute;
+    right:300px;
+    box-shadow: 20px 20px 63px lightgrey;
   }
 
   .white-text-wrapper h2 {
     margin-top: 1.25em;
+    padding-bottom: 0.75em;
   }
 
   .white-text-wrapper a {
     color: #025B6D;
     color: #55b19c;
     color: #2bc3b7;
-
+    /* color:#E3886F; */
     font-weight: bold;
     font-size: 1.375em;
     padding-bottom: 1.25em;
@@ -2960,8 +2967,10 @@ footer p {
   }
 
   .biblepic {
-    width: 60%;
+    width: 45%;
     position: relative;
+    box-shadow: 0 0 6px 0 #444444;
+    right:200px;
   }
 
 
