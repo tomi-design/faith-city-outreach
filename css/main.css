@@ -2026,22 +2026,22 @@ footer p {
   }
 
   #buttonone {
-    width: 9.375em;
-    height: 9.375em;
+    width: 10.375em;
+    height: 10.375em;
   }
 
   #buttontwo {
-    width: 9.375em;
-    height: 9.375em;
+    width: 10.375em;
+    height: 10.375em;
   }
 
   #buttonthree {
-    width: 9.375em;
-    height: 9.375em;
+    width: 10.375em;
+    height: 10.375em;
   }
 
   .buttons p {
-    font-size: 1.25em;
+    font-size: 1.5em;
     padding-bottom: 4.375em;
   }
 
@@ -2067,7 +2067,7 @@ footer p {
   }
 
   .white-text-wrapper a {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
 
   .white-text-wrapper button {
@@ -2676,7 +2676,7 @@ footer p {
     font-style: normal;
     color: #D66D50;
     margin: 1.875em 0;
-    font-size: 1.563em;
+    font-size: 2em;
   }
 
   .donate-thankyou-message a {
@@ -2690,7 +2690,7 @@ footer p {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: normal;
-    font-size: 1.25em;
+    font-size: 1.9em;
   }
 
   .paypal {
@@ -2734,9 +2734,9 @@ footer p {
     align-items: center;
   }
 
-  .main-wrapper {
+  /* .main-wrapper {
     padding-bottom: 6.25em;
-  }
+  } */
 
   .twothird-width {
     width: 70%;
@@ -2805,7 +2805,7 @@ footer p {
     color: white;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
-    font-size: 1.375em;
+    font-size: 1.5em;
     padding: 0 1em;
     text-decoration: none;
   }
@@ -2826,7 +2826,7 @@ footer p {
     justify-content: center;
     align-items: center;
     height: 115vh;
-    padding-bottom: 18.75em;
+    padding-bottom: 11.75em;
   }
 
   .hero-text {
@@ -3270,7 +3270,8 @@ footer p {
   .third-width {
     -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-    padding-left: 3.125em;
+    padding-left: 1.5em;
+    width:43%;
   }
 
   .pastor-scripture {
@@ -3818,17 +3819,22 @@ footer p {
 
   
   .donate-thankyou-message h1 {
- 
     font-size: 3.5em;
   }
+
   .donate-thankyou-message h3 {
- 
     font-size: 2.5em;
   }
+
   .donate-thankyou-message a {
- 
-    font-size: 2em;
+    font-size: 1.5em;
   }
+
+  .donate-thankyou-message a:hover {
+    color:rgb(110, 240, 227);
+  }
+
+  
 
 }
 
