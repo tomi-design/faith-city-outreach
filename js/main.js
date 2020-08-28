@@ -22,9 +22,6 @@ window.onclick = function(event){
 
 
 
-
-
-
 /*------------sildeshow--------------*/
 
 
