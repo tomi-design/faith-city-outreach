@@ -246,7 +246,7 @@ main {
   width: 90%;
 }
 
-.hero {
+/* --- original slide css---.hero {
   width: 100%;
   height: 100%;
   display: flex;
@@ -255,9 +255,9 @@ main {
   align-items: center;
   position: relative;
   height: 10vh;
-}
+} */
 
-.mySlides {
+/* this is my original side css ----.mySlides {
   position: absolute;
   top: 0;
   left: 0;
@@ -267,7 +267,55 @@ main {
   z-index: -1;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+} */
+
+
+/*-------test slideshow---------*/
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name:fade;
+  animation-duration: 1.5s;
 }
+
+@-webkit-keyframes fade {
+  from {opacity: 0.3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.3}
+  to {opacity: 1}
+}
+
+
+.slideshow-wrap {
+  padding-top: 50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.slideshow {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.slideshow img {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+
+
+/*----------test slideshow end-------*/
 
 .hero-text {
   width: 100%;
@@ -275,13 +323,13 @@ main {
   justify-content: center;
   align-items: center;
   /* position: absolute; */
-  position: relative;
-  height: 15vh;
-  top: 12.5em;
+  /* position: relative; */
+  /* height: 15vh; */
+  /* top: 12.5em; */
 }
 
 .hero-text p {
-  width: 75%;
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -292,12 +340,12 @@ main {
   text-align: center;
   font-size: 1.125em;
   letter-spacing: 1px;
-  padding: 1.25em 0 2.5em 0;
+  padding: 1.25em 0 0.5em 0;
   text-transform: uppercase;
 }
 
 .buttons {
-  padding-top: 12.5em;
+  padding-top: 1em;
 }
 
 .button-wrap {
@@ -386,7 +434,8 @@ main {
 
 
 .biblepic {
-  width: 100%;
+  width: 90%;
+  border-radius: 20px;
 }
 
 .white-text-wrapper {
@@ -2043,8 +2092,9 @@ footer p {
   }
 
   .hero-text {
-    height: 10vh;
-    top: 12.5em;
+    /* height: 10vh;
+    top: 12.5em; */
+    padding-top: 20px;
   }
 
   .dropdown-content {
@@ -2085,7 +2135,7 @@ footer p {
 
   .buttons p {
     font-size: 1.5em;
-    padding-bottom: 4.375em;
+    padding-bottom: 2em;
   }
 
   .scripture {
