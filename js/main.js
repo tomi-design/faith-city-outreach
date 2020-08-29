@@ -22,7 +22,7 @@ window.onclick = function(event){
 
 
 
-// /*------------sildeshow--------------*/
+// /*------------original sildeshow--------------*/
 
 
 // const slideshowImages = document.querySelectorAll(".hero .mySlides");
@@ -46,7 +46,7 @@ window.onclick = function(event){
 // }
 
 
-/*----test slideshow----*/
+/*----new slideshow----*/
 
 let slideIndex=0;
 showSlides();

@@ -1962,7 +1962,7 @@ footer p {
 }
 
 .comments {
-  margin-top:80px;
+  margin:80px 0;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -1971,6 +1971,21 @@ footer p {
   font-family: 'Open Sans', sans-serif;
 
 }
+
+.home-desc {
+  font-size:10px;
+}
+
+.home-desc a {
+  font-size:10px;
+  text-decoration: none;
+}
+
+.label a {
+  font-size:10px;
+}
+
+
 
 }
 
@@ -3936,7 +3951,51 @@ footer p {
     color:rgb(110, 240, 227);
   }
 
+  /*-----------BLOG DESKTOP----*/
+
   
+
+.blog-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding-top: 120px;
+}
+
+.blog-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:40%;
+}
+
+.theblog {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  padding: 100px 0 300px 0;
+}
+
+.blog-divider {
+  border:black solid 1px;
+  width:80%;
+}
+
+.comments {
+  margin:80px 0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  font-family: 'Open Sans', sans-serif;
+
+}
 
 }
 
