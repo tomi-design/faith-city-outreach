@@ -1884,8 +1884,44 @@ footer p {
   font-size: 1.25em;
 }
 
+/*-------------MOBILE BLOG----------*/
 
 
+.blog-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding-top: 50px;
+}
+
+.blog-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+}
+
+.theblog {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.comments {
+  margin-top:80px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  font-family: 'Open Sans', sans-serif;
+
+}
 
 }
 
