@@ -1949,6 +1949,13 @@ footer p {
   display:flex;
   justify-content: center;
   align-items: center;
+  width:100%;
+}
+
+.blog-image img {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   width:80%;
 }
 
@@ -1959,6 +1966,16 @@ footer p {
   align-items: center;
   width: 80%;
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 150px;
+}
+
+.theblog h1 {
+  font-size: 27px;
+}
+
+.blog-divider {
+  border: black solid 1px;
+  width:80%;
 }
 
 .comments {
@@ -2826,6 +2843,26 @@ footer p {
 .donate-options {
   padding:5em 0;
 }
+
+
+/*---------TABLET BLOG PAGE-------*/
+
+.blog-wrapper {
+  padding-top: 100px;
+}
+
+.theblog {
+  padding-bottom: 200px;
+}
+
+.blog-image img {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:60%;
+}
+
+
 
 
 
@@ -3964,7 +4001,9 @@ footer p {
   padding-top: 120px;
 }
 
-.blog-image {
+
+
+.blog-image img {
   display:flex;
   justify-content: center;
   align-items: center;
