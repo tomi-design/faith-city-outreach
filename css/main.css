@@ -383,6 +383,15 @@ main {
   background-color: #DCC600;
 }
 
+#buttonfour {
+  width: 7.5em;
+  height: 7.5em;
+  border-radius: 50%;
+  border: none;
+  margin-top: 5em;
+  background-color: #a89f4c;
+}
+
 .buttons {
   display: flex;
   flex-direction: column;
@@ -557,15 +566,15 @@ footer p {
 
 .copyright a {
   text-decoration: none;
-  color: black;
-}
-
-.copyright p a:hover {
   color: white;
 }
 
+.copyright p a:hover {
+  color: rgb(190, 86, 86);
+}
+
 .copyright a:visited {
-  color: black;
+  color: white;
 }
 
 .attribution {
@@ -2165,6 +2174,11 @@ footer p {
     height: 10.375em;
   }
 
+  #buttonfour {
+    width: 10.375em;
+    height: 10.375em;
+  }
+
   .buttons p {
     font-size: 1.5em;
     padding-bottom: 2em;
@@ -3015,6 +3029,11 @@ footer p {
   }
 
   #buttonthree {
+    width: 11.625em;
+    height: 11.625em;
+  }
+
+  #buttonfour {
     width: 11.625em;
     height: 11.625em;
   }
