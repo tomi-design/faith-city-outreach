@@ -387,9 +387,9 @@ main {
   width: 7.5em;
   height: 7.5em;
   border-radius: 50%;
-  border: none;
+  border: 3px solid #2bc3b7;
   margin-top: 5em;
-  background-color: #ab897f;
+  background-color: transparent;
 }
 
 .buttons {
@@ -3041,16 +3041,28 @@ footer p {
   #buttonone:hover {
     background-color: #FDBAAA;
     transition: all 250ms linear;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   #buttontwo:hover {
     background-color: #97e5d3;
     transition: all 250ms linear;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   #buttonthree:hover {
     background-color: #fdeb46;
     transition: all 250ms linear;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  #buttonfour:hover {
+    transition: all 250ms linear;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   .scripture {
