@@ -389,7 +389,7 @@ main {
   border-radius: 50%;
   border: none;
   margin-top: 5em;
-  background-color: #a89f4c;
+  background-color: #ab897f;
 }
 
 .buttons {
@@ -570,7 +570,7 @@ footer p {
 }
 
 .copyright p a:hover {
-  color: rgb(190, 86, 86);
+  color: rgb(132, 255, 249);
 }
 
 .copyright a:visited {
