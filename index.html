@@ -25,139 +25,95 @@
 
   <meta name="theme-color" content="#fafafa">
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!----SLICK SLIDESHOW-->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
 </head>
 
 
-
-
-
-
-
 <body>
-
   <header>
-
-
     <div class="header-nav">
-
-
       <div class="twothird-width">
         <figure class="logo">
           <img src="img/logo.png">
           <h1>faith city outreach</h1>
         </figure>
       </div>
-
       <div class="third-width">
-
-
-
-      
-      <div class="dropdown">
+        <div class="dropdown">
           <i class="fas fa-bars" onClick="myFunction()" id="dropbutton"></i>
 
-         <!----ORIGINAL---<div id="myDropdown" class="dropdown-content">
-            <a href="https://tomi-design.github.io/faith-city-outreach/about/" target="_blank">About</a>
-            <a href="https://tomi-design.github.io/faith-city-outreach/pastors/" target="_blank">Pastors</a>
-            <a href="https://tomi-design.github.io/faith-city-outreach/missions/" target="_blank">Missions</a>
-            <a href="https://tomi-design.github.io/faith-city-outreach/contact/" target="_blank">Contact</a>
-          </div>--->
-
-         <nav>
-          <ul id="myDropdown" class="dropdown-content">
-            <li><a href="https://tomi-design.github.io/faith-city-outreach/about/" target="_blank">About</a></li>
-            <li><a href="https://tomi-design.github.io/faith-city-outreach/pastors/" target="_blank">Pastors</a></li>
-            <li><a href="https://tomi-design.github.io/faith-city-outreach/missions/" target="_blank">Missions</a></li>
-            <li><a href="https://tomi-design.github.io/faith-city-outreach/contact/" target="_blank">Contact</a></li>
-          </ul>
-        </nav>
-
+          <nav>
+            <ul id="myDropdown" class="dropdown-content">
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/about/">About</a></li>
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/pastors/">Pastors</a></li>
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/missions/">Missions</a></li>
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/contact/">Contact</a></li>
+            </ul>
+          </nav>
         </div>
 
 
         <div class="desktop-nav">
           <nav>
             <ul id="menu">
-              <li><a href="https://tomi-design.github.io/faith-city-outreach/about/" target="_blank">About</a></li>
-              <li><a href="https://tomi-design.github.io/faith-city-outreach/pastors/" target="_blank">Pastors</a></li>
-              <li><a href="https://tomi-design.github.io/faith-city-outreach/missions/" target="_blank">Missions</a>
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/about/">About</a></li>
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/pastors/">Pastors</a></li>
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/missions/">Missions</a>
               </li>
-              <li><a href="https://tomi-design.github.io/faith-city-outreach/contact/" target="_blank">Contact</a></li>
+              <li><a href="https://tomi-design.github.io/faith-city-outreach/contact/">Contact</a></li>
             </ul>
           </nav>
         </div>
-
-
-
-
       </div>
-
-
-
     </div>
-
-
-
-
-
-
   </header>
 
   <main>
-
-
     <div class="main-wrapper">
-
-
-      <div class="slideshow-wrap">
-        <div class="slideshow fade">
+      <!--       
+      <div  class="slideshow-wrap">
+        <div class="slideshow fadein">
           <img src="img/jesusvan.png" alt="jesus van" />
         </div>
 
-        <div class="slideshow fade">
+        <div class="slideshow fadein">
          <img src="img/nyc.jpg" alt="nyc" />
         </div>
 
-        <div class="slideshow fade">
+        <div class="slideshow fadein">
         <img src="img/mesasmall.png" alt="mesas" />
         </div>
 
-        <div class="slideshow fade">
+        <div class="slideshow fadein">
          <img src="img/bwcitylightssmall.png" alt="city" />
         </div>
-        <div class="slideshow fade">
+        <div class="slideshow fadein">
          <img src="img/smalldesert.png" alt="nyc" />
         </div>
-        <div class="slideshow fade">
+        <div class="slideshow fadein">
          <img src="img/citylight.jpg" alt="nyc" />
         </div>
-        <div class="slideshow fade">
+        <div class="slideshow fadein">
          <img src="img/sunlighttown.png" alt="nyc" />
-        </div>
-      </div>
-
-
-
-<!-- 
-      <div class="hero">
-        <div class="hero-slideshow">
-          <img class="mySlides" src="img/jesusvan.png">
-          <img class="mySlides" src="img/nyc.jpg">
-          <img class="mySlides" src="img/mesasmall.png">
-          <img class="mySlides" src="img/bwcitylightssmall.png">
-          <img class="mySlides" src="img/smalldesert.png">
-          <img class="mySlides" src="img/citylight.jpg">
-          <img class="mySlides" src="img/sunlighttown.png">
         </div>
       </div> -->
 
-      
+      <div class="slickSlideshow">
+        <div><img src="img/jesusvan.png" alt="jesus van" /></div>
+        <div><img src="img/nyc.jpg" alt="nyc" /></div>
+        <div><img src="img/mesasmall.png" alt="mesas" /></div>
+        <div><img src="img/bwcitylightssmall.png" alt="city" /></div>
+        <div><img src="img/smalldesert.png" alt="nyc" /></div>
+        <div><img src="img/citylight.jpg" alt="nyc" /></div>
+        <div><img src="img/sunlighttown.png" alt="nyc" /></div>
+      </div>
+
       <div class="hero-text">
         <p>A global internet radio ministry representing pastors and Christian leaders around the world</p>
       </div>
@@ -165,78 +121,54 @@
 
 
     <section class="buttons">
-
       <div class="button-wrap">
-        <a href="https://tomi-design.github.io/faith-city-outreach/pastors/" target="_blank"><button id="buttonone"><img
+        <a href="https://tomi-design.github.io/faith-city-outreach/pastors/"><button id="buttonone"><img
               src="img/pastor.png" /></button></a>
         <p>Pastors</p>
       </div>
 
       <div class="button-wrap">
-        <a href="https://faithcityoutreach-nations.captivate.fm/" target="_blank"><button id="buttontwo"><img
+        <a href="https://faithcityoutreach-nations.captivate.fm/"><button id="buttontwo"><img
               src="img/mic.png" /></button></a>
         <p>Podcasts</p>
       </div>
 
       <div class="button-wrap">
-        <a href="https://tomi-design.github.io/faith-city-outreach/missions/" target="_blank"><button
-            id="buttonthree"><img src="img/cactus.png" /></button></a>
+        <a href="https://tomi-design.github.io/faith-city-outreach/missions/"><button id="buttonthree"><img
+              src="img/cactus.png" /></button></a>
         <p>Missions</p>
       </div>
 
       <div class="button-wrap">
-        <a href="https://tomi-design.github.io/faith-city-outreach/blog/" target="_blank"><button
-            id="buttonfour"><img src="img/draw.png" /></button></a>
+        <a href="https://tomi-design.github.io/faith-city-outreach/blog/"><button id="buttonfour"><img
+              src="img/draw.png" /></button></a>
         <p>Blog</p>
       </div>
-
     </section>
-
-
-
-    <!---<section class="scripture">
-      <img src="img/mountainline.png">
-      <p>Praise the LORD, all nations! Glorify Him, all peoples!
-        <br>Psalm 117:1</p>
-    </section>--->
-
 
     <div class="about-radio-divider"></div>
 
     <section class="about-radio">
       <img class="biblepic" src="img/biblemic.png">
-      <!---<img class="white" src="img/white.png">--->
-      <!---<div class="white-square"><div class="text">
-        <h2>What We Do</h2>
-        <p>We are a radio ministry that brings awareness to the world about our pastors and leaders.</p>
-        <button>About</button>
-      </div>--->
-      </div>
 
       <div class="white-text-wrapper">
         <h2>What We Do</h2>
         <p>Faith City Outreach is aired on Evangelism Radio, which airs to over 160 countries and 50 states. It is the
           leading Christian internet and global radio station in the world. </p>
-        <a href="https://tomi-design.github.io/faith-city-outreach/about/" target="_blank">Click Here to Learn More</a>
+        <a href="https://tomi-design.github.io/faith-city-outreach/about/">Click Here to Learn More</a>
       </div>
 
-      <div class="white-text-wrapper-desktop" data-aos="fade-left"  data-aos-duration="1500">
+      <div class="white-text-wrapper-desktop" data-aos="fade-left" data-aos-duration="1500">
         <h2>What We Do</h2>
         <p>Faith City Outreach is aired on Evangelism Radio, which airs to over 160 countries and 50 states. It is the
           leading Christian internet and global radio station in the world. </p>
-        <a href="https://tomi-design.github.io/faith-city-outreach/about/" target="_blank">Click Here to Learn More</a>
+        <a href="https://tomi-design.github.io/faith-city-outreach/about/">Click Here to Learn More</a>
       </div>
-
-
-
     </section>
 
 
-
-
-
     <section class="donate-area">
-      <button><a href="https://tomi-design.github.io/faith-city-outreach/donate/" target="_blank">donate</a></button>
+      <button><a href="https://tomi-design.github.io/faith-city-outreach/donate/">donate</a></button>
     </section>
 
   </main>
@@ -254,18 +186,12 @@
   </footer>
 
 
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-
+  <script>AOS.init();</script>
 
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -274,6 +200,7 @@
     window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
 
   </script>
+
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
@@ -290,6 +217,28 @@
 
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!----SLICK SLIDESHOW-->
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('.slickSlideshow').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+      });
+    });
+  </script>
+
+  <!------SLICK SLIDESHOW END-->
+
 </body>
 
 </html>

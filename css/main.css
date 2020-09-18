@@ -270,8 +270,8 @@ main {
 } */
 
 
-/*-------test slideshow---------*/
-
+/*-------9/17 slideshow---------*/
+/* 
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -288,7 +288,6 @@ main {
   from {opacity: 0.3}
   to {opacity: 1}
 }
-
 
 .slideshow-wrap {
   padding-top: 50px;
@@ -311,11 +310,113 @@ main {
   justify-content: center;
   align-items: center;
   width:100%;
+} */
+
+/*----------9/17 slideshow end-------*/
+/*----------TEST slideshow-------*/
+ 
+/* 
+@keyframes fade {
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity:1;
+  }
+  60% {
+    opacity:1;
+  }
+  80% {
+    opacity:1;
+  }
+  90% {
+    opacity:1;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fadein img { 
+  opacity:0; 
+  animation-name: fade; 
+  animation-duration: 21s; 
+  animation-iteration-count: infinite; 
+}
+
+.fadein img:nth-child(1) { animation-delay: 0s; }
+.fadein img:nth-child(2) { animation-delay: 2s; }
+.fadein img:nth-child(3) { animation-delay: 5s; }
+.fadein img:nth-child(4) { animation-delay: 8s; }
+.fadein img:nth-child(5) { animation-delay: 11s; }
+.fadein img:nth-child(6) { animation-delay: 14s; }
+.fadein img:nth-child(7) { animation-delay: 17s; } 
+ */
+
+
+
+
+/*------------------------ORIGINAL SLIDESHOW---------*/
+.slideshow-wrap {
+  padding-top: 50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.slideshow {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+
+}
+
+.slideshow img {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin-top:5%;
+
 }
 
 
+/*----------TEST slideshow end-------*/
+/*----------SLICK SLIDESHOW -------*/
 
-/*----------test slideshow end-------*/
+.slickSlideshow {
+  padding-top: 50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.slickSlideshow img {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin-top:5%;
+
+}
+ 
+/*----------SLICK SLIDESHOW end-------*/
+
+
 
 .hero-text {
   width: 100%;
