@@ -11,2476 +11,1580 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
-
-header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.desktop-nav {
-  display: none;
-}
-
-.twothird-width {
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.third-width {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  /* background-color: #97E3D6;
-  background-color: #2bc3b7; */
-  border-top: 3.75em solid #2bc3b7;
-  border-left: 1.25em solid transparent;
-  height:0;
-
-
-  position: relative;
-}
-
-.third-width i {
-  padding: 1.563em 0 1.563em 2.5em;
-}
-
-.logo img {
-  width: 10%;
-  margin: 0;
-  padding: 0.625em 0.625em 0.625em 0px;
-}
-
-figure {
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-nav h1 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 1.225em;
-  font-weight: 100;
-  padding-top: 0.313em;
-}
-
-.logo a {
-  text-decoration: none;
-  color:black;
-}
-
-.logo a:visited {
-  color: black;
-}
-
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content li {
-  list-style: none;
-  border-radius: 0.625em;
-
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 8em;
-  overflow: auto;
-  z-index: 1;
-  right: 0.313em;
-  top:3.75em;
-
-}
-
-
-.dropdown-content a {
-  color: white;
-  padding: 1em;
-  text-decoration: none;
-  display: block;
-  text-transform: uppercase;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-size: 1.188em;
-
-}
-
-.dropdown-content a:hover {
-  color: #DCC600;
-}
-
-.show {
-  display: block;
-
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.main-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-}
-
-.slideshow-wrap {
-  padding-top: 50px;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-}
-
-.slideshow {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-}
-
-.slideshow img {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-  margin-top:5%;
-} 
-
-
-/*----------SLICK SLIDESHOW -------*/
-
-.slickSlideshow {
-  padding-top: 50px;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-}
-
-.slickSlideshow img {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-  margin-top:5%;
-}
- 
-/*----------SLICK SLIDESHOW end-------*/
-
-
-.hero-text {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-text p {
-  width: 85%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: dharma-gothic-e, sans-serif;
-  font-family: 'Bebas Neue', cursive;
-  font-weight: 100;
-  font-style: normal;
-  text-align: center;
-  font-size: 1.125em;
-  letter-spacing: 1px;
-  padding: 1.25em 0 0.5em 0;
-  text-transform: uppercase;
-}
-
-.buttons {
-  padding-top: 1em;
-}
-
-.button-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#buttonone {
-  width: 7.5em;
-  height: 7.5em;
-  border-radius: 50%;
-  border: none;
-  margin-top: 5em;
-  background-color: #D66D50;
-  background-color: #E3886F;
-}
-
-#buttontwo {
-  width: 7.5em;
-  height: 7.5em;
-  border-radius: 50%;
-  border: none;
-  margin-top: 5em;
-  background-color: #D1EEEA;
-}
-
-#buttonthree {
-  width: 7.5em;
-  height: 7.5em;
-  border-radius: 50%;
-  border: none;
-  margin-top: 5em;
-  background-color: #DCC600;
-}
-
-#buttonfour {
-  width: 7.5em;
-  height: 7.5em;
-  border-radius: 50%;
-  border: 3px solid #2bc3b7;
-  margin-top: 5em;
-  background-color: transparent;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.buttons img {
-  width: 40%;
-}
-
-.buttons p {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-size: 1em;
-}
-
-.scripture {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 12.5em;
-}
-
-.scripture img {
-  width: 60%;
-}
-
-.scripture p {
-  width: 70%;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.875em;
-}
-
-.about-radio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  /*background-color: #F1F9F7;*/
-  padding: 0.625em 0 0.625em 0;
-  margin-top: 11.25em;
-}
-
-
-.biblepic {
-  width: 90%;
-  border-radius: 20px;
-}
-
-.white-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  width: 100%;
-}
-
-.white-text-wrapper-desktop{
-  display:none;
-}
-
-.white-text-wrapper h2 {
-  font-family: dharma-gothic-e, sans-serif;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  font-size: 1.75em;
-  padding-bottom: 1.25em;
-}
-
-.white-text-wrapper p {
-  width: 70%;
-  text-align: center;
-  margin-top: 0;
-  font-size: 0.875em;
-  font-family: dharma-gothic-e, sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-}
-
-.white-text-wrapper a {
-  color: #57caaf;
-  color: #71bbaf;
-  color: #2bc3b7;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  padding: 1.25em 0 2.188em 0;
-  font-size: 1.125em;
-}
-
-.donate-area {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.donate-area button {
-  /*border: #DCC600 solid 4px;*/
-  border: none;
-  background-color: #DCC600;
-  background-color: #B5E5D8;
-  background-color: #56BFA7;
-  background-color: #97E3D6;
-  background-color: #2bc3b7;
-
-  color: white;
-  padding: 1em 2em;
-  border-radius: 1.875em;
-  margin: 5.625em 0;
-  text-transform: uppercase;
-  font-family: dharma-gothic-e, sans-serif;
-  letter-spacing: 1px;
-  font-size: 1.375em;
-}
-
-.donate-area a {
-  color: white;
-  text-decoration: none;
-}
-
-/*----------MOBILE FOOTER ----------*/
-
-
-footer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #DCC600;
-  padding-top: 1.25em;
-}
-
-.social-med {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 1.25em 0 1.25em 0;
-}
-
-.social-med i {
-  font-size: 2.5em;
-  margin: 0 1em;
-  color: black;
-}
-
-.social-med a:visited {
-  color: black;
-}
-
-.social-med a:active {
-  color: black;
-}
-
-.social-med i:hover {
-  color: white;
-}
-
-footer p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  margin-top: 1.25em;
-  text-align: center;
-}
-
-.copyright a {
-  text-decoration: none;
-  color: white;
-}
-
-.copyright p a:hover {
-  color: rgb(132, 255, 249);
-}
-
-.copyright a:visited {
-  color: white;
-}
-
-.attribution {
-  padding: 1.875em 0 1.25em 0;
-}
-
-.attribution a {
-  text-decoration: none;
-  color: black;
-}
-
-.attribution a:visited {
-  color: black;
-}
-
-/*---------------MOBILE ABOUT PAGE-----------*/
-
-
-.about-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #56BFA7;
-
-  background-color: white;
-  padding-bottom: 5.625em;
-  margin-top: 3.5em;
-}
-
-.about-section img {
-  width: 100%;
-}
-
-#interviewphoto {
-  box-shadow: 1.25em 1.25em 1.25em gray;
-  border-radius: 0.625em;
-}
-
-.about-section h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-family: dharma-gothic-e, sans-serif;
-  letter-spacing: 1px;
-  color: rgb(48, 48, 48);
-  font-size: 2.813em;
-  margin: 0.625em;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-
-.about-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 4.5em 0 1em 0;
-}
-
-.about-title-desktop {
-  display: none;
-}
-
-.about-title img {
-  width: 50%;
-  opacity: 50%;
-}
-
-.about-divider {
-  border: black solid 1px;
-  width: 80%;
-  margin-bottom: 2.5em;
-}
-
-.about-half {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-}
-
-.about-half a {
-  text-decoration: none;
-  color: #56BFA7;
-  color: #2bc3b7;
-
-  font-weight: bold;
-}
-
-.about-section p {
-  color: rgb(70, 70, 70);
-  font-family: 'Open Sans', sans-serif;
-}
-
-.partners {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 3.125em;
-  background-color: #DCC600;
-}
-
-.partners h2 {
-  font-size: 2.25em;
-  padding: 0.625em;
-  text-align: center;
-  font-family: dharma-gothic-e, sans-serif;
-  letter-spacing: 1px;
-  font-weight: normal;
-  text-transform: uppercase;
-  color: white;
-}
-
-.partner-divider {
-  width: 70%;
-  border: white solid 0.094em;
-}
-
-
-.partner-sections {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.four-winds {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  padding: 3.125em 0 8.125em 0;
-}
-
-.global-women {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  padding-bottom: 3.125em;
-  margin-bottom: 1.875em;
-}
-
-.four-winds h3 {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.125em;
-  margin: 0 auto;
-  color: white;
-}
-
-.four-winds-desc a {
-  text-decoration: none;
-}
-
-.four-winds a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.global-women h3 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.125em;
-  text-align: center;
-  margin: 0 auto;
-  color: white;
-}
-
-.global-women a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.gw-desc a {
-  text-decoration: none;
-}
-
-.four-winds img {
-  padding-top: 1.25em;
-  width: 60%;
-}
-
-/*.global-women img {
-  width:50%;
-  padding: 20px 0 50px 0;
-}*/
-
-.ccclogo {
-  width: 50%;
-  padding: 1.25em 0 3.125em 0;
-
-}
-
-.partners p {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  color: white;
-}
-
-.psalm {
-  display: none;
-}
-
-
-.about-donate-area {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.about-donate-area button {
-  /*border: #DCC600 solid 4px;*/
-  border: none;
-  background-color: #DCC600;
-  background-color: #B5E5D8;
-  background-color: #56BFA7;
-  background-color: #2bc3b7;
-
-  color: white;
-  padding: 1em 2em;
-  border-radius: 1.875em;
-  margin: 7.5em 0;
-  text-transform: uppercase;
-  font-family: dharma-gothic-e, sans-serif;
-  letter-spacing: 1px;
-  font-size: 1.375em;
-}
-
-.about-donate-area a {
-  color: white;
-  text-decoration: none;
-}
-
-.about-donate-area .podcastbutton {
-  width: 7em;
-  height: 7em;
-  border-radius: 50%;
-  background-color: #F1F9F7;
-  border: #96BCB3 solid 1px;
-  margin: 5em 0 0.625em 0;
-
-}
-
-.about-donate-area img {
-  width: 70%;
-}
-
-.about-donate-area p {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-size: 1.3em;
-}
-
-.attribution span {
-  font-size: 0.75em;
-}
-
-
-/*------------MOBILE MISSIONS PAGE---------*/
-
-
-.missions-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.missions-hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.missions-hero img {
-  width: 90%;
-  margin-top: 7%;
-}
-
-.missions-hero a {
-  width: 90%;
-}
-
-.missions-desc h2 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-size: 0.875em;
-  color: #318bca;
-  margin-top: 3.125em;
-}
-
-.missions-desc {
-  width: 80%;
-  text-align: center;
-}
-
-#fourwindslogo {
-  width: 70%;
-  padding: 2.5em 0;
-}
-
-.missions-desc p {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
-
-.missions-gallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 3.125em 0 5em 0;
-}
-
-.missions-gallery img {
-  width: 60%;
-  padding: 1.875em 0.938em 2.5em 0.938em;
-  box-shadow: 1.25em 1.25em 1.875em gray;
-  background-color: white;
-  margin: 2.5em 0;
-}
-
-.missions-gallery a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.galleryfooter {
-  background-color: #A86A00;
-  background-color: #DCC600;
-}
-
-.fourwindslink {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fourwindslink button {
-  border: #318BCA solid 0.125em;
-  background-color: transparent;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1.375em;
-  padding: 1.25em 1.875em;
-  color: #318BCA;
-  margin-bottom: 6.25em;
-}
-
-
-/*----------MOBILE PASTOR PAGE-------*/
-
-.pastor-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.pastor-scripture {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 80%;
-  padding: 3.75em 0;
-}
-
-.pastor-scripture p {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1.75em;
-  margin-top: 0.625em;
-
-}
-
-.pastors-para {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5em 0;
-  background-color: #F1F9F7;
-  background-color: #DCC600;
-
-}
-
-.pastors-half {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-}
-
-.pastors-half h1 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1.625em;
-  padding: 0.625em 0;
-  margin: 0;
-  color: black;
-  width: 90%;
-  text-align: center;
-}
-
-
-.pastors-half p {
-  font-family: 'Open Sans', sans-serif;
-  width: 90%;
-}
-
-.pastors-half img {
-  width: 90%;
-  margin-bottom: 3.125em;
-  /* box-shadow: 20px 20px 40px rgb(168, 168, 168); */
-  border-radius: 0.625em;
-}
-
-.usa-list {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  /*background-color: #F1F9F7;*/
-  padding: 2.5em 0 3.125em 0;
-}
-
-.usa-list h2 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  text-align: center;
-}
-
-.pastor-divider {
-  width: 80%;
-  border: black solid 1px;
-  margin-top: 1.875em;
-}
-
-.us-half {
-  display: none;
-}
-
-.us-half-wrap {
-  display: none;
-}
-
-.wholelist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-}
-
-.wholelist p {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  color:black;
-}
-
-.wholelist a {
-  text-decoration: none;
-}
-
-.wholelist a:visited {
-  color: black;
-}
-
-.international-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 2.5em 0 3.75em 0;
-  background-color: #DCC600;
-  background-color: #F1F9F7;
-  position: relative;
-}
-
-.international-half a {
-  text-decoration: none;
-  color: black;
-}
-
-.international-half a:visited {
-  color: black;
-}
-
-.international-list img {
-  position: absolute;
-  width: 60%;
-}
-
-.international-list h2 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-}
-
-.wholelist-int {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.wholelist-int a {
-  text-decoration: none;
-  color: black;
-}
-
-.wholelist-int a:visited {
-  color: black;
-}
-
-.wholelist-int p {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-}
-
-.international-half {
-  display: none;
-}
-
-.thankyou-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.thankyou-image img {
-  margin: 6.25em 0 6.25em 0;
-  width: 90%;
-}
-
-.attribution p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.75;
-}
-
-.about-donate-area {
-  background-color: #F1F9F7;
-}
-
-
-/*------MOBILE CALIFORNIA PAGE----*/
-
-.state-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5em 0;
-}
-
-.state-image img {
-  width: 50%;
-  position: relative;
-}
-
-.state-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-.ind-pastor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.ind-pastor-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 4.375em 0;
-
-}
-
-.ind-pastor-wrapbk {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: black;
-  padding: 4.375em 0;
-}
-
-.ind-pastor-half {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-}
-
-.ind-pastor-half img {
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-}
-
-.pastor-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  color: white;
-}
-
-.pastor-text p a {
-  color: #DCC600;
-  color: #D66D50;
-  text-decoration: none;
-}
-
-.pastor-text-white {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  color: black;
-}
-
-.pastor-text-white p a {
-  color: #55b49e;
-  color: #D66D50;
-  text-decoration: none;
-}
-
-.pastor-text-white button a {
-  color: white;
-}
-
-.pastor-text h2 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  text-align: center;
-}
-
-.pastor-text p {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
-
-.ind-pastor-wrapbk button {
-  color: black;
-  background-color: white;
-  border: none;
-  padding: 1.25em 1.875em;
-  border-radius: 3.75em;
-  font-family: 'Open Sans', sans-serif;
-  margin: 3.75em 0 1.875em 0;
-}
-
-.ind-pastor-wrapbk button a {
-  text-decoration: none;
-  color: black;
-}
-
-.ind-pastor-wrapbk button a:visited {
-  color: black;
-}
-
-.pastor-text-white h2 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  text-align: center;
-}
-
-.pastor-text-white p {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
-
-.pastor-text-white a {
-  text-decoration: none;
-  color: #55b49e;
-  color: #D66D50;
-
-}
-
-.ind-pastor-wrap button {
-  color: white;
-  background-color: black;
-  border: none;
-  padding: 1.25em 1.875em;
-  border-radius: 3.75em;
-  font-family: 'Open Sans', sans-serif;
-  margin: 3.75em 0 1.875em 0;
-}
-
-.ind-pastor-wrap button a {
-  text-decoration: none;
-}
-
-.ind-pastor-wrap button a:visited {
-  color: white;
-}
-
-/*--------MOBILE TEXAS PAGE----*/
-
-.texas-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 3.75em 0;
-}
-
-.texas-image img {
-  width: 60%;
-  position: relative;
-}
-
-.texas-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-
-/*----------MOBILE OKLAHOMA PAGE-----*/
-
-.oklahoma-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 3.75em 0;
-}
-
-.oklahoma-image img {
-  width: 60%;
-  position: relative;
-}
-
-.oklahoma-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-/*-----------MOBILE ARIZONA PAGE------*/
-
-.arizona-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 3.75em 0;
-}
-
-.arizona-image img {
-  width: 55%;
-  position: relative;
-}
-
-.arizona-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-
-/*-----------MOBILE DC PAGE------*/
-.dc-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 3.75em 0;
-}
-
-.dc-image img {
-  width: 55%;
-  position: relative;
-  /* opacity: 20%; */
-}
-
-.dc-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  top: 26%;
-  background-color: white;
-}
-
-/*-----------MOBILE SC PAGE------*/
-
-.sc-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 3.75em 0;
-}
-
-.sc-image img {
-  width: 55%;
-  position: relative;
-}
-
-.sc-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-/*-----------MOBILE NEW YORK PAGE------*/
-
-.newyork-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 3.75em 0;
-}
-
-.newyork-image img {
-  width: 55%;
-  position: relative;
-}
-
-.newyork-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-
-/*----------MOBILE AUSTRALIA PAGE ---------*/
-
-.australia-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5.625em 0;
-}
-
-.australia-image img {
-  width: 80%;
-  padding-left: 1.563em;
-  position: relative;
-}
-
-.australia-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-
-
-/*----------MOBILE SOUTH AFRICA PAGE ---------*/
-
-.sa-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5.625em 0;
-}
-
-.sa-image img {
-  width: 65%;
-  padding-left: 1.563em;
-  position: relative;
-}
-
-.sa-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-
-/*----------MOBILE MEXICO PAGE ---------*/
-
-.mexico-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5.625em 0;
-}
-
-.mexico-image img {
-  width: 80%;
-  padding-left: 1.563em;
-  position: relative;
-}
-
-.mexico-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.25em;
-  background-color: white;
-}
-
-/*----------MOBILE CANADA PAGE ---------*/
-
-.canada-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5.625em 0;
-}
-
-.canada-image img {
-  width: 80%;
-  padding-left: 1.563em;
-  position: relative;
-}
-
-.canada-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.5em;
-  background-color: white;
-}
-
-/*----------MOBILE IVORY COAST PAGE ---------*/
-
-.ivorycoast-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5.625em 0;
-}
-
-.ivorycoast-image img {
-  width: 60%;
-  position: relative;
-}
-
-.ivorycoast-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1.563em;
-  background-color: white;
-  text-align: center;
-}
-
-/*----------MOBILE PHILIPPINES PAGE ---------*/
-
-.philippines-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5.625em 0;
-}
-
-.philippines-image img {
-  width: 55%;
-  position: relative;
-}
-
-.philippines-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 2.5em;
-  background-color: white;
-  text-align: center;
-}
-
-/*----------MOBILE INTERNATIONAL PAGE ---------*/
-
-.international-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 5.625em 0;
-}
-
-.international-image img {
-  width: 55%;
-  position: relative;
-}
-
-.international-image h1 {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 3.125em;
-  background-color: white;
-  text-align: center;
-}
-
-
-
-
-/*---------MOBILE DONATE PAGE--------*/
-
-.donate-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.donate-message {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  text-align: center;
-  margin: 4em 0;
-}
-
-.donate-message h1 {
-  font-family: adobe-handwriting-ernie, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-bottom: 2em;
-}
-
-.donate-message p {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.donate-options {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  /* background-color: #D1EEEA; */
-  padding: 3.125em 0;
-  border-radius: 1.875em;
-  margin: 1.875em 0 10.625em 0;
-  border: #56BFA7 solid 0.125em;
-
-}
-
-.paypal {
-  margin-bottom: 6.25em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height:100%;
-}
-
-.paypal form {
-  width:100%;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.paypal form input {
-  width:100%;
-}
-
-.cashtag {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-
-}
-
-.cashtag-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  text-align: center;
-
-}
-
-.cashtag h1 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.25em;
-}
-
-.cashtag-info a {
-  text-decoration: none;
-  color: #56BFA7;
-}
-
-.cashtag-info a:visited {
-  color: #56BFA7;
-}
-
-
-
-.cashtag-info p {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding-top: 0.625em;
-}
-
-.cashtag-info img {
-  width: 80%;
-}
-
-/*---------MOBILE CONTACT PAGE--------*/
-
-.contact-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.contact-wrapper h1 {
-  font-family: adobe-handwriting-ernie, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 1.25em 0 7.5em 0;
-}
-
-#contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 65%;
-}
-
-#contact-form input {
-  width: 100%;
-  margin-bottom: 1.25em;
-  padding-bottom: 0.938em;
-  border-radius: 0.625em;
-  border: #2bc3b7 solid 0.125em;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.875em;
-  color: #26a89d;
-}
-
-#contact-form textarea {
-  width: 100%;
-  border-radius: 0.625em;
-  border: #2bc3b7 solid 0.125em;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.875em;
-  color: #26a89d;
-  padding-bottom: 1.563em;
-}
-
-#contact-form label {
-  font-family: 'Open Sans', sans-serif;
-}
-
-#contact-form button {
-  background-color: #2bc3b7;
-  border: none;
-  border-radius: 1.25em;
-  padding: 0.938em;
-  align-self: center;
-  margin-top: 2.5em;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-weight: normal;
-  color: white;
-}
-
-.contact-message {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  text-align: center;
-  padding: 3.75em 0;
-}
-
-
-/*----------MOBILE THANK YOU PAGE----*/
-
-.thankyou-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.thankyou-message {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  text-align: center;
-  margin: 9.375em 0;
-}
-
-
-.thankyou-message h1 {
-  font-family: adobe-handwriting-ernie, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-/*----------MOBILE DONATION THANK YOU PAGE----*/
-
-.donate-thankyou-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.donate-thankyou-message {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  text-align: center;
-  margin: 9.375em 0;
-}
-
-
-.donate-thankyou-message h1 {
-  font-family: adobe-handwriting-ernie, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #D66D50;
-  margin: 1.875em 0;
-}
-
-.donate-thankyou-message h3 {
-  font-family: adobe-handwriting-ernie, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #D66D50;
-  margin: 1.875em 0;
-}
-
-.donate-thankyou-message a {
-  text-decoration: none;
-  color: turquoise;
-}
-
-.donate-thankyou-message p {
-  text-decoration: none;
-  margin-top: 5em;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1px;
-  font-weight: normal;
-  font-size: 1.25em;
-}
-
-/*-------------MOBILE BLOG----------*/
-
-
-.blog-wrapper {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-  padding-top: 50px;
-}
-
-.blog-image {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-}
-
-.blog-image img {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:80%;
-}
-
-.theblog {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  font-family: 'Open Sans', sans-serif;
-  padding-bottom: 150px;
-}
-
-.theblog h1 {
-  font-size: 27px;
-}
-
-.blog-divider {
-  border: black solid 1px;
-  width:80%;
-}
-
-.comments {
-  margin:80px 0;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:80%;
-  font-family: 'Open Sans', sans-serif;
-
-}
-
-.home-desc {
-  font-size:10px;
-}
-
-.home-desc a {
-  font-size:10px;
-  text-decoration: none;
-}
-
-.label a {
-  font-size:10px;
-}
-
-
-
-}
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-  display: none !important;
-}
-
-/*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
-* Extends the .sr-only class to allow the element
-* to be focusable when navigated to via the keyboard:
-* https://www.drupal.org/node/897638
-*/
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
-* Hide visually and from screen readers, but maintain layout
-*/
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 768px) {
-
-  .twothird-width {
-    justify-content: flex-start;
-    padding-left: 5%;
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
   }
-
-  .third-width {
-    border-top: 5.8em solid #2bc3b7;
-    border-left: 1.25em solid transparent;
-    height:0;
+  
+  /*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
   }
-
-  .header-nav h1 {
-    font-size: 1.563em;
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
   }
-
-  .third-width i {
-    font-size: 1.563em;
-    color: black;
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
   }
-
-  .hero-text p {
-    font-size: 1.625em;
+  
+  /*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
   }
-
-  .hero-text {
-    /* height: 10vh;
-    top: 12.5em; */
-    padding-top: 20px;
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
   }
-
-  .dropdown-content {
-    min-width: 12em;
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+    resize: vertical;
   }
-
-  .dropdown-content a {
-    font-size: 2em;
+  
+  /* ==========================================================================
+     Browser Upgrade Prompt
+     ========================================================================== */
+  
+  .browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
   }
-
-  .hero {
-    height: 40vh;
-  }
-
-  .hero img {
+  
+  /* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+  
+  html,
+  body {
     width: 100%;
-    padding-top: 1.875em;
+    height: 100%;
   }
-
-  .mySlides {
-    margin-top: 4%;
-  }
-
-  #buttonone {
-    width: 10.375em;
-    height: 10.375em;
-  }
-
-  #buttontwo {
-    width: 10.375em;
-    height: 10.375em;
-  }
-
-  #buttonthree {
-    width: 10.375em;
-    height: 10.375em;
-  }
-
-  #buttonfour {
-    width: 10.375em;
-    height: 10.375em;
-  }
-
-  .buttons p {
-    font-size: 1.5em;
-    padding-bottom: 2em;
-  }
-
-  .scripture {
-    padding: 12.5em 0 6.25em 0;
-  }
-
-  .scripture p {
-    font-size: 1.25em;
-  }
-
-  .about-radio {
-    padding-bottom: 1.875em;
-  }
-
-  .white-text-wrapper h2 {
-    font-size: 2.5em;
-    margin-top: 3.125em;
-  }
-
-  .white-text-wrapper p {
-    font-size: 20px;
-  }
-
-  .white-text-wrapper a {
-    font-size: 1.5em;
-  }
-
-  .white-text-wrapper button {
-    font-size: 1.5em;
-    margin: 3.125em 0 3.75em 0;
-    letter-spacing: 1px;
-    margin-bottom: 6.25em;
-  }
-
-  .donate-area button {
-    padding: 1em 2.2em;
-    font-size: 1.625em;
-  }
-
-  footer p {
-    font-size: 1.125em;
-  }
-
-  .social-med i {
-    font-size: 2.5em;
-    margin: 0 1.5em;
-  }
-
-
-  /*-------TABLET ABOUT PAGE ---------*/
-
-
-  .about-title img {
-    padding-bottom: 6.25em;
-    opacity:20%;
-  }
-
-
-  .about-section h2 {
-    font-size: 3.125em;
-  }
-
-  .about-section p {
-    font-size: 1.3em;
-  }
-
-  .partners {
-    padding-bottom: 5em;
-  }
-
-  .partners h2 {
-    font-size: 3.125em;
-  }
-
-  .four-winds h3 {
-    font-size: 1.75em;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    font-weight: normal;
-  }
-
-  .partners p {
-    font-size: 1.375em;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .global-women h3 {
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    font-size: 1.75em;
-    font-weight: normal;
-  }
-
-  .four-winds {
-    padding-bottom: 14.5em;
-  }
-
-  .four-winds img {
-    padding-top: 6em;
-    width: 90%;
-  }
-
-  .ccclogo {
-    width: 30%;
-    padding: 5em 0 3.125em 0;
-  }
-
-  .about-donate-area .podcastbutton {
-    width: 6.5em;
-    height: 6.5em;
-  }
-
-  .about-donate-area img {
-    width:90%;
-  }
-
-  .about-donate-area p {
-    font-size: 1.563em;
-  }
-
-  .about-donate-area button {
-    padding: 1em 2em;
-    border-radius: 2.5em;
-    font-size: 1.7em;
-    margin:5.5em 0;
-  }
-
-
-  /*---------TABLET MISSIONS PAGE---------*/
-
-
-  .missions-desc h2 {
-    font-size: 1.313em;
-  }
-
-  .missions-desc {
-    width: 60%;
-    padding-top: 2.188em;
-  }
-
-  #fourwindslogo {
-    padding: 4.375em 0;
-  }
-
-  .missions-desc p {
-    font-size: 1.25em;
-  }
-
-  .missions-gallery img {
+  
+  
+  header {
     width: 100%;
-    padding: 1.25em 1.25em 6.25em 1.25em;
-  }
-
-  .missions-gallery a {
-    width: 35%;
-    margin: 0 2.625em 8.75em 2.625em;
-  }
-
-
-  .missions-gallery {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    padding-top: 6.25em;
   }
-
-
-  /*---------TABLET PASTOR PAGE---------*/
-
-
-  .pastor-scripture p {
-    font-size: 2.5em;
+  
+  .header-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
-
-  .pastor-scripture {
-    padding: 5.625em 0;
+  
+  .desktop-nav {
+    display: none;
   }
-
-  .pastors-half h1 {
-    font-size: 2.5em;
-    padding: 0.625em 0;
-    text-align: center;
+  
+  .twothird-width {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .third-width {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: #97E3D6;
+    background-color: #2bc3b7; */
+    border-top: 3.75em solid #2bc3b7;
+    border-left: 1.25em solid transparent;
+    height:0;
+  
+  
+    position: relative;
+  }
+  
+  .third-width i {
+    padding: 1.563em 0 1.563em 2.5em;
+  }
+  
+  .logo img {
+    width: 10%;
     margin: 0;
+    padding: 0.625em 0.625em 0.625em 0px;
   }
-
-  .pastors-half img {
+  
+  figure {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-nav h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.225em;
+    font-weight: 100;
+    padding-top: 0.313em;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .logo a:visited {
+    color: black;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content li {
+    list-style: none;
+    border-radius: 0.625em;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 8em;
+    overflow: auto;
+    z-index: 1;
+    right: 0.313em;
+    top:3.75em;
+  
+  }
+  
+  
+  .dropdown-content a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 1.188em;
+  
+  }
+  
+  .dropdown-content a:hover {
+    color: #DCC600;
+  }
+  
+  .show {
+    display: block;
+  
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  
+  /* --- original slide css---.hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 10vh;
+  } */
+  
+  /* this is my original side css ----.mySlides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 7%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  } */
+  
+  
+  /*-------9/17 slideshow---------*/
+  
+  .fadein {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1.5s;
+    animation-name:fadein;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {opacity: 0.3}
+    to {opacity: 1}
+  }
+  
+  @keyframes fadein {
+    from {opacity: 0.3}
+    to {opacity: 1}
+  }
+  
+  /*----------9/17 slideshow end-------*/
+  
+  
+  .slideshow img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top:5%;
+  }
+  
+  .slideshow-wrap {
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
+  
+  .slideshow {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
+  
+  
+  .hero-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* position: relative; */
+    /* height: 15vh; */
+    /* top: 12.5em; */
+  }
+  
+  .hero-text p {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: dharma-gothic-e, sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.125em;
+    letter-spacing: 1px;
+    padding: 1.25em 0 0.5em 0;
+    text-transform: uppercase;
+  }
+  
+  .buttons {
+    padding-top: 1em;
+  }
+  
+  .button-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonone {
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 50%;
+    border: none;
+    margin-top: 5em;
+    background-color: #D66D50;
+    background-color: #E3886F;
+  }
+  
+  #buttontwo {
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 50%;
+    border: none;
+    margin-top: 5em;
+    background-color: #D1EEEA;
+  }
+  
+  #buttonthree {
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 50%;
+    border: none;
+    margin-top: 5em;
+    background-color: #DCC600;
+  }
+  
+  #buttonfour {
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 50%;
+    border: 3px solid #2bc3b7;
+    margin-top: 5em;
+    background-color: transparent;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons img {
+    width: 40%;
+  }
+  
+  .buttons p {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 1em;
+  }
+  
+  .scripture {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12.5em;
+  }
+  
+  .scripture img {
+    width: 60%;
+  }
+  
+  .scripture p {
+    width: 70%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+  }
+  
+  .about-radio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*background-color: #F1F9F7;*/
+    padding: 0.625em 0 0.625em 0;
+    margin-top: 11.25em;
+  }
+  
+  
+  .biblepic {
+    width: 90%;
+    border-radius: 20px;
+  }
+  
+  .white-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .white-text-wrapper-desktop{
+    display:none;
+  }
+  
+  .white-text-wrapper h2 {
+    font-family: dharma-gothic-e, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    padding-bottom: 1.25em;
+  }
+  
+  .white-text-wrapper p {
+    width: 70%;
+    text-align: center;
+    margin-top: 0;
+    font-size: 0.875em;
+    font-family: dharma-gothic-e, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+  }
+  
+  .white-text-wrapper a {
+    color: #57caaf;
+    color: #71bbaf;
+    color: #2bc3b7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.25em 0 2.188em 0;
+    font-size: 1.125em;
+  }
+  
+  .donate-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .donate-area button {
+    /*border: #DCC600 solid 4px;*/
+    border: none;
+    background-color: #DCC600;
+    background-color: #B5E5D8;
+    background-color: #56BFA7;
+    background-color: #97E3D6;
+    background-color: #2bc3b7;
+  
+    color: white;
+    padding: 1em 2em;
+    border-radius: 1.875em;
+    margin: 5.625em 0;
+    text-transform: uppercase;
+    font-family: dharma-gothic-e, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.375em;
+  }
+  
+  .donate-area a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /*----------MOBILE FOOTER ----------*/
+  
+  
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCC600;
+    padding-top: 1.25em;
+  }
+  
+  .social-med {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25em 0 1.25em 0;
+  }
+  
+  .social-med i {
+    font-size: 2.5em;
+    margin: 0 1em;
+    color: black;
+  }
+  
+  .social-med a:visited {
+    color: black;
+  }
+  
+  .social-med a:active {
+    color: black;
+  }
+  
+  .social-med i:hover {
+    color: white;
+  }
+  
+  footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin-top: 1.25em;
+    text-align: center;
+  }
+  
+  .copyright a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .copyright p a:hover {
+    color: rgb(132, 255, 249);
+  }
+  
+  .copyright a:visited {
+    color: white;
+  }
+  
+  .attribution {
+    padding: 1.875em 0 1.25em 0;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .attribution a:visited {
+    color: black;
+  }
+  
+  /*---------------MOBILE ABOUT PAGE-----------*/
+  
+  
+  .about-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #56BFA7;
+  
+    background-color: white;
+    padding-bottom: 5.625em;
+    margin-top: 3.5em;
+  }
+  
+  .about-section img {
+    width: 100%;
+  }
+  
+  #interviewphoto {
+    box-shadow: 1.25em 1.25em 1.25em gray;
+    border-radius: 0.625em;
+  }
+  
+  .about-section h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-family: dharma-gothic-e, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(48, 48, 48);
+    font-size: 2.813em;
+    margin: 0.625em;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  
+  .about-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4.5em 0 1em 0;
+  }
+  
+  .about-title-desktop {
+    display: none;
+  }
+  
+  .about-title img {
+    width: 50%;
+    opacity: 50%;
+  }
+  
+  .about-divider {
+    border: black solid 1px;
+    width: 80%;
+    margin-bottom: 2.5em;
+  }
+  
+  .about-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .about-half a {
+    text-decoration: none;
+    color: #56BFA7;
+    color: #2bc3b7;
+  
+    font-weight: bold;
+  }
+  
+  .about-section p {
+    color: rgb(70, 70, 70);
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3.125em;
+    background-color: #DCC600;
+  }
+  
+  .partners h2 {
+    font-size: 2.25em;
+    padding: 0.625em;
+    text-align: center;
+    font-family: dharma-gothic-e, sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .partner-divider {
+    width: 70%;
+    border: white solid 0.094em;
+  }
+  
+  
+  .partner-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .four-winds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 3.125em 0 8.125em 0;
+  }
+  
+  .global-women {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 3.125em;
+    margin-bottom: 1.875em;
+  }
+  
+  .four-winds h3 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.125em;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .four-winds-desc a {
+    text-decoration: none;
+  }
+  
+  .four-winds a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .global-women h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.125em;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .global-women a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gw-desc a {
+    text-decoration: none;
+  }
+  
+  .four-winds img {
+    padding-top: 1.25em;
+    width: 60%;
+  }
+  
+  /*.global-women img {
+    width:50%;
+    padding: 20px 0 50px 0;
+  }*/
+  
+  .ccclogo {
+    width: 50%;
+    padding: 1.25em 0 3.125em 0;
+  
+  }
+  
+  .partners p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+  }
+  
+  .psalm {
+    display: none;
+  }
+  
+  
+  .about-donate-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .about-donate-area button {
+    /*border: #DCC600 solid 4px;*/
+    border: none;
+    background-color: #DCC600;
+    background-color: #B5E5D8;
+    background-color: #56BFA7;
+    background-color: #2bc3b7;
+  
+    color: white;
+    padding: 1em 2em;
+    border-radius: 1.875em;
+    margin: 7.5em 0;
+    text-transform: uppercase;
+    font-family: dharma-gothic-e, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.375em;
+  }
+  
+  .about-donate-area a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .about-donate-area .podcastbutton {
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    background-color: #F1F9F7;
+    border: #96BCB3 solid 1px;
+    margin: 5em 0 0.625em 0;
+  
+  }
+  
+  .about-donate-area img {
+    width: 70%;
+  }
+  
+  .about-donate-area p {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+  }
+  
+  .attribution span {
+    font-size: 0.75em;
+  }
+  
+  
+  /*------------MOBILE MISSIONS PAGE---------*/
+  
+  
+  .missions-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .missions-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .missions-hero img {
+    width: 90%;
+    margin-top: 7%;
+  }
+  
+  .missions-hero a {
+    width: 90%;
+  }
+  
+  .missions-desc h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    color: #318bca;
+    margin-top: 3.125em;
+  }
+  
+  .missions-desc {
+    width: 80%;
+    text-align: center;
+  }
+  
+  #fourwindslogo {
+    width: 70%;
+    padding: 2.5em 0;
+  }
+  
+  .missions-desc p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  .missions-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.125em 0 5em 0;
+  }
+  
+  .missions-gallery img {
+    width: 60%;
+    padding: 1.875em 0.938em 2.5em 0.938em;
+    box-shadow: 1.25em 1.25em 1.875em gray;
+    background-color: white;
+    margin: 2.5em 0;
+  }
+  
+  .missions-gallery a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .galleryfooter {
+    background-color: #A86A00;
+    background-color: #DCC600;
+  }
+  
+  .fourwindslink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fourwindslink button {
+    border: #318BCA solid 0.125em;
+    background-color: transparent;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.375em;
+    padding: 1.25em 1.875em;
+    color: #318BCA;
     margin-bottom: 6.25em;
   }
-
-  .pastors-half p {
-    font-size: 1.438em;
+  
+  
+  /*----------MOBILE PASTOR PAGE-------*/
+  
+  .pastor-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .pastor-scripture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    padding: 3.75em 0;
+  }
+  
+  .pastor-scripture p {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.75em;
+    margin-top: 0.625em;
+  
+  }
+  
+  .pastors-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
+    background-color: #F1F9F7;
+    background-color: #DCC600;
+  
+  }
+  
+  .pastors-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .pastors-half h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.625em;
+    padding: 0.625em 0;
+    margin: 0;
+    color: black;
+    width: 90%;
     text-align: center;
   }
-
-  .pastors-para {
-    padding-bottom: 7.5em;
+  
+  
+  .pastors-half p {
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
   }
-
+  
+  .pastors-half img {
+    width: 90%;
+    margin-bottom: 3.125em;
+    /* box-shadow: 20px 20px 40px rgb(168, 168, 168); */
+    border-radius: 0.625em;
+  }
+  
   .usa-list {
-    padding: 5em 0 6.25em 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /*background-color: #F1F9F7;*/
+    padding: 2.5em 0 3.125em 0;
   }
-
+  
   .usa-list h2 {
-    font-size: 2.5em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
   }
-
+  
+  .pastor-divider {
+    width: 80%;
+    border: black solid 1px;
+    margin-top: 1.875em;
+  }
+  
+  .us-half {
+    display: none;
+  }
+  
+  .us-half-wrap {
+    display: none;
+  }
+  
+  .wholelist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  
   .wholelist p {
-    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color:black;
   }
-
+  
+  .wholelist a {
+    text-decoration: none;
+  }
+  
+  .wholelist a:visited {
+    color: black;
+  }
+  
   .international-list {
-    padding: 80px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.5em 0 3.75em 0;
+    background-color: #DCC600;
+    background-color: #F1F9F7;
+    position: relative;
   }
-
+  
+  .international-half a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .international-half a:visited {
+    color: black;
+  }
+  
+  .international-list img {
+    position: absolute;
+    width: 60%;
+  }
+  
   .international-list h2 {
-    font-size: 1.375em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
   }
-
+  
+  .wholelist-int {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .wholelist-int a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .wholelist-int a:visited {
+    color: black;
+  }
+  
   .wholelist-int p {
-    font-size: 1.375em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
   }
-
+  
+  .international-half {
+    display: none;
+  }
+  
+  .thankyou-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
   .thankyou-image img {
-    margin: 15.625em 0;
+    margin: 6.25em 0 6.25em 0;
+    width: 90%;
   }
-
-
-  /*-------------TABLET CALIFORNIA PAGE-------*/
-
+  
+  .attribution p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75;
+  }
+  
+  .about-donate-area {
+    background-color: #F1F9F7;
+  }
+  
+  
+  /*------MOBILE CALIFORNIA PAGE----*/
+  
+  .state-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5em 0;
+  }
+  
   .state-image img {
-    width: 40%;
-    padding: 6.25em 0;
-  }
-
-  .state-image h1 {
-    font-size: 3.438em;
-  }
-
-  /*------ black background----*/
-  .ind-pastor-wrapbk {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .pastor-text {
-    align-items: flex-start;
-  }
-
-  .pastor-text h2 {
-    font-size: 1.875em;
-    text-align: left;
-  }
-
-  .pastor-text p {
-    text-align: left;
-    font-size: 1.25em;
-  }
-
-  .ind-pastor-wrapbk button {
-    width: 50%;
-    font-size: 1.25em;
-    padding: 1em 0.75em;
-  }
-
-  /*----------white background------*/
-
-  .ind-pastor-wrap {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .ind-pastor-wrap button {
-    width: 50%;
-    font-size: 1.25em;
-    padding: 1em 0.75em;
-  }
-
-  .pastor-text-white {
-    align-items: flex-start;
-  }
-
-  .pastor-text-white h2 {
-    font-size: 1.875em;
-    text-align: left;
-  }
-
-  .pastor-text-white p {
-    text-align: left;
-    font-size: 1.25em;
-  }
-
-
-  /*--------TABLET TEXAS PAGE-------*/
-
-
-  .texas-image img {
     width: 50%;
     position: relative;
+  }
+  
+  .state-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  .ind-pastor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .ind-pastor-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4.375em 0;
+  
+  }
+  
+  .ind-pastor-wrapbk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
     padding: 4.375em 0;
   }
-
+  
+  .ind-pastor-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .ind-pastor-half img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  
+  .pastor-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: white;
+  }
+  
+  .pastor-text p a {
+    color: #DCC600;
+    color: #D66D50;
+    text-decoration: none;
+  }
+  
+  .pastor-text-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: black;
+  }
+  
+  .pastor-text-white p a {
+    color: #55b49e;
+    color: #D66D50;
+    text-decoration: none;
+  }
+  
+  .pastor-text-white button a {
+    color: white;
+  }
+  
+  .pastor-text h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .pastor-text p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  .ind-pastor-wrapbk button {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 1.25em 1.875em;
+    border-radius: 3.75em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3.75em 0 1.875em 0;
+  }
+  
+  .ind-pastor-wrapbk button a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .ind-pastor-wrapbk button a:visited {
+    color: black;
+  }
+  
+  .pastor-text-white h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .pastor-text-white p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  .pastor-text-white a {
+    text-decoration: none;
+    color: #55b49e;
+    color: #D66D50;
+  
+  }
+  
+  .ind-pastor-wrap button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 1.25em 1.875em;
+    border-radius: 3.75em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3.75em 0 1.875em 0;
+  }
+  
+  .ind-pastor-wrap button a {
+    text-decoration: none;
+  }
+  
+  .ind-pastor-wrap button a:visited {
+    color: white;
+  }
+  
+  /*--------MOBILE TEXAS PAGE----*/
+  
+  .texas-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.75em 0;
+  }
+  
+  .texas-image img {
+    width: 60%;
+    position: relative;
+  }
+  
   .texas-image h1 {
     position: absolute;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 2.5em;
+    font-size: 2.25em;
+    background-color: white;
   }
-
-
-  /*---------TABLET OKLAHOMA PAGE-----*/
-
+  
+  
+  /*----------MOBILE OKLAHOMA PAGE-----*/
+  
+  .oklahoma-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.75em 0;
+  }
+  
   .oklahoma-image img {
-    width: 50%;
+    width: 60%;
     position: relative;
-    padding: 4.375em 0;
   }
-
+  
   .oklahoma-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  /*-----------MOBILE ARIZONA PAGE------*/
+  
+  .arizona-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.75em 0;
+  }
+  
+  .arizona-image img {
+    width: 55%;
+    position: relative;
+  }
+  
+  .arizona-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  
+  /*-----------MOBILE DC PAGE------*/
+  .dc-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.75em 0;
+  }
+  
+  .dc-image img {
+    width: 55%;
+    position: relative;
+    /* opacity: 20%; */
+  }
+  
+  .dc-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    top: 26%;
+    background-color: white;
+  }
+  
+  /*-----------MOBILE SC PAGE------*/
+  
+  .sc-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.75em 0;
+  }
+  
+  .sc-image img {
+    width: 55%;
+    position: relative;
+  }
+  
+  .sc-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  /*-----------MOBILE NEW YORK PAGE------*/
+  
+  .newyork-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.75em 0;
+  }
+  
+  .newyork-image img {
+    width: 55%;
+    position: relative;
+  }
+  
+  .newyork-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  
+  /*----------MOBILE AUSTRALIA PAGE ---------*/
+  
+  .australia-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5.625em 0;
+  }
+  
+  .australia-image img {
+    width: 80%;
+    padding-left: 1.563em;
+    position: relative;
+  }
+  
+  .australia-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  
+  
+  /*----------MOBILE SOUTH AFRICA PAGE ---------*/
+  
+  .sa-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5.625em 0;
+  }
+  
+  .sa-image img {
+    width: 65%;
+    padding-left: 1.563em;
+    position: relative;
+  }
+  
+  .sa-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  
+  /*----------MOBILE MEXICO PAGE ---------*/
+  
+  .mexico-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5.625em 0;
+  }
+  
+  .mexico-image img {
+    width: 80%;
+    padding-left: 1.563em;
+    position: relative;
+  }
+  
+  .mexico-image h1 {
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.25em;
+    background-color: white;
+  }
+  
+  /*----------MOBILE CANADA PAGE ---------*/
+  
+  .canada-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5.625em 0;
+  }
+  
+  .canada-image img {
+    width: 80%;
+    padding-left: 1.563em;
+    position: relative;
+  }
+  
+  .canada-image h1 {
     position: absolute;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
@@ -2489,194 +1593,74 @@ footer p {
     font-size: 2.5em;
     background-color: white;
   }
-
-  /*----------TABLET ARIZONA PAGE-----*/
-
-  .arizona-image img {
-    width: 40%;
-    padding: 5em 0;
+  
+  /*----------MOBILE IVORY COAST PAGE ---------*/
+  
+  .ivorycoast-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5.625em 0;
   }
-
-  .arizona-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 2.5em;
-  }
-
-  /*----------TABLET DC PAGE-----*/
-
-  .dc-image img {
-    width: 37%;
-    padding: 5em 0;
-  }
-
-  .dc-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 3.125em;
-    top: 27%;
-  }
-
-  /*----------TABLET SC PAGE-----*/
-
-  .sc-image img {
-    width: 37%;
-    padding: 5em 0;
-  }
-
-  .sc-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 3.125em;
-  }
-
-
-  /*----------TABLET NEW YORK PAGE-----*/
-
-  .newyork-image img {
-    width: 60%;
-    padding: 5em 0;
-  }
-
-  .newyork-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 3.125em;
-  }
-
-
-  /*----------TABLET AUSTRALIA PAGE-----*/
-
-  .australia-image img {
-    width: 60%;
-    padding: 5em 0px 5em 2.5em;
-
-  }
-
-  .australia-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 3.125em;
-  }
-
-
-
-  /*----------TABLET SOUTH AFRICA PAGE-----*/
-
-  .sa-image img {
-    width: 60%;
-    padding: 5em 0em 5em 2.5em;
-
-  }
-
-  .sa-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 3.125em;
-  }
-
-
-
-  /*----------TABLET MEXICO PAGE-----*/
-
-  .mexico-image img {
-    width: 70%;
-    padding: 5em 0px 5em 2.5em;
-
-  }
-
-  .mexico-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 3.125em;
-  }
-
-
-  /*----------TABLET CANADA PAGE-----*/
-
-  .canada-image img {
-    width: 60%;
-    padding: 5em 0em 5em 2.5em;
-
-  }
-
-  .canada-image h1 {
-    position: absolute;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 3.438em;
-  }
-
-
-  /*----------TABLET IVORY COAST PAGE-----*/
-
+  
   .ivorycoast-image img {
-    width: 40%;
-    padding: 5em 0px;
-
+    width: 60%;
+    position: relative;
   }
-
+  
   .ivorycoast-image h1 {
     position: absolute;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 2.375em;
+    font-size: 1.563em;
+    background-color: white;
+    text-align: center;
   }
-
-
-
-  /*----------TABLET PHILIPPINES PAGE-----*/
-
+  
+  /*----------MOBILE PHILIPPINES PAGE ---------*/
+  
+  .philippines-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5.625em 0;
+  }
+  
   .philippines-image img {
-    width: 30%;
-    padding: 5em 0px;
-
+    width: 55%;
+    position: relative;
   }
-
+  
   .philippines-image h1 {
     position: absolute;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 2.813em;
+    font-size: 2.5em;
+    background-color: white;
+    text-align: center;
   }
-
-
-
-  /*----------TABLET INTERNATIONAL PAGE-----*/
-
+  
+  /*----------MOBILE INTERNATIONAL PAGE ---------*/
+  
+  .international-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5.625em 0;
+  }
+  
   .international-image img {
-    width: 30%;
-    padding: 5em 0em;
-
+    width: 55%;
+    position: relative;
   }
-
+  
   .international-image h1 {
     position: absolute;
     font-family: 'Bebas Neue', cursive;
@@ -2684,79 +1668,235 @@ footer p {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 3.125em;
+    background-color: white;
+    text-align: center;
   }
-
-
-  /*-----------TABLET CONTACT FORM--------*/
-
-
+  
+  
+  
+  
+  /*---------MOBILE DONATE PAGE--------*/
+  
+  .donate-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .donate-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    margin: 4em 0;
+  }
+  
+  .donate-message h1 {
+    font-family: adobe-handwriting-ernie, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2em;
+  }
+  
+  .donate-message p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .donate-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* background-color: #D1EEEA; */
+    padding: 3.125em 0;
+    border-radius: 1.875em;
+    margin: 1.875em 0 10.625em 0;
+    border: #56BFA7 solid 0.125em;
+  
+  }
+  
+  .paypal {
+    margin-bottom: 6.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height:100%;
+  }
+  
+  .paypal form {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paypal form input {
+    width:100%;
+  }
+  
+  .cashtag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  
+  }
+  
+  .cashtag-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+  
+  }
+  
+  .cashtag h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+  }
+  
+  .cashtag-info a {
+    text-decoration: none;
+    color: #56BFA7;
+  }
+  
+  .cashtag-info a:visited {
+    color: #56BFA7;
+  }
+  
+  
+  
+  .cashtag-info p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 0.625em;
+  }
+  
+  .cashtag-info img {
+    width: 80%;
+  }
+  
+  /*---------MOBILE CONTACT PAGE--------*/
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .contact-wrapper h1 {
+    font-family: adobe-handwriting-ernie, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.25em 0 7.5em 0;
+  }
+  
   #contact-form {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 65%;
   }
-
-  #contact-form textarea {
-    padding-bottom: 4.375em;
-    font-size: 1em;
-  }
-
+  
   #contact-form input {
-    font-size: 1em;
+    width: 100%;
+    margin-bottom: 1.25em;
+    padding-bottom: 0.938em;
+    border-radius: 0.625em;
+    border: #2bc3b7 solid 0.125em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+    color: #26a89d;
   }
-
-
-  /*----------TABLET THANK YOU PAGE----*/
-
+  
+  #contact-form textarea {
+    width: 100%;
+    border-radius: 0.625em;
+    border: #2bc3b7 solid 0.125em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+    color: #26a89d;
+    padding-bottom: 1.563em;
+  }
+  
+  #contact-form label {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #contact-form button {
+    background-color: #2bc3b7;
+    border: none;
+    border-radius: 1.25em;
+    padding: 0.938em;
+    align-self: center;
+    margin-top: 2.5em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: white;
+  }
+  
+  .contact-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    padding: 3.75em 0;
+  }
+  
+  
+  /*----------MOBILE THANK YOU PAGE----*/
+  
   .thankyou-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-
+  
   .thankyou-message {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
     text-align: center;
-    margin: 18.75em 0;
+    margin: 9.375em 0;
   }
-
-
+  
+  
   .thankyou-message h1 {
     font-family: adobe-handwriting-ernie, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.813em;
   }
-
-
-
-  /*----------TABLET DONATION PAGE----*/
-
-
-  .donate-message h1 {
-    font-size: 3.125em;
-    margin-bottom: 1em;
-  }
-
-  .donate-message p {
-    font-size: 20px;
-  }
-
-  .cashtag-info p {
-    font-size: 1.25em;
-    font-weight: bold;
-  }
-
-  .donate-options {
-    border: #56BFA7 solid 0.125em;
-
-  }
-
-
-  /*----------TABLET DONATION THANK YOU PAGE----*/
-
+  
+  
+  /*----------MOBILE DONATION THANK YOU PAGE----*/
+  
   .donate-thankyou-wrapper {
     display: flex;
     flex-direction: column;
@@ -2764,7 +1904,7 @@ footer p {
     align-items: center;
     width: 100%;
   }
-
+  
   .donate-thankyou-message {
     display: flex;
     flex-direction: column;
@@ -2772,1391 +1912,2280 @@ footer p {
     align-items: center;
     width: 80%;
     text-align: center;
-    margin: 9.375em 0 18.75em 0;
+    margin: 9.375em 0;
   }
-
-
+  
+  
   .donate-thankyou-message h1 {
     font-family: adobe-handwriting-ernie, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #D66D50;
     margin: 1.875em 0;
-    font-size: 2.5em;
   }
-
+  
   .donate-thankyou-message h3 {
     font-family: adobe-handwriting-ernie, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #D66D50;
     margin: 1.875em 0;
-    font-size: 2em;
   }
-
+  
   .donate-thankyou-message a {
     text-decoration: none;
     color: turquoise;
   }
-
+  
   .donate-thankyou-message p {
     text-decoration: none;
     margin-top: 5em;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-weight: normal;
-    font-size: 1.9em;
-  }
-
-  .paypal {
-    margin-bottom: 8.75em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height:100%;
+    font-size: 1.25em;
   }
   
-  .paypal form {
-    width:100%;
+  /*-------------MOBILE BLOG----------*/
+  
+  
+  .blog-wrapper {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:100%;
+    padding-top: 50px;
   }
   
-  .paypal form input {
-    width:60%;
-  }
-
-.donate-options {
-  padding:5em 0;
-}
-
-
-/*---------TABLET BLOG PAGE-------*/
-
-.blog-wrapper {
-  padding-top: 100px;
-}
-
-.theblog {
-  padding-bottom: 200px;
-}
-
-.blog-image img {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:60%;
-}
-
-
-
-
-
-
-}
-
-
-@media only screen and (min-width: 1200px) {
-
-  main {
-    display: flex;
-    flex-direction: column;
+  .blog-image {
+    display:flex;
     justify-content: center;
     align-items: center;
+    width:100%;
   }
-
-  /* .main-wrapper {
-    padding-bottom: 6.25em;
-  } */
-
-  .twothird-width {
-    width: 70%;
-    background-color: white;
-  }
-
-  .third-width {
-    background-color: #DCC600;
-    background-color: #97E3D6;
-    background-color: #2bc3b7;
-    padding: 1.875em;
-    width: 30%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-
-    border-top: 3.75em solid #2bc3b7;
   
-  }
-
-  .third-width i {
-    display: none;
-  }
-
-  /*---- to hide the drop down menu---*/
-  .wrapper {
-    display:none;
-  }
-
-  /*----------------------------------*/
-
-  figure {
-    padding-left: 3.75em;
-  }
-
-  .logo img {
-    width: 13%;
-  }
-
-  .header-nav {
-    background-color: white;
-  }
-
-  .header-nav h1 {
-    font-size: 2.188em;
-    padding-left: 0.938em;
-    padding-top: 0;
-    margin: 0;
-  }
-
-  .desktop-nav {
-    display: flex;
-    flex-direction: row;
+  .blog-image img {
+    display:flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .desktop-nav ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  nav li {
-    display: inline-block;
-  }
-
-  nav li a {
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    font-size: 1.5em;
-    padding: 0 1em;
-    text-decoration: none;
-  }
-
-  nav li a:hover {
-    color: #00626b;
-    transition: all 260ms linear;
-  }
-
-  .hero-slideshow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 115vh;
-    padding-bottom: 11.75em;
-  }
-
-  .hero-text {
-    top: 165%;
-    height: 28vh;
-  }
-
-  .hero img {
-    width: 100%;
-    margin-top: 6.25em;
-  }
-
-  .hero-text p {
-    font-size: 2.5em;
-    width: 60%;
-  }
-
-
-  .buttons {
-    flex-direction: row;
-    flex-flow: row wrap;
-    padding: 7em 0 2em 0;
-  }
-
-  .button-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 6.25em;
-  }
-
-  #buttonone {
-    width: 11.625em;
-    height: 11.625em;
-  }
-
-  #buttontwo {
-    width: 11.625em;
-    height: 11.625em;
-  }
-
-  #buttonthree {
-    width: 11.625em;
-    height: 11.625em;
-  }
-
-  #buttonfour {
-    width: 11.625em;
-    height: 11.625em;
-  }
-
-  #buttonone:hover {
-    background-color: #FDBAAA;
-    transition: all 250ms linear;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  #buttontwo:hover {
-    background-color: #97e5d3;
-    transition: all 250ms linear;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  #buttonthree:hover {
-    background-color: #fdeb46;
-    transition: all 250ms linear;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  #buttonfour:hover {
-    transition: all 250ms linear;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  .scripture {
-    display: none;
-    padding: 20em 0 18.75em 0;
-  }
-
-  .scripture img {
-    width: 30%;
-  }
-
-  .scripture p {
-    font-size: 1.875em;
-  }
-
-.about-radio-divider {
-  border:#c1eae7  solid 2px;
-  width:80%;
-}
-  .about-radio {
-    width: 100%;
-    margin-top: 10.5em;
-    padding: 3.125em 0 3.125em 0;
-    /* background-color: #E6F6FF; */
-    /* background-color: #F1F9F7; */
-    flex-direction: row;
-    position: relative;
-  }
-
-
-  .white-text-wrapper {
-    display:none;
-  }
-
-  .white-text-wrapper-desktop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 100%;
-
-    padding: 6em 0 8.5em 0;
-    background-color: #F1F9F7;
-    /* background-color: white; */
-    width: 28.125em;
-    height: 10.5em;
-    position: absolute;
-    right:300px;
-    box-shadow: 20px 20px 63px lightgrey;
-  }
-
-  .white-text-wrapper-desktop h2 {
-    margin-top: 1.25em;
-    padding-bottom: 0.75em;
-
-    font-family: dharma-gothic-e, sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-size: 2.2em;
-  }
-
-  .white-text-wrapper-desktop p {
-    width: 75%;
-    text-align: center;
-    margin-top: 0;
-    font-size: 1.2em;
-    font-family: dharma-gothic-e, sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-  }
-
-  .white-text-wrapper-desktop a {
-    text-decoration:none;
-    color: #025B6D;
-    color: #55b19c;
-    color: #2bc3b7;
-    /* color:#E3886F; */
-    font-weight: bold;
-    font-size: 1.375em;
-    padding-bottom: 1.25em;
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
-
-  }
-
-  .white-text-wrapper-desktop a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 0.125em;
-    background: currentColor;
-
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 250ms ease-in;
-  }
-
-  .white-text-wrapper-desktop a:hover::after {
-    transform: scaleX(1);
-  }
-
-  .divider {
-    display: none;
-  }
-
-  .biblepic {
-    width: 45%;
-    position: relative;
-    box-shadow: 0 0 6px 0 #444444;
-    right:200px;
-  }
-
-
-  .donate-area button {
-    padding: 0.8em 1.8em;
-    border-radius: 3.125em;
-    font-size: 2.5em;
-    background-color: #97E3D6;
-    background-color: #2bc3b7;
-
-    color: white;
-  }
-
-  .donate-area button:hover {
-    background-color: #56dbbc;
-    transition: all 250ms linear;
-
-  }
-
-  .donate-area {
-    padding: 1em 0;
-  }
-
-  .social-med {
-    padding: 3.75em 0;
-  }
-
-  .social-med i {
-    font-size: 3.75em;
-  }
-
-  footer p {
-    font-size: 1.563em;
-    margin: 0;
-  }
-
-  footer {
-    padding-top: 5em;
-  }
-
-  .copyright p {
-    font-size: 1.25em;
-  }
-
-
-  /*-----------DESKTOP ABOUT PAGE --------------*/
-
-
-
-  .about-section {
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 9.375em;
-    margin: 0 auto;
-  }
-
-  #interviewphoto {
-    box-shadow: 1.25em 1.25em 3.75em rgb(158, 158, 158);
-    padding: 0;
-  }
-
-  .about-half {
-    width: 40%;
-
-  }
-
-  .about-title {
-    display: none;
-  }
-
-  .about-title-desktop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-title-desktop h2 {
-    margin-bottom: 6.25em;
-    color: #a7d2d2;
-    font-size: 4.375em;
-    letter-spacing: 0.188em;
-  }
-
-  .about-title-desktop img {
-    opacity: 15%;
-    width: 80%;
-    padding: 0;
-    top: 6.25em;
-    left: 75em;
-  }
-
-  .about-divider {
-    display: none;
-  }
-
-  .partners {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 80%;
-    text-align: left;
-    margin: 6.25em 0 12.5em 0;
-    border-radius: 1.875em;
-    background-color: #DCC600;
-    box-shadow: gray 1.25em 1.25em 3.75em;
-  }
-
-  .partner-sections {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .partners p {
-    text-align: left;
-    margin: 0;
-  }
-
-  .partners h2 {
-    padding-left: 10%;
-    color: white;
-    font-size: 3.75em;
-    padding-bottom: 0;
-  }
-
-  .four-winds {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 10.625em;
-  }
-
-  .four-winds-desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 50%;
-    text-align: left;
-    color: white;
-  }
-
-  .four-winds img {
-    width: 100%;
-    padding-top: 0;
-  }
-
-  .four-winds h3 {
-    text-align: left;
-    margin: 0;
-    font-size: 2.5em;
-  }
-
-
-  .global-women {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 0.625em;
-  }
-
-  .gw-desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 50%;
-    text-align: left;
-    color: white;
-  }
-
-  .global-women img {
-    width: 100%;
-    padding-top: 0;
-  }
-
-  .global-women a {
-    width: 20%;
-  }
-
-  .gw-desc a {
-    width: 80%;
-  }
-
-  .global-women h3 {
-    text-align: left;
-    margin: 0;
-    font-size: 2.5em;
-  }
-
-  .partner-divider {
-    border: white solid 0.125em;
-    width: 50%;
-    margin-left: 10%;
-    margin-bottom: 6.25em;
-  }
-
-  .psalm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin-bottom: 12.5em;
-    text-align: center;
-  }
-
-  .psalm img {
-    opacity: 45%;
-    width: 35%;
-    padding: 0;
-
-  }
-
-  .psalm h1 {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    font-weight: lighter;
-    font-size: 2.5em;
-    color: rgb(51, 51, 51);
-
-    font-family: caflisch-script-pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-    font-family: adobe-handwriting-ernie, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .about-donate-area button:hover {
-    background-color: #56dbbc;
-    transition: all 250ms linear;
-  }
-
-  .about-donate-area .podcastbutton:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    background-color: rgb(206, 228, 224);
-  }
-
-  .attribution span {
-    font-size: 0.5em;
-  }
-
-  /*----------DESKTOP MISSIONS PAGE----------*/
-
-  .missions-hero img {
-    border-radius: 1.25em;
     width:80%;
   }
-
-  .missions-gallery {
-    width: 90%;
-    padding-top: 12.5em;
-  }
-
-  .missions-desc h2 {
-    font-size: 1.875em;
-    text-transform: none;
-    color: black;
-  }
-
-  #fourwindslogo {
-    padding: 5em 0;
-    width: 40%;
-  }
-
-  .missions-desc {
-    padding-top: 6.25em;
-  }
-
-  .missions-desc p {
-    font-size: 1.563em;
-  }
-
-  .missions-gallery a {
-    width: 30%;
-    margin: 0 1.25em 3.125em 1.25em;
-  }
-
-  .missions-gallery img {
-    padding-bottom: 5em;
-    margin: 3.125em 3.75em 12.5em 3.75em;
-  }
-
-  .fourwindslink button {
-    padding: 1.875em 2.5em;
-    font-size: 1.563em;
-  }
-
-  .fourwindslink button:hover {
-    background-color: transparent;
-    border: #9bd5ff solid 3px;
-    color: #73c5ff;
-    transition: all 260ms linear;
-
-  }
-
-  /*--------DESKTOP PASTOR PAGE--------*/
-
-  .third-width {
-    -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-    padding-left: 1.5em;
-    width:43%;
-  }
-
-  .pastor-scripture {
-    padding: 11.25em 0;
-  }
-
-  .pastor-scripture p {
-    font-size: 3.438em;
-  }
-
-  .pastors-para {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 5em;
-  }
-
-  .pastors-half img {
-    width: 80%;
-    margin: 0;
-  }
-
-  .pastors-half p {
-    width: 70%;
-    line-height: 2em;
-    text-align: left;
-    align-self: flex-start;
-    padding-left: 5em;
-    margin: 0;
-  }
-
-  .pastors-half h1 {
-    font-size: 2.813em;
-    /* align-self: flex-start;
-    padding-left: 5em; */
-    text-align: left;
-    padding-top: 0;
-    padding-bottom: 0.625em;
-    margin: 0;
-    width:70%;
-  }
-
-  .wholelist {
-    display: none;
-  }
-
-  .usa-list {
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .usa-title {
-    display: none;
-  }
-
-  .us-half-wrap {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-
-  .us-half {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .usa-half2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .us-half2 span {
-    color: transparent;
-  }
-
-
-  .us-half p {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 1.625em;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    color: #56BFA7;
-  }
-
-  .us-half p:hover,
-  .us-half p:focus,
-  .us-half p:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #56BFA7;
-  }
-
-  .us-half2 p {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 1.625em;
-    margin: 2em 0;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    color: #56BFA7;
-  }
-
-  .us-half2 p:hover,
-  .us-half2 p:focus,
-  .us-half2 p:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #56BFA7;
-    font-weight: normal;
-
-  }
-
-
-  .us-half2 a {
-    text-decoration: none;
-  }
-
-
-  .international-list h2 {
-    display: none;
-  }
-
-  .wholelist-int {
-    display: none;
-  }
-
-  .international-half-wrap {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-
-  .international-half {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .international-half p {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 1.625em;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-
-  .international-half p:hover,
-  .international-half p:focus,
-  .international-half p:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    font-weight: bold;
-
-  }
-
-  .international-half h2 {
-    display: flex;
-    font-size: 2.5em;
-  }
-
-  .international-half span {
-    color: transparent;
-  }
-
-  .thankyou-image img {
-    width: 60%;
-    padding: 3.125em 0;
-  }
-
-
-  /*----------DESKTOP CALIFORNIA PAGE--------*/
-
-  .state-image img {
-    width: 20%;
-    margin: 5em 0;
-  }
-
-  .state-image h1 {
-    font-size: 4.063em;
-  }
-
-  /*------ black background----*/
-  .ind-pastor-half img {
-    width: 38%;
-  }
-
-  .ind-pastor-wrapbk {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .pastor-text {
-    align-items: flex-start;
-  }
-
-  .pastor-text h2 {
-    font-size: 2.25em;
-  }
-
-  .pastor-text p {
-    text-align: left;
-    font-size: 1.5em;
-  }
-
-  .ind-pastor-wrapbk button {
-    width: 26%;
-    font-size: 1.375em;
-
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-
-
-  .ind-pastor-wrapbk button:hover,
-  .ind-pastor-wrapbk button:focus,
-  .ind-pastor-wrapbk button:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-
-  /*----------white background------*/
-
-  .ind-pastor-wrap {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .pastor-text-white {
-    align-items: flex-start;
-  }
-
-  .pastor-text-white h2 {
-    font-size: 2.25em;
-  }
-
-  .pastor-text-white p {
-    text-align: left;
-    font-size: 1.5em;
-  }
-
-  .ind-pastor-wrap button {
-    width: 26%;
-    font-size: 1.375em;
-
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-
-  .ind-pastor-wrap button:hover,
-  .ind-pastor-wrap button:focus,
-  .ind-pastor-wrap button:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-
-  /*---------DESKTOP TEXAS PAGE-----*/
-
-  .texas-image img {
-    width: 25%;
-    padding: 6.25em 0;
-  }
-
-  .texas-image h1 {
-    font-size: 3.438em;
-  }
-
-
-  /*---------DESKTOP OKLAHOMA PAGE-----*/
-
-  .oklahoma-image img {
-    width: 30%;
-    padding: 11.25em 0;
-  }
-
-  .oklahoma-image h1 {
-    font-size: 3.438em;
-  }
-
-
-  /*---------DESKTOP ARIZONA PAGE-----*/
-
-  .arizona-image img {
-    width: 25%;
-    padding: 11.25em 0;
-  }
-
-  .arizona-image h1 {
-    font-size: 3.438em;
-  }
-
-
-  /*---------DESKTOP DC PAGE-----*/
-
-  .dc-image img {
-    width: 17%;
-    padding: 11.25em 0;
-  }
-
-  .dc-image h1 {
-    font-size: 3.438em;
-    top: 40%;
-  }
-
-  /*---------DESKTOP SC PAGE-----*/
-
-  .sc-image img {
-    width: 30%;
-    padding: 11.25em 0;
-  }
-
-  .sc-image h1 {
-    font-size: 3.438em;
-  }
-
-  /*---------DESKTOP NEW YORK PAGE-----*/
-
-
-  .newyork-image img {
-    width: 30%;
-    padding: 11.25em 0;
-  }
-
-  .newyork-image h1 {
-    font-size: 3.438em;
-  }
-
-
-
-  /*---------DESKTOP AUSTRALIA PAGE-----*/
-
-
-  .australia-image img {
-    width: 40%;
-    padding: 6.25em 0 6.25em 3.75em;
-  }
-
-  .australia-image h1 {
-    font-size: 3.438em;
-  }
-
-
-  /*---------DESKTOP SOUTH AFRICA PAGE-----*/
-
-
-  .sa-image img {
-    width: 30%;
-    padding: 6.25em 0 6.25em 3.75em;
-  }
-
-  .sa-image h1 {
-    font-size: 3.438em;
-  }
-
-
-  /*---------DESKTOP MEXICO PAGE-----*/
-
-
-  .mexico-image img {
-    width: 40%;
-    padding: 6.25em 0 6.25em 3.75em;
-  }
-
-  .mexico-image h1 {
-    font-size: 3.438em;
-  }
-
-
-  /*---------DESKTOP CANADA PAGE-----*/
-
-  .canada-image img {
-    width: 40%;
-    padding: 6.25em 0 8.75em 3.75em;
-  }
-
-  .canada-image h1 {
-    font-size: 4.375em;
-  }
-
-
-  /*---------DESKTOP IVORY COAST PAGE-----*/
-
-  .ivorycoast-image img {
-    width: 20%;
-    padding: 6.25em 0 8.75em 0;
-  }
-
-  .ivorycoast-image h1 {
-    font-size: 3.125em;
-  }
-
-
-  /*---------DESKTOP PHILIPPINES PAGE-----*/
-
-  .philippines-image img {
-    width: 25%;
-    padding: 3.125em 0 6.25em 0;
-  }
-
-  .philippines-image h1 {
-    font-size: 3.75em;
-  }
-
-
-  /*---------DESKTOP INTERNATIONAL PAGE-----*/
-
-  .international-image img {
-    width: 18%;
-    padding: 3.125em 0 6.25em 0;
-  }
-
-  .international-image h1 {
-    font-size: 5em;
-  }
-
-  /*------------DESKTOP CONTACT FORM---------*/
-
-  #contact-form {
-    width: 30%;
-  }
-
-
-  #contact-form textarea {
-    padding-bottom: 7.5em;
-    font-size: 1em;
-  }
-
-  #contact-form input {
-    font-size: 1em;
-  }
-
-  #contact-form button {
-    font-size: 1.25em;
-  }
-
-
-  /*----------DESKTOP DONATE PAGE---------*/
-
-  .donate-wrapper {
-    padding-top: 3.75em;
-  }
-
-  .donate-message p {
-    font-size: 1.25em;
-  }
-
-  .donate-message h1 {
-    font-size: 3.125em;
-  }
-
-  .donate-options {
-    width: 50%;
-    padding: 6.25em 0;
-    margin-bottom: 7.5em;
-  }
-
-  .paypal {
-    margin-bottom: 10em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height:100%;
-  }
   
-  .paypal form {
-    width:100%;
+  .theblog {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 150px;
   }
   
-  .paypal form input {
-    width:50%;
+  .theblog h1 {
+    font-size: 27px;
   }
-
-.donate-options {
-  padding:6.875em 0;
-}
-
-
-  .cashtag-info p {
-    font-size: 1.25em;
-  }
-
-  .cashtag-info a:hover {
-    font-weight: bold;
-  }
-
-
-  /*----THANK YOU DONATE PAGE----*/
-
   
-  .donate-thankyou-message h1 {
-    font-size: 3.5em;
+  .blog-divider {
+    border: black solid 1px;
+    width:80%;
   }
-
-  .donate-thankyou-message h3 {
-    font-size: 2.5em;
-  }
-
-  .donate-thankyou-message a {
-    font-size: 1.5em;
-  }
-
-  .donate-thankyou-message a:hover {
-    color:rgb(110, 240, 227);
-  }
-
-  /*-----------BLOG DESKTOP----*/
-
   
-
-.blog-wrapper {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-  padding-top: 120px;
-}
-
-
-
-.blog-image img {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:40%;
-}
-
-.theblog {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  font-family: 'Open Sans', sans-serif;
-  padding: 100px 0 300px 0;
-}
-
-.blog-divider {
-  border:black solid 1px;
-  width:80%;
-}
-
-.comments {
-  margin:80px 0;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:80%;
-  font-family: 'Open Sans', sans-serif;
-
-}
-
-}
-
-
-
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+  .comments {
+    margin:80px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    font-family: 'Open Sans', sans-serif;
+  
   }
-
-  a,
-  a:visited {
-    text-decoration: underline;
+  
+  .home-desc {
+    font-size:10px;
   }
-
-  a[href]:after {
-    content: " ("attr(href) ")";
+  
+  .home-desc a {
+    font-size:10px;
+    text-decoration: none;
   }
-
-  abbr[title]:after {
-    content: " ("attr(title) ")";
+  
+  .label a {
+    font-size:10px;
   }
-
+  
+  
+  
+  }
+  
+  
+  
+  /* ==========================================================================
+     Helper classes
+     ========================================================================== */
+  
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
+   * Hide visually and from screen readers
+   */
+  
+  .hidden {
+    display: none !important;
   }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
+  
   /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-  thead {
-    display: table-header-group;
+  * Hide only visually, but have it available for screen readers:
+  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+  *
+  * 1. For long content, line feeds are not interpreted as spaces and small width
+  *    causes content to wrap 1 word per line:
+  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+  */
+  
+  .sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
   }
-
-  tr,
-  img {
-    page-break-inside: avoid;
+  
+  /*
+  * Extends the .sr-only class to allow the element
+  * to be focusable when navigated to via the keyboard:
+  * https://www.drupal.org/node/897638
+  */
+  
+  .sr-only.focusable:active,
+  .sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
   }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
+  
+  /*
+  * Hide visually and from screen readers, but maintain layout
+  */
+  
+  .invisible {
+    visibility: hidden;
   }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
+  
+  /*
+  * Clearfix: contain floats
+  *
+  * For modern browsers
+  * 1. The space content is one way to avoid an Opera bug when the
+  *    `contenteditable` attribute is included anywhere else in the document.
+  *    Otherwise it causes space to appear at the top and bottom of elements
+  *    that receive the `clearfix` class.
+  * 2. The use of `table` rather than `block` is only necessary if using
+  *    `:before` to contain the top-margins of child elements.
+  */
+  
+  .clearfix:before,
+  .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
   }
-}
+  
+  .clearfix:after {
+    clear: both;
+  }
+  
+  /* ==========================================================================
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+  
+  @media only screen and (min-width: 768px) {
+  
+    .twothird-width {
+      justify-content: flex-start;
+      padding-left: 5%;
+    }
+  
+    .third-width {
+      border-top: 5.8em solid #2bc3b7;
+      border-left: 1.25em solid transparent;
+      height:0;
+    }
+  
+    .header-nav h1 {
+      font-size: 1.563em;
+    }
+  
+    .third-width i {
+      font-size: 1.563em;
+      color: black;
+    }
+  
+    .hero-text p {
+      font-size: 1.625em;
+    }
+  
+    .hero-text {
+      /* height: 10vh;
+      top: 12.5em; */
+      padding-top: 20px;
+    }
+  
+    .dropdown-content {
+      min-width: 12em;
+    }
+  
+    .dropdown-content a {
+      font-size: 2em;
+    }
+  
+    .hero {
+      height: 40vh;
+    }
+  
+    .hero img {
+      width: 100%;
+      padding-top: 1.875em;
+    }
+  
+    .mySlides {
+      margin-top: 4%;
+    }
+  
+    #buttonone {
+      width: 10.375em;
+      height: 10.375em;
+    }
+  
+    #buttontwo {
+      width: 10.375em;
+      height: 10.375em;
+    }
+  
+    #buttonthree {
+      width: 10.375em;
+      height: 10.375em;
+    }
+  
+    #buttonfour {
+      width: 10.375em;
+      height: 10.375em;
+    }
+  
+    .buttons p {
+      font-size: 1.5em;
+      padding-bottom: 2em;
+    }
+  
+    .scripture {
+      padding: 12.5em 0 6.25em 0;
+    }
+  
+    .scripture p {
+      font-size: 1.25em;
+    }
+  
+    .about-radio {
+      padding-bottom: 1.875em;
+    }
+  
+    .white-text-wrapper h2 {
+      font-size: 2.5em;
+      margin-top: 3.125em;
+    }
+  
+    .white-text-wrapper p {
+      font-size: 20px;
+    }
+  
+    .white-text-wrapper a {
+      font-size: 1.5em;
+    }
+  
+    .white-text-wrapper button {
+      font-size: 1.5em;
+      margin: 3.125em 0 3.75em 0;
+      letter-spacing: 1px;
+      margin-bottom: 6.25em;
+    }
+  
+    .donate-area button {
+      padding: 1em 2.2em;
+      font-size: 1.625em;
+    }
+  
+    footer p {
+      font-size: 1.125em;
+    }
+  
+    .social-med i {
+      font-size: 2.5em;
+      margin: 0 1.5em;
+    }
+  
+  
+    /*-------TABLET ABOUT PAGE ---------*/
+  
+  
+    .about-title img {
+      padding-bottom: 6.25em;
+      opacity:20%;
+    }
+  
+  
+    .about-section h2 {
+      font-size: 3.125em;
+    }
+  
+    .about-section p {
+      font-size: 1.3em;
+    }
+  
+    .partners {
+      padding-bottom: 5em;
+    }
+  
+    .partners h2 {
+      font-size: 3.125em;
+    }
+  
+    .four-winds h3 {
+      font-size: 1.75em;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      font-weight: normal;
+    }
+  
+    .partners p {
+      font-size: 1.375em;
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .global-women h3 {
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      font-size: 1.75em;
+      font-weight: normal;
+    }
+  
+    .four-winds {
+      padding-bottom: 14.5em;
+    }
+  
+    .four-winds img {
+      padding-top: 6em;
+      width: 90%;
+    }
+  
+    .ccclogo {
+      width: 30%;
+      padding: 5em 0 3.125em 0;
+    }
+  
+    .about-donate-area .podcastbutton {
+      width: 6.5em;
+      height: 6.5em;
+    }
+  
+    .about-donate-area img {
+      width:90%;
+    }
+  
+    .about-donate-area p {
+      font-size: 1.563em;
+    }
+  
+    .about-donate-area button {
+      padding: 1em 2em;
+      border-radius: 2.5em;
+      font-size: 1.7em;
+      margin:5.5em 0;
+    }
+  
+  
+    /*---------TABLET MISSIONS PAGE---------*/
+  
+  
+    .missions-desc h2 {
+      font-size: 1.313em;
+    }
+  
+    .missions-desc {
+      width: 60%;
+      padding-top: 2.188em;
+    }
+  
+    #fourwindslogo {
+      padding: 4.375em 0;
+    }
+  
+    .missions-desc p {
+      font-size: 1.25em;
+    }
+  
+    .missions-gallery img {
+      width: 100%;
+      padding: 1.25em 1.25em 6.25em 1.25em;
+    }
+  
+    .missions-gallery a {
+      width: 35%;
+      margin: 0 2.625em 8.75em 2.625em;
+    }
+  
+  
+    .missions-gallery {
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      padding-top: 6.25em;
+    }
+  
+  
+    /*---------TABLET PASTOR PAGE---------*/
+  
+  
+    .pastor-scripture p {
+      font-size: 2.5em;
+    }
+  
+    .pastor-scripture {
+      padding: 5.625em 0;
+    }
+  
+    .pastors-half h1 {
+      font-size: 2.5em;
+      padding: 0.625em 0;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .pastors-half img {
+      margin-bottom: 6.25em;
+    }
+  
+    .pastors-half p {
+      font-size: 1.438em;
+      text-align: center;
+    }
+  
+    .pastors-para {
+      padding-bottom: 7.5em;
+    }
+  
+    .usa-list {
+      padding: 5em 0 6.25em 0;
+    }
+  
+    .usa-list h2 {
+      font-size: 2.5em;
+    }
+  
+    .wholelist p {
+      font-size: 22px;
+    }
+  
+    .international-list {
+      padding: 80px 0 100px 0;
+    }
+  
+    .international-list h2 {
+      font-size: 1.375em;
+    }
+  
+    .wholelist-int p {
+      font-size: 1.375em;
+    }
+  
+    .thankyou-image img {
+      margin: 15.625em 0;
+    }
+  
+  
+    /*-------------TABLET CALIFORNIA PAGE-------*/
+  
+    .state-image img {
+      width: 40%;
+      padding: 6.25em 0;
+    }
+  
+    .state-image h1 {
+      font-size: 3.438em;
+    }
+  
+    /*------ black background----*/
+    .ind-pastor-wrapbk {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .pastor-text {
+      align-items: flex-start;
+    }
+  
+    .pastor-text h2 {
+      font-size: 1.875em;
+      text-align: left;
+    }
+  
+    .pastor-text p {
+      text-align: left;
+      font-size: 1.25em;
+    }
+  
+    .ind-pastor-wrapbk button {
+      width: 50%;
+      font-size: 1.25em;
+      padding: 1em 0.75em;
+    }
+  
+    /*----------white background------*/
+  
+    .ind-pastor-wrap {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .ind-pastor-wrap button {
+      width: 50%;
+      font-size: 1.25em;
+      padding: 1em 0.75em;
+    }
+  
+    .pastor-text-white {
+      align-items: flex-start;
+    }
+  
+    .pastor-text-white h2 {
+      font-size: 1.875em;
+      text-align: left;
+    }
+  
+    .pastor-text-white p {
+      text-align: left;
+      font-size: 1.25em;
+    }
+  
+  
+    /*--------TABLET TEXAS PAGE-------*/
+  
+  
+    .texas-image img {
+      width: 50%;
+      position: relative;
+      padding: 4.375em 0;
+    }
+  
+    .texas-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 2.5em;
+    }
+  
+  
+    /*---------TABLET OKLAHOMA PAGE-----*/
+  
+    .oklahoma-image img {
+      width: 50%;
+      position: relative;
+      padding: 4.375em 0;
+    }
+  
+    .oklahoma-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 2.5em;
+      background-color: white;
+    }
+  
+    /*----------TABLET ARIZONA PAGE-----*/
+  
+    .arizona-image img {
+      width: 40%;
+      padding: 5em 0;
+    }
+  
+    .arizona-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 2.5em;
+    }
+  
+    /*----------TABLET DC PAGE-----*/
+  
+    .dc-image img {
+      width: 37%;
+      padding: 5em 0;
+    }
+  
+    .dc-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.125em;
+      top: 27%;
+    }
+  
+    /*----------TABLET SC PAGE-----*/
+  
+    .sc-image img {
+      width: 37%;
+      padding: 5em 0;
+    }
+  
+    .sc-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.125em;
+    }
+  
+  
+    /*----------TABLET NEW YORK PAGE-----*/
+  
+    .newyork-image img {
+      width: 60%;
+      padding: 5em 0;
+    }
+  
+    .newyork-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.125em;
+    }
+  
+  
+    /*----------TABLET AUSTRALIA PAGE-----*/
+  
+    .australia-image img {
+      width: 60%;
+      padding: 5em 0px 5em 2.5em;
+  
+    }
+  
+    .australia-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.125em;
+    }
+  
+  
+  
+    /*----------TABLET SOUTH AFRICA PAGE-----*/
+  
+    .sa-image img {
+      width: 60%;
+      padding: 5em 0em 5em 2.5em;
+  
+    }
+  
+    .sa-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.125em;
+    }
+  
+  
+  
+    /*----------TABLET MEXICO PAGE-----*/
+  
+    .mexico-image img {
+      width: 70%;
+      padding: 5em 0px 5em 2.5em;
+  
+    }
+  
+    .mexico-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.125em;
+    }
+  
+  
+    /*----------TABLET CANADA PAGE-----*/
+  
+    .canada-image img {
+      width: 60%;
+      padding: 5em 0em 5em 2.5em;
+  
+    }
+  
+    .canada-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.438em;
+    }
+  
+  
+    /*----------TABLET IVORY COAST PAGE-----*/
+  
+    .ivorycoast-image img {
+      width: 40%;
+      padding: 5em 0px;
+  
+    }
+  
+    .ivorycoast-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 2.375em;
+    }
+  
+  
+  
+    /*----------TABLET PHILIPPINES PAGE-----*/
+  
+    .philippines-image img {
+      width: 30%;
+      padding: 5em 0px;
+  
+    }
+  
+    .philippines-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 2.813em;
+    }
+  
+  
+  
+    /*----------TABLET INTERNATIONAL PAGE-----*/
+  
+    .international-image img {
+      width: 30%;
+      padding: 5em 0em;
+  
+    }
+  
+    .international-image h1 {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 3.125em;
+    }
+  
+  
+    /*-----------TABLET CONTACT FORM--------*/
+  
+  
+    #contact-form {
+      width: 50%;
+    }
+  
+    #contact-form textarea {
+      padding-bottom: 4.375em;
+      font-size: 1em;
+    }
+  
+    #contact-form input {
+      font-size: 1em;
+    }
+  
+  
+    /*----------TABLET THANK YOU PAGE----*/
+  
+    .thankyou-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .thankyou-message {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      text-align: center;
+      margin: 18.75em 0;
+    }
+  
+  
+    .thankyou-message h1 {
+      font-family: adobe-handwriting-ernie, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2.813em;
+    }
+  
+  
+  
+    /*----------TABLET DONATION PAGE----*/
+  
+  
+    .donate-message h1 {
+      font-size: 3.125em;
+      margin-bottom: 1em;
+    }
+  
+    .donate-message p {
+      font-size: 20px;
+    }
+  
+    .cashtag-info p {
+      font-size: 1.25em;
+      font-weight: bold;
+    }
+  
+    .donate-options {
+      border: #56BFA7 solid 0.125em;
+  
+    }
+  
+  
+    /*----------TABLET DONATION THANK YOU PAGE----*/
+  
+    .donate-thankyou-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .donate-thankyou-message {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      text-align: center;
+      margin: 9.375em 0 18.75em 0;
+    }
+  
+  
+    .donate-thankyou-message h1 {
+      font-family: adobe-handwriting-ernie, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #D66D50;
+      margin: 1.875em 0;
+      font-size: 2.5em;
+    }
+  
+    .donate-thankyou-message h3 {
+      font-family: adobe-handwriting-ernie, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #D66D50;
+      margin: 1.875em 0;
+      font-size: 2em;
+    }
+  
+    .donate-thankyou-message a {
+      text-decoration: none;
+      color: turquoise;
+    }
+  
+    .donate-thankyou-message p {
+      text-decoration: none;
+      margin-top: 5em;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      font-weight: normal;
+      font-size: 1.9em;
+    }
+  
+    .paypal {
+      margin-bottom: 8.75em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      height:100%;
+    }
+    
+    .paypal form {
+      width:100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .paypal form input {
+      width:60%;
+    }
+  
+  .donate-options {
+    padding:5em 0;
+  }
+  
+  
+  /*---------TABLET BLOG PAGE-------*/
+  
+  .blog-wrapper {
+    padding-top: 100px;
+  }
+  
+  .theblog {
+    padding-bottom: 200px;
+  }
+  
+  .blog-image img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+  }
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+  
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* .main-wrapper {
+      padding-bottom: 6.25em;
+    } */
+  
+    .twothird-width {
+      width: 70%;
+      background-color: white;
+    }
+  
+    .third-width {
+      background-color: #DCC600;
+      background-color: #97E3D6;
+      background-color: #2bc3b7;
+      padding: 1.875em;
+      width: 30%;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+  
+      border-top: 3.75em solid #2bc3b7;
+    
+    }
+  
+    .third-width i {
+      display: none;
+    }
+  
+    /*---- to hide the drop down menu---*/
+    .wrapper {
+      display:none;
+    }
+  
+    /*----------------------------------*/
+  
+    figure {
+      padding-left: 3.75em;
+    }
+  
+    .logo img {
+      width: 13%;
+    }
+  
+    .header-nav {
+      background-color: white;
+    }
+  
+    .header-nav h1 {
+      font-size: 2.188em;
+      padding-left: 0.938em;
+      padding-top: 0;
+      margin: 0;
+    }
+  
+    .desktop-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .desktop-nav ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  
+    nav li {
+      display: inline-block;
+    }
+  
+    nav li a {
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      font-size: 1.5em;
+      padding: 0 1em;
+      text-decoration: none;
+    }
+  
+    nav li a:hover {
+      color: #00626b;
+      transition: all 260ms linear;
+    }
+  
+    .hero-slideshow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 115vh;
+      padding-bottom: 11.75em;
+    }
+  
+    .hero-text {
+      top: 165%;
+      height: 28vh;
+    }
+  
+    .hero img {
+      width: 100%;
+      margin-top: 6.25em;
+    }
+  
+    .hero-text p {
+      font-size: 2.5em;
+      width: 60%;
+    }
+  
+  
+    .buttons {
+      flex-direction: row;
+      flex-flow: row wrap;
+      padding: 7em 0 2em 0;
+    }
+  
+    .button-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 6.25em;
+    }
+  
+    #buttonone {
+      width: 11.625em;
+      height: 11.625em;
+    }
+  
+    #buttontwo {
+      width: 11.625em;
+      height: 11.625em;
+    }
+  
+    #buttonthree {
+      width: 11.625em;
+      height: 11.625em;
+    }
+  
+    #buttonfour {
+      width: 11.625em;
+      height: 11.625em;
+    }
+  
+    #buttonone:hover {
+      background-color: #FDBAAA;
+      transition: all 250ms linear;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+    #buttontwo:hover {
+      background-color: #97e5d3;
+      transition: all 250ms linear;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+    #buttonthree:hover {
+      background-color: #fdeb46;
+      transition: all 250ms linear;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+    #buttonfour:hover {
+      transition: all 250ms linear;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+    .scripture {
+      display: none;
+      padding: 20em 0 18.75em 0;
+    }
+  
+    .scripture img {
+      width: 30%;
+    }
+  
+    .scripture p {
+      font-size: 1.875em;
+    }
+  
+  .about-radio-divider {
+    border:#c1eae7  solid 2px;
+    width:80%;
+  }
+    .about-radio {
+      width: 100%;
+      margin-top: 10.5em;
+      padding: 3.125em 0 3.125em 0;
+      /* background-color: #E6F6FF; */
+      /* background-color: #F1F9F7; */
+      flex-direction: row;
+      position: relative;
+    }
+  
+  
+    .white-text-wrapper {
+      display:none;
+    }
+  
+    .white-text-wrapper-desktop {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      width: 100%;
+  
+      padding: 6em 0 8.5em 0;
+      background-color: #F1F9F7;
+      /* background-color: white; */
+      width: 28.125em;
+      height: 10.5em;
+      position: absolute;
+      right:300px;
+      box-shadow: 20px 20px 63px lightgrey;
+    }
+  
+    .white-text-wrapper-desktop h2 {
+      margin-top: 1.25em;
+      padding-bottom: 0.75em;
+  
+      font-family: dharma-gothic-e, sans-serif;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      font-size: 2.2em;
+    }
+  
+    .white-text-wrapper-desktop p {
+      width: 75%;
+      text-align: center;
+      margin-top: 0;
+      font-size: 1.2em;
+      font-family: dharma-gothic-e, sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+    }
+  
+    .white-text-wrapper-desktop a {
+      text-decoration:none;
+      color: #025B6D;
+      color: #55b19c;
+      color: #2bc3b7;
+      /* color:#E3886F; */
+      font-weight: bold;
+      font-size: 1.375em;
+      padding-bottom: 1.25em;
+      position: relative;
+      font-family: 'Open Sans', sans-serif;
+  
+    }
+  
+    .white-text-wrapper-desktop a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 0.125em;
+      background: currentColor;
+  
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in;
+    }
+  
+    .white-text-wrapper-desktop a:hover::after {
+      transform: scaleX(1);
+    }
+  
+    .divider {
+      display: none;
+    }
+  
+    .biblepic {
+      width: 45%;
+      position: relative;
+      box-shadow: 0 0 6px 0 #444444;
+      right:200px;
+    }
+  
+  
+    .donate-area button {
+      padding: 0.8em 1.8em;
+      border-radius: 3.125em;
+      font-size: 2.5em;
+      background-color: #97E3D6;
+      background-color: #2bc3b7;
+  
+      color: white;
+    }
+  
+    .donate-area button:hover {
+      background-color: #56dbbc;
+      transition: all 250ms linear;
+  
+    }
+  
+    .donate-area {
+      padding: 1em 0;
+    }
+  
+    .social-med {
+      padding: 3.75em 0;
+    }
+  
+    .social-med i {
+      font-size: 3.75em;
+    }
+  
+    footer p {
+      font-size: 1.563em;
+      margin: 0;
+    }
+  
+    footer {
+      padding-top: 5em;
+    }
+  
+    .copyright p {
+      font-size: 1.25em;
+    }
+  
+  
+    /*-----------DESKTOP ABOUT PAGE --------------*/
+  
+  
+  
+    .about-section {
+      flex-direction: row;
+      justify-content: space-around;
+      padding-top: 9.375em;
+      margin: 0 auto;
+    }
+  
+    #interviewphoto {
+      box-shadow: 1.25em 1.25em 3.75em rgb(158, 158, 158);
+      padding: 0;
+    }
+  
+    .about-half {
+      width: 40%;
+  
+    }
+  
+    .about-title {
+      display: none;
+    }
+  
+    .about-title-desktop {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .about-title-desktop h2 {
+      margin-bottom: 6.25em;
+      color: #a7d2d2;
+      font-size: 4.375em;
+      letter-spacing: 0.188em;
+    }
+  
+    .about-title-desktop img {
+      opacity: 15%;
+      width: 80%;
+      padding: 0;
+      top: 6.25em;
+      left: 75em;
+    }
+  
+    .about-divider {
+      display: none;
+    }
+  
+    .partners {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 80%;
+      text-align: left;
+      margin: 6.25em 0 12.5em 0;
+      border-radius: 1.875em;
+      background-color: #DCC600;
+      box-shadow: gray 1.25em 1.25em 3.75em;
+    }
+  
+    .partner-sections {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .partners p {
+      text-align: left;
+      margin: 0;
+    }
+  
+    .partners h2 {
+      padding-left: 10%;
+      color: white;
+      font-size: 3.75em;
+      padding-bottom: 0;
+    }
+  
+    .four-winds {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 10.625em;
+    }
+  
+    .four-winds-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 50%;
+      text-align: left;
+      color: white;
+    }
+  
+    .four-winds img {
+      width: 100%;
+      padding-top: 0;
+    }
+  
+    .four-winds h3 {
+      text-align: left;
+      margin: 0;
+      font-size: 2.5em;
+    }
+  
+  
+    .global-women {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 0.625em;
+    }
+  
+    .gw-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 50%;
+      text-align: left;
+      color: white;
+    }
+  
+    .global-women img {
+      width: 100%;
+      padding-top: 0;
+    }
+  
+    .global-women a {
+      width: 20%;
+    }
+  
+    .gw-desc a {
+      width: 80%;
+    }
+  
+    .global-women h3 {
+      text-align: left;
+      margin: 0;
+      font-size: 2.5em;
+    }
+  
+    .partner-divider {
+      border: white solid 0.125em;
+      width: 50%;
+      margin-left: 10%;
+      margin-bottom: 6.25em;
+    }
+  
+    .psalm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-bottom: 12.5em;
+      text-align: center;
+    }
+  
+    .psalm img {
+      opacity: 45%;
+      width: 35%;
+      padding: 0;
+  
+    }
+  
+    .psalm h1 {
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+      font-weight: lighter;
+      font-size: 2.5em;
+      color: rgb(51, 51, 51);
+  
+      font-family: caflisch-script-pro, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  
+      font-family: adobe-handwriting-ernie, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+    .about-donate-area button:hover {
+      background-color: #56dbbc;
+      transition: all 250ms linear;
+    }
+  
+    .about-donate-area .podcastbutton:hover {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      background-color: rgb(206, 228, 224);
+    }
+  
+    .attribution span {
+      font-size: 0.5em;
+    }
+  
+    /*----------DESKTOP MISSIONS PAGE----------*/
+  
+    .missions-hero img {
+      border-radius: 1.25em;
+      width:80%;
+    }
+  
+    .missions-gallery {
+      width: 90%;
+      padding-top: 12.5em;
+    }
+  
+    .missions-desc h2 {
+      font-size: 1.875em;
+      text-transform: none;
+      color: black;
+    }
+  
+    #fourwindslogo {
+      padding: 5em 0;
+      width: 40%;
+    }
+  
+    .missions-desc {
+      padding-top: 6.25em;
+    }
+  
+    .missions-desc p {
+      font-size: 1.563em;
+    }
+  
+    .missions-gallery a {
+      width: 30%;
+      margin: 0 1.25em 3.125em 1.25em;
+    }
+  
+    .missions-gallery img {
+      padding-bottom: 5em;
+      margin: 3.125em 3.75em 12.5em 3.75em;
+    }
+  
+    .fourwindslink button {
+      padding: 1.875em 2.5em;
+      font-size: 1.563em;
+    }
+  
+    .fourwindslink button:hover {
+      background-color: transparent;
+      border: #9bd5ff solid 3px;
+      color: #73c5ff;
+      transition: all 260ms linear;
+  
+    }
+  
+    /*--------DESKTOP PASTOR PAGE--------*/
+  
+    .third-width {
+      -webkit-clip-path: polygon(0 0, 100% 0, 80% 99%, 20% 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+      padding-left: 1.5em;
+      width:43%;
+    }
+  
+    .pastor-scripture {
+      padding: 11.25em 0;
+    }
+  
+    .pastor-scripture p {
+      font-size: 3.438em;
+    }
+  
+    .pastors-para {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 5em;
+    }
+  
+    .pastors-half img {
+      width: 80%;
+      margin: 0;
+    }
+  
+    .pastors-half p {
+      width: 70%;
+      line-height: 2em;
+      text-align: left;
+      align-self: flex-start;
+      padding-left: 5em;
+      margin: 0;
+    }
+  
+    .pastors-half h1 {
+      font-size: 2.813em;
+      /* align-self: flex-start;
+      padding-left: 5em; */
+      text-align: left;
+      padding-top: 0;
+      padding-bottom: 0.625em;
+      margin: 0;
+      width:70%;
+    }
+  
+    .wholelist {
+      display: none;
+    }
+  
+    .usa-list {
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .usa-title {
+      display: none;
+    }
+  
+    .us-half-wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .us-half {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    .usa-half2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    .us-half2 span {
+      color: transparent;
+    }
+  
+  
+    .us-half p {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.625em;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      color: #56BFA7;
+    }
+  
+    .us-half p:hover,
+    .us-half p:focus,
+    .us-half p:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      color: #56BFA7;
+    }
+  
+    .us-half2 p {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.625em;
+      margin: 2em 0;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      color: #56BFA7;
+    }
+  
+    .us-half2 p:hover,
+    .us-half2 p:focus,
+    .us-half2 p:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      color: #56BFA7;
+      font-weight: normal;
+  
+    }
+  
+  
+    .us-half2 a {
+      text-decoration: none;
+    }
+  
+  
+    .international-list h2 {
+      display: none;
+    }
+  
+    .wholelist-int {
+      display: none;
+    }
+  
+    .international-half-wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .international-half {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    .international-half p {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.625em;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+  
+    .international-half p:hover,
+    .international-half p:focus,
+    .international-half p:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      font-weight: bold;
+  
+    }
+  
+    .international-half h2 {
+      display: flex;
+      font-size: 2.5em;
+    }
+  
+    .international-half span {
+      color: transparent;
+    }
+  
+    .thankyou-image img {
+      width: 60%;
+      padding: 3.125em 0;
+    }
+  
+  
+    /*----------DESKTOP CALIFORNIA PAGE--------*/
+  
+    .state-image img {
+      width: 20%;
+      margin: 5em 0;
+    }
+  
+    .state-image h1 {
+      font-size: 4.063em;
+    }
+  
+    /*------ black background----*/
+    .ind-pastor-half img {
+      width: 38%;
+    }
+  
+    .ind-pastor-wrapbk {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .pastor-text {
+      align-items: flex-start;
+    }
+  
+    .pastor-text h2 {
+      font-size: 2.25em;
+    }
+  
+    .pastor-text p {
+      text-align: left;
+      font-size: 1.5em;
+    }
+  
+    .ind-pastor-wrapbk button {
+      width: 26%;
+      font-size: 1.375em;
+  
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+  
+  
+    .ind-pastor-wrapbk button:hover,
+    .ind-pastor-wrapbk button:focus,
+    .ind-pastor-wrapbk button:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+  
+    /*----------white background------*/
+  
+    .ind-pastor-wrap {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .pastor-text-white {
+      align-items: flex-start;
+    }
+  
+    .pastor-text-white h2 {
+      font-size: 2.25em;
+    }
+  
+    .pastor-text-white p {
+      text-align: left;
+      font-size: 1.5em;
+    }
+  
+    .ind-pastor-wrap button {
+      width: 26%;
+      font-size: 1.375em;
+  
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+  
+    .ind-pastor-wrap button:hover,
+    .ind-pastor-wrap button:focus,
+    .ind-pastor-wrap button:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+  
+    /*---------DESKTOP TEXAS PAGE-----*/
+  
+    .texas-image img {
+      width: 25%;
+      padding: 6.25em 0;
+    }
+  
+    .texas-image h1 {
+      font-size: 3.438em;
+    }
+  
+  
+    /*---------DESKTOP OKLAHOMA PAGE-----*/
+  
+    .oklahoma-image img {
+      width: 30%;
+      padding: 11.25em 0;
+    }
+  
+    .oklahoma-image h1 {
+      font-size: 3.438em;
+    }
+  
+  
+    /*---------DESKTOP ARIZONA PAGE-----*/
+  
+    .arizona-image img {
+      width: 25%;
+      padding: 11.25em 0;
+    }
+  
+    .arizona-image h1 {
+      font-size: 3.438em;
+    }
+  
+  
+    /*---------DESKTOP DC PAGE-----*/
+  
+    .dc-image img {
+      width: 17%;
+      padding: 11.25em 0;
+    }
+  
+    .dc-image h1 {
+      font-size: 3.438em;
+      top: 40%;
+    }
+  
+    /*---------DESKTOP SC PAGE-----*/
+  
+    .sc-image img {
+      width: 30%;
+      padding: 11.25em 0;
+    }
+  
+    .sc-image h1 {
+      font-size: 3.438em;
+    }
+  
+    /*---------DESKTOP NEW YORK PAGE-----*/
+  
+  
+    .newyork-image img {
+      width: 30%;
+      padding: 11.25em 0;
+    }
+  
+    .newyork-image h1 {
+      font-size: 3.438em;
+    }
+  
+  
+  
+    /*---------DESKTOP AUSTRALIA PAGE-----*/
+  
+  
+    .australia-image img {
+      width: 40%;
+      padding: 6.25em 0 6.25em 3.75em;
+    }
+  
+    .australia-image h1 {
+      font-size: 3.438em;
+    }
+  
+  
+    /*---------DESKTOP SOUTH AFRICA PAGE-----*/
+  
+  
+    .sa-image img {
+      width: 30%;
+      padding: 6.25em 0 6.25em 3.75em;
+    }
+  
+    .sa-image h1 {
+      font-size: 3.438em;
+    }
+  
+  
+    /*---------DESKTOP MEXICO PAGE-----*/
+  
+  
+    .mexico-image img {
+      width: 40%;
+      padding: 6.25em 0 6.25em 3.75em;
+    }
+  
+    .mexico-image h1 {
+      font-size: 3.438em;
+    }
+  
+  
+    /*---------DESKTOP CANADA PAGE-----*/
+  
+    .canada-image img {
+      width: 40%;
+      padding: 6.25em 0 8.75em 3.75em;
+    }
+  
+    .canada-image h1 {
+      font-size: 4.375em;
+    }
+  
+  
+    /*---------DESKTOP IVORY COAST PAGE-----*/
+  
+    .ivorycoast-image img {
+      width: 20%;
+      padding: 6.25em 0 8.75em 0;
+    }
+  
+    .ivorycoast-image h1 {
+      font-size: 3.125em;
+    }
+  
+  
+    /*---------DESKTOP PHILIPPINES PAGE-----*/
+  
+    .philippines-image img {
+      width: 25%;
+      padding: 3.125em 0 6.25em 0;
+    }
+  
+    .philippines-image h1 {
+      font-size: 3.75em;
+    }
+  
+  
+    /*---------DESKTOP INTERNATIONAL PAGE-----*/
+  
+    .international-image img {
+      width: 18%;
+      padding: 3.125em 0 6.25em 0;
+    }
+  
+    .international-image h1 {
+      font-size: 5em;
+    }
+  
+    /*------------DESKTOP CONTACT FORM---------*/
+  
+    #contact-form {
+      width: 30%;
+    }
+  
+  
+    #contact-form textarea {
+      padding-bottom: 7.5em;
+      font-size: 1em;
+    }
+  
+    #contact-form input {
+      font-size: 1em;
+    }
+  
+    #contact-form button {
+      font-size: 1.25em;
+    }
+  
+  
+    /*----------DESKTOP DONATE PAGE---------*/
+  
+    .donate-wrapper {
+      padding-top: 3.75em;
+    }
+  
+    .donate-message p {
+      font-size: 1.25em;
+    }
+  
+    .donate-message h1 {
+      font-size: 3.125em;
+    }
+  
+    .donate-options {
+      width: 50%;
+      padding: 6.25em 0;
+      margin-bottom: 7.5em;
+    }
+  
+    .paypal {
+      margin-bottom: 10em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      height:100%;
+    }
+    
+    .paypal form {
+      width:100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .paypal form input {
+      width:50%;
+    }
+  
+  .donate-options {
+    padding:6.875em 0;
+  }
+  
+  
+    .cashtag-info p {
+      font-size: 1.25em;
+    }
+  
+    .cashtag-info a:hover {
+      font-weight: bold;
+    }
+  
+  
+    /*----THANK YOU DONATE PAGE----*/
+  
+    
+    .donate-thankyou-message h1 {
+      font-size: 3.5em;
+    }
+  
+    .donate-thankyou-message h3 {
+      font-size: 2.5em;
+    }
+  
+    .donate-thankyou-message a {
+      font-size: 1.5em;
+    }
+  
+    .donate-thankyou-message a:hover {
+      color:rgb(110, 240, 227);
+    }
+  
+    /*-----------BLOG DESKTOP----*/
+  
+    
+  
+  .blog-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding-top: 120px;
+  }
+  
+  
+  
+  .blog-image img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+  }
+  
+  .theblog {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 100px 0 300px 0;
+  }
+  
+  .blog-divider {
+    border:black solid 1px;
+    width:80%;
+  }
+  
+  .comments {
+    margin:80px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    font-family: 'Open Sans', sans-serif;
+  
+  }
+  
+  }
+  
+  
+  
+  @media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
+  
+  /* ==========================================================================
+     Print styles.
+     Inlined to avoid the additional HTTP request:
+     https://www.phpied.com/delay-loading-your-print-css/
+     ========================================================================== */
+  
+  @media print {
+  
+    *,
+    *:before,
+    *:after {
+      background: transparent !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+  
+    abbr[title]:after {
+      content: " ("attr(title) ")";
+    }
+  
+    /*
+       * Don't show links that are fragment identifiers,
+       * or use the `javascript:` pseudo protocol
+       */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+      content: "";
+    }
+  
+    pre {
+      white-space: pre-wrap !important;
+    }
+  
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+  
+    /*
+       * Printing Tables:
+       * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+       */
+    thead {
+      display: table-header-group;
+    }
+  
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+  }
+  
