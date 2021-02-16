@@ -270,7 +270,7 @@
   } */
   
   
-  /*-------9/17 slideshow---------*/
+  /*-------fadein keyframes---------*/
   
   .fadein {
     -webkit-animation-name: fadein;
@@ -289,19 +289,29 @@
     to {opacity: 1}
   }
   
-  /*----------9/17 slideshow end-------*/
+  /*----------fadein keyframes end-------*/
   
+  /*---------TEST SLIDESHOW--------*/
+
+
+
+
+
+
+  /*---------TEST SLIDESHOW END--------*/
+
+
+
   
   .slideshow img {
     display:flex;
     justify-content: center;
     align-items: center;
     width:100%;
-    margin-top:5%;
   }
   
   .slideshow-wrap {
-    padding-top: 50px;
+    margin-top: 20px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -314,6 +324,7 @@
     justify-content: center;
     align-items: center;
     width:100%;
+    background-color:rgb(182, 182, 182);
   }
   
   
